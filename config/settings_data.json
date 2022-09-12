@@ -1,0 +1,3145 @@
+{
+  "current": {
+    "color_accent": "#c30e2e",
+    "color_text": "#1b1b1b",
+    "color_bg": "#ffffff",
+    "color_button": "#719362",
+    "color_border": "#dedede",
+    "color_input_text": "#8b8b8b",
+    "color_icon": "#b1b1b1",
+    "color_error": "#c30e2e",
+    "color_header_text": "#1b1b1b",
+    "color_header_bg": "#ffffff",
+    "color_header_border": "#dedede",
+    "color_footer_text": "#ffffff",
+    "color_footer_bg": "#719362",
+    "color_footer_border": "#d7d7d7",
+    "color_footer_button_background": "#324340",
+    "color_footer_button_text": "#ffffff",
+    "color_contrast_text": "#363636",
+    "color_contrast_bg": "#f9f9f9",
+    "color_contrast_border": "#e2e2e2",
+    "color_contrast_input_text": "#838383",
+    "color_contrast_icon": "#919191",
+    "color_drawer_text": "#1b1b1b",
+    "color_drawer_bg": "#ffffff",
+    "color_drawer_border": "#dadada",
+    "color_drawer_input_text": "#919191",
+    "color_drawer_icon": "#b1b1b1",
+    "font_heading": "garamond_n4",
+    "size_heading": 20,
+    "uppercase_headings": false,
+    "font_body": "montserrat_n5",
+    "size_body": 16,
+    "font_logo": "itc_avant_garde_gothic_n7",
+    "logo_uppercase": true,
+    "font_logo_size": 22,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/calianatural",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/instagram.com\/calianatural\/",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "enable_zoom_on_scroll": false,
+    "search_max_result_size": 4,
+    "search_show_products": true,
+    "search_show_articles": true,
+    "search_show_pages": true,
+    "search_show_price": true,
+    "search_show_vendor": false,
+    "swatch_option": "Color",
+    "chip_options": "Size",
+    "cart_quick_shop_enabled": true,
+    "cart_quick_shop_show_quantity_input": false,
+    "cart_notes_enable": true,
+    "quick_cart_note": "Your subtotal today is [subtotal]. Shipping and taxes will be calculated at checkout.",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/calia-natural-logo.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_body_font": "Lato",
+    "checkout_accent_color": "#719362",
+    "checkout_button_color": "#719362",
+    "checkout_error_color": "#e32c2b",
+    "color_input_inactive_text": "#8b8b8b",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "background_color": "#719362",
+              "text_color": "#ffffff",
+              "text": "SAVE 10% SITEWIDE! SALE EXTENDED!",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "background_color": "#719362",
+              "text_color": "#ffffff",
+              "text": "We ship to most destinations worldwide!",
+              "link": "shopify:\/\/collections\/all-products"
+            }
+          },
+          "51c6b612-4c82-4885-b651-5b184c8665ff": {
+            "type": "announcement",
+            "settings": {
+              "background_color": "#719362",
+              "text_color": "#ffffff",
+              "text": "We offer free standard shipping within Canada on orders over $75!",
+              "link": "shopify:\/\/collections"
+            }
+          }
+        },
+        "block_order": [
+          "0e2df3a0-5821-4f22-9a73-0a9b38a539f2",
+          "announcement-bar-0",
+          "51c6b612-4c82-4885-b651-5b184c8665ff"
+        ],
+        "settings": {
+          "announcement_bar_enabled": true,
+          "announcement_bar_timing": 3
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "7e80cb57-e9c7-4526-978a-e51eef634bdf": {
+            "type": "mega_nav",
+            "settings": {
+              "dropdown_parent_link": "Shop",
+              "mega_nav_featured_image": "shopify:\/\/shop_images\/bundles-nav-thumb.jpg",
+              "featured_image_heading": "Save when you bundle up!",
+              "featured_image_link_text": "Shop Bundles",
+              "featured_image_link": "shopify:\/\/collections\/bundles",
+              "feature_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "7e80cb57-e9c7-4526-978a-e51eef634bdf"
+        ],
+        "settings": {
+          "header_style": "default",
+          "nav_alignment": "center",
+          "detect_menu_length": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "logo": "shopify:\/\/shop_images\/calia-natural-logo.png",
+          "logo_max_size": 120,
+          "menu": "main-menu-new",
+          "transparent_index_header_enabled": true,
+          "transparent_header_foreground_color": "#ffffff",
+          "transparent_header_border_color": "#ffffff",
+          "transparent_header_border_opacity": 10
+        }
+      },
+      "exit-intent": {
+        "type": "exit-intent",
+        "settings": {
+          "enable_exit_intent": false,
+          "exit_intent_position": "bottom-right",
+          "exit_intent_heading": "Before You Go!",
+          "exit_intent_text": "Use this popup to capture customer email addresses when their cursor leaves your site.",
+          "text_color": "#1b1b1b",
+          "bg_color": "#ffffff",
+          "border_color": "#dedede",
+          "input_text_color": "#1b1b1b"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "71054815-9750-443e-88a4-ce5b01013146": {
+            "type": "link_list",
+            "settings": {
+              "menu": "company"
+            }
+          },
+          "6891703d-c4fc-4833-8da7-8e24a36813b6": {
+            "type": "link_list",
+            "settings": {
+              "menu": "info"
+            }
+          }
+        },
+        "block_order": [
+          "71054815-9750-443e-88a4-ce5b01013146",
+          "6891703d-c4fc-4833-8da7-8e24a36813b6"
+        ],
+        "settings": {
+          "show_headings": true,
+          "show_payment_icons": true,
+          "show_newsletter_signup": true,
+          "newsletter_subheading": "Subscribe here and save 10% on your first order!",
+          "klaviyo": "<div class=\"klaviyo-form-SiJBGs\"><\/div>",
+          "show_locale_selector": false,
+          "show_currency_selector": false
+        }
+      },
+      "1602100844222d406f": {
+        "type": "quote--dynamic",
+        "blocks": {
+          "1602100844222d406f-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "I love that your products are natural (with no hidden nasties), deliver amazing results, you only have to use a small amount of product each time, and your prices are so reasonable :)",
+              "author": "Jasmine, Australia"
+            }
+          },
+          "9f521e55-3d7f-48ba-b194-97ddbef51cc0": {
+            "type": "quote",
+            "settings": {
+              "quote": "Thank you so much for listing all the ingredients!! I am encouraged that there safe no hidden unhealthy chemicals sneaked in to make my hair “fake silky”.",
+              "author": "Elisabeth, USA"
+            }
+          },
+          "dcbc9c63-8b61-43c7-ab14-2a3edbf7e23c": {
+            "type": "quote",
+            "settings": {
+              "quote": "I wasn't expecting my hair to have so much body, shine, and definition that I wish I took the chance to use Calia along time ago.",
+              "author": "Franchesca Castillo"
+            }
+          }
+        },
+        "block_order": [
+          "1602100844222d406f-0",
+          "9f521e55-3d7f-48ba-b194-97ddbef51cc0",
+          "dcbc9c63-8b61-43c7-ab14-2a3edbf7e23c"
+        ],
+        "settings": {
+          "section_style": "default",
+          "timer": 8,
+          "text_max_width": 38
+        }
+      },
+      "page-about--template": {
+        "type": "page-about--template",
+        "settings": {
+          "overline": ""
+        }
+      },
+      "collection--template": {
+        "type": "collection--template",
+        "settings": {
+          "show_collection_image": false,
+          "overlay_opacity": 20,
+          "overlay_color": "#000000",
+          "text_color": "#ffffff",
+          "show_border": true,
+          "show_heading": true,
+          "show_small_heading": true,
+          "show_description": true,
+          "heading_alignment": "center",
+          "text_max_width": 45,
+          "show_sort": false,
+          "show_filters": true,
+          "filter_type": "by_group",
+          "filter_style": "sidebar",
+          "show_swatches": false,
+          "products_per_row": 4,
+          "aspect_ratio": "square",
+          "per_page": 24,
+          "pagination": "click"
+        }
+      },
+      "testimonials--static": {
+        "type": "testimonials--static",
+        "blocks": {
+          "d86dd1c4-d5ed-4718-b13a-72f190329c52": {
+            "type": "testimonial",
+            "settings": {
+              "product_link": "",
+              "rating": 0,
+              "reviewer_name": "First Lastname",
+              "review": "I absolutely love this product, but my favourite thing about it was the customer service and easy returns. I found what worked for me with ease. Thank you store!"
+            }
+          },
+          "e189e3eb-98c8-4fcd-bc86-9f42092b278e": {
+            "type": "testimonial",
+            "settings": {
+              "product_link": "",
+              "rating": 0,
+              "reviewer_name": "First Lastname",
+              "review": "I absolutely love this product, but my favourite thing about it was the customer service and easy returns. I found what worked for me with ease. Thank you store!"
+            }
+          },
+          "b9ec6fc7-4ca8-4894-b007-323999fc0499": {
+            "type": "testimonial",
+            "settings": {
+              "product_link": "",
+              "rating": 0,
+              "reviewer_name": "First Lastname",
+              "review": "I absolutely love this product, but my favourite thing about it was the customer service and easy returns. I found what worked for me with ease. Thank you store!"
+            }
+          }
+        },
+        "block_order": [
+          "d86dd1c4-d5ed-4718-b13a-72f190329c52",
+          "e189e3eb-98c8-4fcd-bc86-9f42092b278e",
+          "b9ec6fc7-4ca8-4894-b007-323999fc0499"
+        ],
+        "settings": {
+          "enabled": false,
+          "text_position": "top_center",
+          "columns": 3,
+          "aspect_ratio": "natural",
+          "overline": "Testimonials",
+          "title": "Testimonials Section",
+          "subheading": "Use this section to showcase your product reviews.",
+          "link": "",
+          "link_text": "",
+          "text_max_width": 36
+        }
+      },
+      "featured-collection--static": {
+        "type": "featured-collection--static",
+        "settings": {
+          "enabled": false,
+          "text_position": "top_center",
+          "collection": "",
+          "columns": 3,
+          "aspect_ratio": "natural",
+          "overline": "Collection",
+          "title": "The Fall Collection",
+          "subheading": "Working hand-in-hand with luxury footwear makers, we've designed the perfect all the time slipper in a variety of colors.",
+          "link_text": "Shop now",
+          "text_max_width": 36
+        }
+      },
+      "gallery--static": {
+        "type": "gallery--static",
+        "settings": {
+          "enabled": false,
+          "text_position": "top_center",
+          "columns": 3,
+          "aspect_ratio": "square",
+          "overline": "Gallery",
+          "title": "Gallery section",
+          "subheading": "Use this Section to display your favourite images. Automatically crop them to be uniform using the dropdown setting.",
+          "link": "",
+          "link_text": "",
+          "text_max_width": 36
+        }
+      },
+      "product--static": {
+        "type": "product--static",
+        "settings": {
+          "show_vendor": false,
+          "show_swatches": false,
+          "show_share_buttons": false,
+          "show_quantity_input": true,
+          "enable_payment_button": true,
+          "enable_video_looping": true
+        }
+      },
+      "text--static": {
+        "type": "text--static",
+        "settings": {
+          "enabled": false,
+          "title": "Text",
+          "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.<\/p>"
+        }
+      },
+      "gallery-grid--static": {
+        "type": "gallery-grid--static",
+        "settings": {
+          "enabled": false,
+          "columns": 4,
+          "aspect_ratio": "square",
+          "title": "Gallery",
+          "text": "<p>Let people know about where to find you on social media. Don't forget to add a <a href=\"#\">link<\/a>.<\/p>"
+        }
+      },
+      "product-recommendations--static": {
+        "type": "product-recommendations--static",
+        "settings": {
+          "enabled": true,
+          "heading": "You may also like...",
+          "columns": 4
+        }
+      },
+      "page-contact--template": {
+        "type": "page-contact--template",
+        "settings": {
+        }
+      },
+      "1602302639a7b60f3e": {
+        "type": "slideshow--dynamic",
+        "blocks": {
+          "1602302639a7b60f3e-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/calia-home-banner.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/calia-home-banner-mobile.jpg",
+              "video_url": "",
+              "overline": "WELCOME TO CALIA!",
+              "title": "Super Natural Hair Care",
+              "subheading": "Natural organic hair care, skin care, and essential oils made with care and dedication",
+              "link": "shopify:\/\/collections\/hair-care",
+              "link_text": "Shop Hair Care",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "text_color": "#324340",
+              "text_max_width": 44,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          }
+        },
+        "block_order": [
+          "1602302639a7b60f3e-0"
+        ],
+        "settings": {
+          "aspect_ratio": "unconstrained",
+          "timer": 7
+        }
+      },
+      "1602302827aaa0807e": {
+        "type": "featured-collection--dynamic",
+        "settings": {
+          "section_style": "contrast",
+          "text_position": "middle_left",
+          "collection": "hair-care",
+          "columns": 3,
+          "aspect_ratio": "natural",
+          "overline": "DISCOVER CALIA",
+          "title": "Best Selling Hair Care",
+          "subheading": "Find your favourite formula!",
+          "link_text": "",
+          "text_max_width": 50
+        }
+      },
+      "1602302926ac40fa14": {
+        "type": "slideshow--dynamic",
+        "blocks": {
+          "1602302926ac40fa14-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/calia-home-moisturizing-lineup.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/calia-home-moisturizing-lineup-mobile.jpg",
+              "video_url": "",
+              "overline": "Hair Care",
+              "title": "Our Moisturizing Formula",
+              "subheading": "Our original naturally fragrance free formula",
+              "link": "shopify:\/\/collections\/hair-care",
+              "link_text": "Shop HAIR CARE HERE",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "text_max_width": 37,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          }
+        },
+        "block_order": [
+          "1602302926ac40fa14-0"
+        ],
+        "settings": {
+          "aspect_ratio": "unconstrained",
+          "timer": 7
+        }
+      },
+      "160230298895c3eda9": {
+        "type": "featured-collection--dynamic",
+        "settings": {
+          "section_style": "contrast",
+          "text_position": "middle_left",
+          "collection": "bundles",
+          "columns": 4,
+          "aspect_ratio": "natural",
+          "overline": "SAVE WHEN YOU BUNDLE UP!",
+          "title": "Bundles",
+          "subheading": "Stock up on your favourites!",
+          "link_text": "Shop All Bundles",
+          "text_max_width": 46
+        }
+      },
+      "160230316278a885f2": {
+        "type": "image-with-text--dynamic",
+        "settings": {
+          "section_style": "contrast",
+          "enable_animation": false,
+          "image": "shopify:\/\/shop_images\/1W9A9651_2048x_fc13dd4b-8ef1-40aa-8604-24fec8d60830.jpg",
+          "video_url": "",
+          "image_width": "one-half",
+          "image_position": "left",
+          "overline": "About Us",
+          "title": "Who We Are",
+          "subheading": "<p>Welcome! Calia is a small, independent beauty care company located on Canada's west coast. <\/p><p>We are purveyors of natural organic hair care, skin care, and essential oils: made with care and dedication in Vancouver, BC. We are proud to ship our products to customers worldwide!<\/p>",
+          "link": "shopify:\/\/pages\/about",
+          "link_text": "Read More About Calia",
+          "text_alignment": "left",
+          "text_color": "#646464",
+          "text_container_color": "rgba(0,0,0,0)",
+          "button_text_color": "#ffffff",
+          "button_border_color": "rgba(0,0,0,0)",
+          "text_max_width": 50
+        }
+      },
+      "password--template": {
+        "type": "password--template",
+        "settings": {
+          "background_overlay_opacity": 20,
+          "background_overlay_color": "#000000",
+          "heading": "We'll be right back!",
+          "text": "<p>We are updating our website. We'll be back in a few hours.<\/p>",
+          "text_color": "",
+          "show_share": true
+        }
+      },
+      "blog--template": {
+        "type": "blog--template",
+        "settings": {
+          "layout": "default",
+          "show_rss": true
+        }
+      },
+      "page-reviews-text-columns-with-images--dynamic": {
+        "type": "page-reviews-text-columns-with-images--dynamic",
+        "blocks": {
+          "8aaecd3d-ea74-4f50-bdaf-52f078e62ec1": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/chcdird3XHo\" frameborder=\"0\" allowfullscreen=\"\"><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "979d0abf-ba3a-4449-aa6f-115e226b5b75": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/TZ--WVHLOko\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "add32556-e360-42e4-8c7a-b4de7b76bff5": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/VTuofIl3IZc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "f11e06f0-df85-46c8-8187-b01533fe1633": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/34gKvyDCbSQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "51c3b9f4-6965-4969-9d25-8397f7b3c2ab": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/HuEeqg8VdHc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "a898b569-ea52-44a3-9e22-a575caad9b9a": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/3P_mgSLNz7g\" frameborder=\"0\" allowfullscreen=\"\"><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "9904ad7b-8e77-4984-a83f-d0b8bbaae420": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/_sc-8HadeSE\" frameborder=\"0\" allowfullscreen=\"\"><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "3b428b28-6b0c-44e0-b818-2bee6f8cc71b": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/9BoQwBSpgoA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "09be547e-fcfe-4f70-9a8d-494c6802436b": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/Mndws_dgrXY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "9c922f3d-17a4-42c2-911c-be60b41e1052": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/B3GrdZsei7c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "1675bfa5-3ede-4ebd-9402-86a8a8274fb9": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/kB0284johDg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "fef286c2-2092-417b-8242-bc3f1855513f": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/NE7ve4Y6McI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "text_max_width": 80,
+              "link": "",
+              "link_text": "Read more"
+            }
+          }
+        },
+        "block_order": [
+          "8aaecd3d-ea74-4f50-bdaf-52f078e62ec1",
+          "979d0abf-ba3a-4449-aa6f-115e226b5b75",
+          "add32556-e360-42e4-8c7a-b4de7b76bff5",
+          "f11e06f0-df85-46c8-8187-b01533fe1633",
+          "51c3b9f4-6965-4969-9d25-8397f7b3c2ab",
+          "a898b569-ea52-44a3-9e22-a575caad9b9a",
+          "9904ad7b-8e77-4984-a83f-d0b8bbaae420",
+          "3b428b28-6b0c-44e0-b818-2bee6f8cc71b",
+          "09be547e-fcfe-4f70-9a8d-494c6802436b",
+          "9c922f3d-17a4-42c2-911c-be60b41e1052",
+          "1675bfa5-3ede-4ebd-9402-86a8a8274fb9",
+          "fef286c2-2092-417b-8242-bc3f1855513f"
+        ],
+        "settings": {
+          "section_style": "contrast",
+          "columns": 2,
+          "overline": "",
+          "title": "Your Reviews!",
+          "subheading": "We continue to be humbled and overjoyed to receive such amazing feedback from you, our loyal customers! \n\nFrom beauty bloggers to folks in hidden corners all over the world, we love to hear how our products literally transform your hair.",
+          "link": "",
+          "link_text": "",
+          "text_alignment": "center",
+          "text_max_width": 100
+        }
+      },
+      "page-reviews-text-columns-with-images--dynamic-2": {
+        "type": "page-reviews-text-columns-with-images--dynamic-2",
+        "blocks": {
+          "7612f99e-393b-49be-ae5d-0e0e1f392c28": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"I just wanted to say thank-you so much for saving my terrible, dry, wavy hair! Over the years, I have made the transition of trying to live only natural\/organic, as much as I can.  I have struggled for years trying to find the perfect natural hair products to save my terrible hair.  All the products I tried were often expensive and produced such disappointing results.  I had almost given up on trying to incorporate natural hair care products into my life... until I watched Sarah Nagel's video which featured your beautiful hair care range! I love that your products are natural (with no hidden nasties), deliver amazing results, you only have to use a small amount of product each time, and your prices are so reasonable :)<br\/><br\/>So thank-you from the bottom of my heart!\"<\/p><p><strong>~ Jasmine, Australia<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "da095777-3d17-4458-a20d-131e8e76613f": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 30,
+              "title": "",
+              "subheading": "<p>\"I just wanted to say thank you so much for a wonderful trustworthy line of hair products that are organic and free of synthetic chemical products and affordable. I have tried your hydrating set and it has been wonderful—- have even been able to add more lavender essential oil to it. I learned of your line of products from Holistic Habits Youtube channel and I am so grateful. Thank you so much for listing all the ingredients!! I am encouraged that there safe no hidden unhealthy chemicals sneaked in to make my hair “fake silky”. Since using this line, my hair has grown faster with less split ends and a small amount goes a long way. This is even with having never dyed my hair and already oiling a bit and using minimal heat!! Even with swimming in a chlorine pool with a swim cap several times a week, my hair feels undamaged after using your products. I tried an apple cider hair rinse for the first time a couple of weeks ago and it was wonderful, too. Thank you for your wonderful products. Definitely my only go to for cleansing hair products. Thank you so much!!\" <br\/><br\/><strong>~ Elisabeth, USA<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "78cbd496-f1ce-4d22-85f4-bfb1c454cee9": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"I received the products we discussed about through email yesterday and I have to say I'm so impressed! I wasn't expecting my hair to have so much body, shine, and definition that I wish I took the chance to use Calia along time ago. Never knew your products would be so affected on curly hair. I just have a question about the intensive conditioner, I kept it on until I was done with my shower then rinsed it off. But I was wondering if this deep treatment can be heated up under the hair dryer for further penetration or just left on for 30mins just using body heat. Other than that I'm in love with how every product worked!\"<\/p><p><strong>~ Franchesca Castillo<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "f9a7f4d8-cde7-4ea9-a385-73001a1e246f": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"I LOVE CALIA, and honestly, I used it for the first time yesterday. While applying the conditioner, I slowly realized it was unlike any I had ever used. I can't explain how, it just made my hair feel like MY hair, not stripped, not heavy, not chemically. My hair usually takes 3 wash's and conditionings, to really show a difference, but this time it started on wash day #1. Can't wait to try all of the different products of Calia. So excited.<\/p><p><strong>~ Shannon Rafuse <\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "9c1e3baa-e867-404e-a5b8-a326e49c1650": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"Hello! I purchased the balancing shampoo & conditioner as a Valentine's gift to myself and I can not believe the difference it has made with my hair! It feels softer and cleaner than it has in years, and so much more manageable! Thank you so much! I'm very glad I splurged and tried your products!!! I will definitely continue to use your products as I grow out my natural color. So so happy!\"<\/p><p><strong>~ Emily Jones, Instagram<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "b6b1731a-8825-4551-9440-3af66ca2c458": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"Hello! I recently purchased your intensive conditioner and I have only used it about six times and I’m already noticing a difference on my hair! It feels so much thicker and healthier! Thank you so much for making such a wonderful conditioner. I have a question about it. I have been using you’re hydrating shampoo and conditioner for about a year now and my hair is now growing and I love it! Now that I have the intensive conditioner, do I use that instead of the hydrating conditioner? I only use the hydrating conditioner on my ends and the intensive conditioner on my ends. I’m not sure how to incorporate it into my hair care routine. Thank you so much for the best hair care products ever! My hair would never grow past a certain point and was always breaking and now that I am using your products my hair is growing beautifully and very long! I’m in love with your products! Thank you!\"<\/p><p><strong>~ Michele<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "2ae4d49c-801c-4d34-bfc3-9cc8adf6ca34": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"My shampoo and conditioner came today and I used them right away and I felt that I had to write this email. The products are AMAZING. The ingredients are why i bought them both and I am throughly pleased. I will defiantly be purchasing from the website again. In fact, I don't know if I will use a different brand EVER AGAIN. They are amazing! I think that this brand needs to be more noticed by people. The shampoo and conditioner are so much better than any other I have used before :)\"<\/p><p><strong>~ Lois Harvey, United Kingdom<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "4f3df619-36fb-45fb-81be-8ae7b6dadee3": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"This stuff is FANTASTIC!<\/p><p>I came across it through Sarah Nagel’s videos (I’ve become seriously attached to her videos) and I got my package yesterday (I’m on the other side of Canada so it came rather promptly) and all I want to do is shower...forget school!<\/p><p>I also wanted to thank you for the extra essential oil bottle, I have also just ordered a diffuser so it’ll come in great handy!<\/p><p>I’ll be back for more!\"<\/p><p><strong>~ Maddison S<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "e6abfc91-7f83-4f4e-8c7c-6a5fa3fc599e": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"About two years ago I began to look for the perfect all natural shampoo and conditioner. I tried many different vegan brands, no poo methods, etc. but I was never fully happy with the results. That was until I tried Calia products. This shampoo left my hair feeling so soft and smooth. I also felt like it didn’t need washing after two days like it normally does. Best thing of all, I have been able to reduce the number of days I straighten my hair. In this review, it wouldn’t be fair not to mention the excellent customer service this company has. After placing my second order with Calia, USPS failed to deliver my products. I send out an email and they were super helpful. Randy kept in touch with me while I waited for USPS to do their job. I finally received all of my products and couldn’t be happier. Calia has won over a loyal customer.\"<\/p><p><strong>~ America M<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "5c21b942-d6e5-4897-b22e-f4e9f600bc93": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"THANK YOU CALIA!!! For years I’ve suffered with dry, uncontrollable hair. I saw Sarah’s video and then emailed you guys and you were kind enough to take the time to tell me I should probably try the Balancing formula. Well it has made my crazy hair look great... what a treat after all these years! My itchy scalp has disappeared too.<\/p><p>You guys are the best!\"<\/p><p><strong>~ Barb G<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "aa70bb41-a50f-4dd9-b33b-bd540040d5c7": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"Can’t thank you enough for your prompt and personal reply. I ordered the hydrating products. I received them today and used them right away. I am amazed! I am very much pleasantly shocked that I have had the opportunity to come across a product that works on my aging, dry, fine, difficult, unpredictable hair, and I can’t stress enough that it \"works.\" How do you adequately put into words such delight when you finally find something that works for YOU? Like many others, I have tried an infinite number of products, organic\/natural as well as those with chemicals. I returned to your website to read more about your products, company, standards and goals for your enterprise. I am highly impressed with your editorial and how you want to make your products available as much as possible, but also wish to remain a small, cozy, manageable operation. I applaud you for your efforts, your passion, your realistic outlook and your desire to provide wonderful items to us, and to the \"fish downstream!\" I am located in the U.S. (Ohio) and will happily make room in my budget for your products.<\/p><p>Take care and I wish you, your family and staff all the best!\"<\/p><p><strong>~ Susan M<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "9a818057-52eb-4009-b05f-7535b8364c48": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"I recently ordered a few items from you, and I absolutely love everything I ordered! The Rose facial cream is phenomenal! I am 51 years old and I spent in the past a lot of money on facial cream, and your product is by far the best! I love the shampoo and the conditioner as well. I want to order a gallon of the shampoo and conditioner next.<\/p><p>Thank you so very much!\"<\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          },
+          "aecee1e0-56f0-4ca9-b7a3-82b9f3cf8ed9": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 50,
+              "title": "",
+              "subheading": "<p>\"I will start off by saying that I have naturally wavy, and very frizzy hair. I had no expectations from this product. Your product promised me nothing. I was simply on a mission one day to find items that were as pure and nourishing as possible, as I have been using natural products for years but they are never as \"natural\" as I would like them to be. Not only did I find that with Calia, but your products were also affordable!<\/p><p>The thing that has always bothered me is that I have never been able to let my hair air dry and have it even look half way decent without a ton of styling product (because, you know, the cave-man\/lady look is not cute at work). I have had my hydrating shampoo, conditioner, and leave-in conditioner for two weeks now and I wanted to give them a fair run before posting a review.<\/p><p>My results are nothing short of a miracle, really. (Perhaps a Christmas miracle?) I have gone through countless bottles of expensive products and I have NEVER been able to allow my hair to air dry, without pulling it back in an effort to hide the frizz. With your products I am able to allow my hair to air dry WITHOUT any styling product and it dries smooth and (I never thought I would say this) silky! You have no idea what a difference this has made for me.<\/p><p>I never write reviews like this, simply because I have never had a product actually work so well. Also, I always thought reviews like this were bogus. Even though you are in Canada and the shipping can be a bit pricey, I will continue to order from you for as long as you continue to produce these lovely products (in bulk!!).<\/p><p>You promise nothing on your bottles, but you have truly given me something that I thought I would never be able to have. I no longer have to be an \"up-do master\"! And I know, it’s just hair, but as someone who has battled to tame the beast on top of my head my entire life, I thank you a million times!!!!!!\"<\/p><p><strong>~ Terah R<\/strong><\/p>",
+              "text_max_width": 36,
+              "link": "",
+              "link_text": "Read more"
+            }
+          }
+        },
+        "block_order": [
+          "7612f99e-393b-49be-ae5d-0e0e1f392c28",
+          "da095777-3d17-4458-a20d-131e8e76613f",
+          "78cbd496-f1ce-4d22-85f4-bfb1c454cee9",
+          "f9a7f4d8-cde7-4ea9-a385-73001a1e246f",
+          "9c1e3baa-e867-404e-a5b8-a326e49c1650",
+          "b6b1731a-8825-4551-9440-3af66ca2c458",
+          "2ae4d49c-801c-4d34-bfc3-9cc8adf6ca34",
+          "4f3df619-36fb-45fb-81be-8ae7b6dadee3",
+          "e6abfc91-7f83-4f4e-8c7c-6a5fa3fc599e",
+          "5c21b942-d6e5-4897-b22e-f4e9f600bc93",
+          "aa70bb41-a50f-4dd9-b33b-bd540040d5c7",
+          "9a818057-52eb-4009-b05f-7535b8364c48",
+          "aecee1e0-56f0-4ca9-b7a3-82b9f3cf8ed9"
+        ],
+        "settings": {
+          "section_style": "default",
+          "columns": 2,
+          "overline": "",
+          "title": "Customer Review",
+          "subheading": "If you want to share your Calia story with us, simply write to us here. Our team will be in touch, and thank you for all of your wonderful feedback!",
+          "link": "",
+          "link_text": "",
+          "text_alignment": "left",
+          "text_max_width": 50
+        }
+      },
+      "1624375712c5aab0ae": {
+        "type": "slideshow--dynamic",
+        "disabled": true,
+        "blocks": {
+          "1624375712c5aab0ae-0": {
+            "type": "slide",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1W9A9503.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/1W9A9503.jpg",
+              "video_url": "",
+              "overline": "SUMMER SALE EXTENDED!",
+              "title": "Save 10% on our Entire Store!",
+              "subheading": "",
+              "link": "shopify:\/\/collections\/best-sellers",
+              "link_text": "SHOP HERE",
+              "overlay_opacity": 0,
+              "overlay_color": "#ffffff",
+              "text_color": "#324340",
+              "text_max_width": 28,
+              "horizontal_text_position": "right",
+              "vertical_text_position": "bottom"
+            }
+          }
+        },
+        "block_order": [
+          "1624375712c5aab0ae-0"
+        ],
+        "settings": {
+          "aspect_ratio": "full_height",
+          "timer": 5
+        }
+      },
+      "page-loyalty-slideshow--dynamic": {
+        "type": "page-loyalty-slideshow--dynamic",
+        "blocks": {
+          "c16a480e-e9b8-47ac-b2ff-787c19a11cf1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/loyalty-banner-image-2.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/loyalty-banner-image-2-mobile.jpg",
+              "video_url": "",
+              "overline": "",
+              "title": "Join The Calia Loyalty Club!",
+              "subheading": "Earn 5 points for every dollar you spend and redeem them with discounts.",
+              "link": "\/account\/register",
+              "link_text": "Create An Account",
+              "overlay_opacity": 20,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "text_max_width": 48,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          }
+        },
+        "block_order": [
+          "c16a480e-e9b8-47ac-b2ff-787c19a11cf1"
+        ],
+        "settings": {
+          "aspect_ratio": "unconstrained",
+          "timer": 7
+        }
+      },
+      "page-loyalty-image-with-text--dynamic": {
+        "type": "page-loyalty-image-with-text--dynamic",
+        "settings": {
+          "section_style": "default",
+          "enable_animation": false,
+          "image": "shopify:\/\/shop_images\/calia-loyalty-signup.jpg",
+          "video_url": "",
+          "image_width": "one-half",
+          "image_position": "left",
+          "overline": "Start Saving",
+          "title": "Ready to join?",
+          "subheading": "",
+          "link": "\/account\/register",
+          "link_text": "Create an account to get started",
+          "text_below": "<p>Already have an account? <a href=\"\/account\/register\" title=\"\/account\"><strong>Sign in<\/strong><\/a> and start collecting points! <\/p>",
+          "text_alignment": "left",
+          "text_color": "#000000",
+          "text_container_color": "",
+          "button_text_color": "#ffffff",
+          "button_border_color": "rgba(0,0,0,0)",
+          "text_max_width": 50
+        }
+      },
+      "page-loyalty-rich-text--dynamic": {
+        "type": "page-loyalty-rich-text--dynamic",
+        "settings": {
+          "section_style": "contrast",
+          "overline": "",
+          "title": "",
+          "text": "<p>Our Loyalty Club works on a collected points basis, redeemable with any purchase, anytime. You’ll get points for your purchases, friend referrals and even your birthday!<\/p><p>Redeem points for rewards of $5, $10, or $25 towards a future purchase. Once Loyalty Vouchers are redeemed, they do not expire. <\/p>",
+          "link": "",
+          "link_text": "",
+          "alignment": "center",
+          "text_max_width": 74
+        }
+      },
+      "cart--template": {
+        "type": "cart--template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "minimum_spend": 0,
+          "free_gift": ""
+        }
+      },
+      "page-about-image-with-text--dynamic": {
+        "type": "page-about-image-with-text--dynamic",
+        "settings": {
+          "section_style": "contrast",
+          "enable_animation": true,
+          "image": "shopify:\/\/shop_images\/calia-about-banner-1.png",
+          "video_url": "",
+          "image_width": "one-half",
+          "image_position": "left",
+          "overline": "",
+          "title": "Our History",
+          "subheading": "<p>At the turn of the last millennium, we created a line of natural hair and skin care products to add to our line of our popular essential oils. It has always been our desire to have Calia products made without the use of modern chemicals - using only naturally sourced ingredients that could provide genuine efficacy and benefits to both the skin and hair.<\/p><p>Our first few items were created fragrance-free, allowing the user to keep them as is, or to add the essential oils of their choice. In time, we introduced several other hair care items with essential oils already introduced into the product. This added not only a special, natural scent but gave them a slightly more defined effect on different hair types.<\/p><p>The result has been that we have created a very strong following of people that are nothing but amazed at how well something so simply natural can work so incredibly well.<\/p>",
+          "link": "",
+          "link_text": "Shop now",
+          "text_below": "",
+          "text_alignment": "left",
+          "text_color": "#000000",
+          "text_container_color": "",
+          "button_text_color": "#1b1b1b",
+          "button_border_color": "#dedede",
+          "text_max_width": 50
+        }
+      },
+      "page-about-rich-text--dynamic": {
+        "type": "page-about-rich-text--dynamic",
+        "settings": {
+          "section_style": "default",
+          "overline": "",
+          "title": "Our Commitment",
+          "text": "<p>It was, and of course, always will be, our desire to give the best value for the highest grade products we can provide. With so many of today's products containing a wide variety of synthetic and sometimes harmful ingredients, we at Calia have created a line of aromatherapy and personal care products that are as pure and as natural as possible, the way things used to be. Even our name CALIA (Kah-Lee-Ah), an Italian word for old-fashioned, reflects our goal.<\/p><p>Our oils are all steam distilled or expressed, are 100% pure, and all have been tested for potency and every oil we sell has a paper trail to its Certificate of Analysis. The Calia hair products will leave your hair and scalp feeling alive and natural, while our skin products will leave your skin moisturized with none of the greasiness common in many synthetic products.<\/p><p><strong>Each time you use a Calia product you are treating yourself to traditional quality from the past, made with the care and attention that we know you will appreciate.<\/strong><\/p><p>Over the last dozen years, we've made small changes to the formulas of our shampoos and conditioners, all in the quest of improving what they will do for you hair. Judging from our overwhelmingly positive (almost fanatical) feedback, we can't help but feel it is working. Your hair ends up being your hair! It doesn't end up being coated with synthetic chemicals and leaves your hair in a natural, well nourished state.<\/p>",
+          "link": "",
+          "link_text": "",
+          "alignment": "center",
+          "text_max_width": 85
+        }
+      },
+      "page-about-image-with-text--dynamic-2": {
+        "type": "page-about-image-with-text--dynamic-2",
+        "settings": {
+          "section_style": "contrast",
+          "enable_animation": true,
+          "image": "shopify:\/\/shop_images\/20180307-1W9A1365_1.jpg",
+          "video_url": "",
+          "image_width": "one-half",
+          "image_position": "right",
+          "overline": "",
+          "title": "",
+          "subheading": "<p>Calia hair and body care products are 100% complete on their own. They have been formulated using the highest quality ingredients to give you the best natural hair and skin treatments.<br\/><br\/>You may create your own custom fragrance by adding our Calia essential oils on your own. This is based on the art of Aromatherapy. Ancient civilizations used these concentrated botanical extracts as part of their lifestyle. For those that want to have the essential oil fragrance already infused, we offer the Hydrating, Balancing, and Purifying formulas that now only carry a fresh natural scent, but also allow subtle differences in the way they respond to different hair types.<\/p><p>We have no intention of growing Calia into a mass market company and wish to remain small. As one goes forward in life, one realizes (or should do) that time and quality remain very important. Both seem increasingly hard to find in this age of pushing and grovelling to get the most money in the least time. Well we don't buy into that. We prefer the old way. Even our name \"Calia\" is an old fashioned Italian word for old fashion.<\/p><p><strong>We hope you enjoy Calia and we will endeavour to continue providing you with a real, natural alternative.<\/strong><\/p><p><em>Always act naturally.<\/em><\/p><p><em>Randall Cunningham<br\/><\/em>Owner, Calia Natural<\/p>",
+          "link": "",
+          "link_text": "Shop now",
+          "text_below": "",
+          "text_alignment": "left",
+          "text_color": "#000000",
+          "text_container_color": "",
+          "button_text_color": "#1b1b1b",
+          "button_border_color": "#dedede",
+          "text_max_width": 50
+        }
+      },
+      "page-about-slideshow--dynamic": {
+        "type": "page-about-slideshow--dynamic",
+        "blocks": {
+          "402b78e0-392b-45ea-be66-9d1308f543a7": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/calia-natural-about-us.png",
+              "mobile_image": "shopify:\/\/shop_images\/calia-natural-about-us-mobile.png",
+              "video_url": "",
+              "overline": "About Us",
+              "title": "Welcome",
+              "subheading": "Calia is a small, independent beauty care company located on Canada's west coast.<br>\nWe are purveyors of natural organic hair care, skin care, and essential oils: made with care and dedication in Vancouver, BC. We are proud to ship our products to customers worldwide!",
+              "link": "",
+              "link_text": "Shop now",
+              "overlay_opacity": 20,
+              "overlay_color": "#ffffff",
+              "text_color": "#1b1b1b",
+              "text_max_width": 50,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          }
+        },
+        "block_order": [
+          "402b78e0-392b-45ea-be66-9d1308f543a7"
+        ],
+        "settings": {
+          "aspect_ratio": "unconstrained",
+          "timer": 7
+        }
+      },
+      "page-about-featured-collection--static": {
+        "type": "page-about-featured-collection--static",
+        "settings": {
+          "enabled": true,
+          "text_position": "middle_left",
+          "collection": "best-selling-hair-care-products",
+          "columns": 4,
+          "aspect_ratio": "natural",
+          "overline": "Discover Calia",
+          "title": "Best Selling Hair Care",
+          "subheading": "Find your favourite formula!",
+          "link_text": "Shop now",
+          "text_max_width": 50
+        }
+      },
+      "1646232246f2548999": {
+        "type": "slideshow--dynamic",
+        "blocks": {
+          "1646232246f2548999-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1W9A9815.jpg",
+              "video_url": "",
+              "overline": "SELF CARE WITHOUT SYNTHETICS",
+              "title": "Naturally Pure Skin Care",
+              "subheading": "Skin care that cleanses, tones and nourishes your skin naturally",
+              "link": "shopify:\/\/collections\/skin-care",
+              "link_text": "Shop now",
+              "overlay_opacity": 10,
+              "overlay_color": "#000000",
+              "text_color": "#324340",
+              "text_max_width": 40,
+              "horizontal_text_position": "right",
+              "vertical_text_position": "middle"
+            }
+          },
+          "1646232246f2548999-1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1W9A9802.jpg",
+              "video_url": "",
+              "overline": "SELF CARE WITHOUT SYNTHETICS",
+              "title": "Intensive Facial Cream",
+              "subheading": "The answer to your dry skin's dreams with almond & avocado oils",
+              "link": "shopify:\/\/products\/intensive-facial-cream-with-rose-geranium",
+              "link_text": "Shop now",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "text_color": "#324340",
+              "text_max_width": 40,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          },
+          "1789a02f-84b7-410b-9f75-e72a14b9d3b1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1W9A9798.jpg",
+              "video_url": "",
+              "overline": "SELF CARE WITHOUT SYNTHETICS",
+              "title": "Naturally Pure Skin Care Bundle",
+              "subheading": "Our must have skin care bundle",
+              "link": "shopify:\/\/collections\/bundles",
+              "link_text": "Shop Bundles",
+              "overlay_opacity": 0,
+              "overlay_color": "#000000",
+              "text_color": "#324340",
+              "text_max_width": 30,
+              "horizontal_text_position": "right",
+              "vertical_text_position": "middle"
+            }
+          }
+        },
+        "block_order": [
+          "1646232246f2548999-0",
+          "1646232246f2548999-1",
+          "1789a02f-84b7-410b-9f75-e72a14b9d3b1"
+        ],
+        "settings": {
+          "aspect_ratio": "full_height",
+          "timer": 7
+        }
+      },
+      "16462322602b16515f": {
+        "type": "page-about-image-with-text--dynamic-2",
+        "settings": {
+          "section_style": "default",
+          "enable_animation": true,
+          "image": "shopify:\/\/shop_images\/1W9A9485.jpg",
+          "video_url": "",
+          "image_width": "two-third",
+          "image_position": "left",
+          "overline": "SYNTHETIC FREE SELF CARE",
+          "title": "Silicones? No way!",
+          "subheading": "<p>Silicones do not have a place in any of our products, especially our hair care! Learn more about why we don't use silicones, <em>ever. <\/em><\/p>",
+          "link": "shopify:\/\/blogs\/news\/why-we-dont-use-silicones",
+          "link_text": "READ MORE",
+          "text_below": "",
+          "text_alignment": "left",
+          "text_color": "#000000",
+          "text_container_color": "",
+          "button_text_color": "#ffffff",
+          "button_border_color": "#dedede",
+          "text_max_width": 36
+        }
+      }
+    },
+    "content_for_index": [
+      "1624375712c5aab0ae",
+      "1602302639a7b60f3e",
+      "1602302827aaa0807e",
+      "16462322602b16515f",
+      "160230298895c3eda9",
+      "1646232246f2548999",
+      "160230316278a885f2",
+      "1602302926ac40fa14",
+      "1602100844222d406f"
+    ]
+  },
+  "presets": {
+    "Chic": {
+      "color_accent": "#bb4e39",
+      "color_text": "#1b1b1b",
+      "color_bg": "#ffffff",
+      "color_button": "#f4f4f4",
+      "color_border": "#dedede",
+      "color_input_text": "#606060",
+      "color_icon": "#9c9c9c",
+      "color_header_text": "#171717",
+      "color_header_bg": "#ffffff",
+      "color_header_border": "#dcdcdc",
+      "color_footer_text": "#ffffff",
+      "color_footer_bg": "#9d4737",
+      "color_footer_border": "#d96a55",
+      "color_footer_button_background": "#b45240",
+      "color_footer_button_text": "#ffffff",
+      "color_contrast_text": "#262626",
+      "color_contrast_bg": "#f9f9f9",
+      "color_contrast_border": "#d6d6d6",
+      "color_contrast_input_text": "#5e5e5e",
+      "color_contrast_icon": "#939393",
+      "color_drawer_text": "#151515",
+      "color_drawer_bg": "#ffffff",
+      "color_drawer_border": "#d6d6d6",
+      "color_drawer_input_text": "#5e5e5e",
+      "color_drawer_icon": "#939393",
+      "font_heading": "bauer_bodoni_n7",
+      "size_heading": 18,
+      "uppercase_headings": false,
+      "font_body": "assistant_n4",
+      "size_body": 15,
+      "font_logo": "bauer_bodoni_n7",
+      "logo_uppercase": false,
+      "font_logo_size": 26,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_snapchat_link": "",
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "search_max_result_size": 4,
+      "search_show_products": true,
+      "search_show_articles": true,
+      "search_show_pages": true,
+      "search_show_price": true,
+      "search_show_vendor": false,
+      "swatch_option": "Color",
+      "chip_options": "Size",
+      "cart_quick_shop_enabled": true,
+      "cart_quick_shop_show_quantity_input": false,
+      "cart_notes_enable": true,
+      "quick_cart_note": "Your subtotal today is [subtotal]. Shipping and taxes will calculated at checkout.",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "color_input_inactive_text": "#7C7C7C",
+      "color_sale_badge": "#bb4e39",
+      "color_sold_out_badge": "#1b1b1b",
+      "color_success_message": "#82b875",
+      "color_error_message": "#b6534c",
+      "color_contrast_input_inactive_text": "#a8a8a8",
+      "color_navigation_text": "#363636",
+      "color_navigation_bg": "#ffffff",
+      "color_navigation_feature": "#f4f4f4",
+      "color_drawer_input_inactive_text": "#bab8c7",
+      "color_quick_search_highlight": "#ffe898",
+      "color_navigation_border": "#e2e2e2",
+      "color_navigation_icon": "#aaaaaa",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "background_color": "#24352d",
+                "text_color": "#ffffff",
+                "text": "Announce something here",
+                "link": ""
+              }
+            },
+            "1601761564951": {
+              "type": "announcement",
+              "settings": {
+                "background_color": "#24352d",
+                "text_color": "#ffffff",
+                "text": "Cycle through multiple messages",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0",
+            "1601761564951"
+          ],
+          "settings": {
+            "announcement_bar_enabled": true,
+            "announcement_bar_timing": 5
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "header_style": "default",
+            "nav_alignment": "left",
+            "detect_menu_length": false,
+            "show_locale_selector": false,
+            "show_currency_selector": true,
+            "logo": "",
+            "logo_max_size": 150,
+            "menu": "main-menu",
+            "transparent_index_header_enabled": true,
+            "transparent_logo": "",
+            "transparent_header_foreground_color": "#ffffff",
+            "transparent_header_border_color": "#ffffff",
+            "transparent_header_border_opacity": 10
+          }
+        },
+        "exit-intent": {
+          "type": "exit-intent",
+          "settings": {
+            "enable_exit_intent": false,
+            "exit_intent_position": "bottom-right",
+            "exit_intent_image": "",
+            "exit_intent_heading": "Sign up for our newsletter",
+            "exit_intent_text": "Use this popup to capture customer email addresses at the last moment.",
+            "text_color": "#1b1b1b",
+            "bg_color": "#ffffff",
+            "border_color": "#dedede",
+            "input_text_color": "#1b1b1b"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1602297933570": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "1602015986783": {
+              "type": "link_list",
+              "settings": {
+                "menu": "main-menu"
+              }
+            },
+            "1602305412730": {
+              "type": "link_list",
+              "settings": {
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "1602297933570",
+            "1602015986783",
+            "1602305412730"
+          ],
+          "settings": {
+            "show_headings": true,
+            "show_payment_icons": true,
+            "show_newsletter_signup": true,
+            "newsletter_subheading": "Subscribe to our mailing list",
+            "show_locale_selector": true,
+            "show_currency_selector": true
+          }
+        },
+        "1601670854865": {
+          "type": "quote--dynamic",
+          "blocks": {
+            "1601670854865-0": {
+              "type": "quote",
+              "settings": {
+                "quote": "Absolutely unparalleled products and service. I'm confident that this store will be the next big thing in its industry.",
+                "author": "Hannah Joritz"
+              }
+            }
+          },
+          "block_order": [
+            "1601670854865-0"
+          ],
+          "settings": {
+            "section_style": "contrast",
+            "timer": 7,
+            "text_max_width": 28
+          }
+        },
+        "collection--template": {
+          "type": "collection--template",
+          "settings": {
+            "show_collection_image": true,
+            "overlay_opacity": 20,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "show_border": true,
+            "show_heading": true,
+            "show_small_heading": true,
+            "show_description": true,
+            "heading_alignment": "left",
+            "text_max_width": 38,
+            "show_swatches": false,
+            "products_per_row": 3,
+            "aspect_ratio": "natural",
+            "pagination": "click"
+          }
+        },
+        "testimonials--static": {
+          "type": "testimonials--static",
+          "settings": {
+            "enabled": false,
+            "text_position": "top_center",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Testimonials",
+            "title": "Testimonials Section",
+            "subheading": "Use this section to showcase your product reviews.",
+            "link": "",
+            "link_text": "",
+            "text_max_width": 36
+          }
+        },
+        "featured-collection--static": {
+          "type": "featured-collection--static",
+          "settings": {
+            "enabled": true,
+            "text_position": "top_center",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "collection",
+            "title": "The Fall Collection",
+            "subheading": "Our latest collection resonates with inspired earth tones. All of our fabrics are created in italy and sourced from a variety of local mills.",
+            "link_text": "Shop now",
+            "text_max_width": 36
+          }
+        },
+        "gallery--static": {
+          "type": "gallery--static",
+          "settings": {
+            "enabled": false,
+            "text_position": "top_center",
+            "columns": 3,
+            "aspect_ratio": "square",
+            "overline": "Gallery",
+            "title": "Gallery section",
+            "subheading": "Use this Section to display your favourite images. Automatically crop them to be uniform using the dropdown setting.",
+            "link": "",
+            "link_text": "",
+            "text_max_width": 36
+          }
+        },
+        "product--static": {
+          "type": "product--static",
+          "settings": {
+            "show_vendor": true,
+            "show_swatches": false,
+            "show_share_buttons": false,
+            "show_quantity_input": true,
+            "enable_payment_button": true,
+            "enable_video_looping": true
+          }
+        },
+        "text--static": {
+          "type": "text--static",
+          "settings": {
+            "enabled": false,
+            "title": "Text",
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.<\/p>"
+          }
+        },
+        "gallery-grid--static": {
+          "type": "gallery-grid--static",
+          "settings": {
+            "enabled": false,
+            "columns": 4,
+            "aspect_ratio": "square",
+            "title": "Gallery",
+            "text": "<p>Let people know about where to find you on social media. Don't forget to add a <a>link<\/a>.<\/p>"
+          }
+        },
+        "product-recommendations--static": {
+          "type": "product-recommendations--static",
+          "settings": {
+            "enabled": true,
+            "heading": "Related",
+            "columns": 4
+          }
+        },
+        "page-about--template": {
+          "type": "page-about--template",
+          "settings": {
+            "overline": "about"
+          }
+        },
+        "blog--template": {
+          "type": "blog--template",
+          "settings": {
+            "layout": "latest_featured",
+            "show_rss": true
+          }
+        },
+        "1602299175982": {
+          "type": "slideshow-split--dynamic",
+          "blocks": {
+            "1602299175982-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "video_url": ""
+              }
+            },
+            "1602299175982-1": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "video_url": ""
+              }
+            },
+            "1602299175982-2": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "video_url": ""
+              }
+            }
+          },
+          "block_order": [
+            "1602299175982-0",
+            "1602299175982-1",
+            "1602299175982-2"
+          ],
+          "settings": {
+            "timer": 7,
+            "overline": "presenting",
+            "title": "The Slideshow Split",
+            "subheading": "When one image isn't enough. Use an arrangement of editorial photos with a similar tone and feel for a unique storytelling sequence.",
+            "link_text": "Shop now",
+            "overlay_opacity": 60,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "text_max_width": 34,
+            "horizontal_text_position": "center",
+            "vertical_text_position": "middle"
+          }
+        },
+        "1602299320050": {
+          "type": "featured-collection--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "top_center",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Featured collection",
+            "subheading": "Add a subheading to provide more details about this collection.",
+            "link_text": "Shop now",
+            "text_max_width": 24
+          }
+        },
+        "1602299409613": {
+          "type": "image-with-text--dynamic",
+          "settings": {
+            "section_style": "contrast",
+            "enable_animation": true,
+            "image": "",
+            "video_url": "",
+            "image_width": "two-third",
+            "image_position": "left",
+            "overline": "Image with text",
+            "title": "Image with text",
+            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.<\/p>",
+            "link_text": "Shop now",
+            "text_alignment": "left",
+            "text_color": "#000000",
+            "text_container_color": "",
+            "button_text_color": "#1b1b1b",
+            "button_border_color": "#dedede",
+            "text_max_width": 36
+          }
+        },
+        "1602299518294": {
+          "type": "slideshow--dynamic",
+          "blocks": {
+            "1602299518294-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+                "link_text": "Shop now",
+                "overlay_opacity": 60,
+                "overlay_color": "#000000",
+                "text_color": "#ffffff",
+                "text_max_width": 41,
+                "horizontal_text_position": "left",
+                "vertical_text_position": "middle"
+              }
+            },
+            "1602299518294-1": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+                "link_text": "Shop now",
+                "overlay_opacity": 60,
+                "overlay_color": "#000000",
+                "text_color": "#ffffff",
+                "text_max_width": 48,
+                "horizontal_text_position": "right",
+                "vertical_text_position": "bottom"
+              }
+            }
+          },
+          "block_order": [
+            "1602299518294-0",
+            "1602299518294-1"
+          ],
+          "settings": {
+            "aspect_ratio": "full_height",
+            "timer": 7
+          }
+        },
+        "1602299855490": {
+          "type": "featured-collection--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "middle_left",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Featured collection",
+            "subheading": "Add a subheading to provide more details about this collection.",
+            "link_text": "Shop now",
+            "text_max_width": 24
+          }
+        },
+        "1602299921603": {
+          "type": "featured-collection--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "middle_left",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Featured collection",
+            "subheading": "Add a subheading to provide more details about this collection.",
+            "link_text": "Shop now",
+            "text_max_width": 24
+          }
+        },
+        "1602299989448": {
+          "type": "slideshow--dynamic",
+          "blocks": {
+            "1602299989448-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "Slideshow",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+                "link_text": "Shop now",
+                "overlay_opacity": 60,
+                "overlay_color": "#000000",
+                "text_color": "#ffffff",
+                "text_max_width": 39,
+                "horizontal_text_position": "left",
+                "vertical_text_position": "middle"
+              }
+            },
+            "1602299989448-1": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "Slideshow",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+                "link_text": "Shop now",
+                "overlay_opacity": 60,
+                "overlay_color": "#000000",
+                "text_color": "#ffffff",
+                "text_max_width": 40,
+                "horizontal_text_position": "left",
+                "vertical_text_position": "top"
+              }
+            }
+          },
+          "block_order": [
+            "1602299989448-0",
+            "1602299989448-1"
+          ],
+          "settings": {
+            "aspect_ratio": "full_height",
+            "timer": 7
+          }
+        },
+        "1602300184343": {
+          "type": "image-with-text--dynamic",
+          "settings": {
+            "section_style": "default",
+            "enable_animation": true,
+            "image": "",
+            "video_url": "",
+            "image_width": "two-third",
+            "image_position": "left",
+            "overline": "Image with text",
+            "title": "Image with text",
+            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.<\/p>",
+            "link_text": "Shop now",
+            "text_alignment": "left",
+            "text_color": "#000000",
+            "text_container_color": "",
+            "button_text_color": "#1b1b1b",
+            "button_border_color": "#dedede",
+            "text_max_width": 36
+          }
+        },
+        "1602300692658": {
+          "type": "image-with-text-split--dynamic",
+          "settings": {
+            "feature_image": "",
+            "feature_link": "",
+            "feature_description": "",
+            "feature_text_color": "",
+            "background_color": "#1f2030",
+            "feature_alignment": "left_bottom",
+            "overlay_image": "",
+            "image_text": "",
+            "text_color": "#ffffff",
+            "detail_alignment": "center_bottom",
+            "text_max_width": 36,
+            "gradient_color": "rgba(0,0,0,0)",
+            "gradient_length": 30
+          }
+        },
+        "1602300825789": {
+          "type": "collection-list--dynamic",
+          "blocks": {
+            "1605556242809": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "1605556246037": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "1605556242809",
+            "1605556246037"
+          ],
+          "settings": {
+            "section_style": "default",
+            "text_position": "top_center",
+            "columns": 2,
+            "aspect_ratio": "natural",
+            "overline": "Collections",
+            "title": "Collection list",
+            "subheading": "Add a subheading to provide more details about these collections.",
+            "text_max_width": 36
+          }
+        },
+        "1602300955150": {
+          "type": "featured-collection--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "top_center",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Featured collection",
+            "subheading": "Add a subheading to provide more details about this collection.",
+            "link_text": "Shop now",
+            "text_max_width": 24
+          }
+        },
+        "1602301004470": {
+          "type": "slideshow--dynamic",
+          "blocks": {
+            "1602301004470-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+                "link_text": "Shop now",
+                "overlay_opacity": 60,
+                "overlay_color": "#000000",
+                "text_color": "#ffffff",
+                "text_max_width": 37,
+                "horizontal_text_position": "center",
+                "vertical_text_position": "middle"
+              }
+            }
+          },
+          "block_order": [
+            "1602301004470-0"
+          ],
+          "settings": {
+            "aspect_ratio": "full_height",
+            "timer": 7
+          }
+        },
+        "1602301096982": {
+          "type": "gallery--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "top_center",
+            "columns": 3,
+            "aspect_ratio": "square",
+            "overline": "Gallery",
+            "title": "Gallery section",
+            "subheading": "Use this Section to display your favourite images. Automatically crop them to be uniform using the dropdown setting.",
+            "link_text": "Follow us",
+            "text_max_width": 32
+          }
+        },
+        "page-contact--template": {
+          "type": "page-contact--template",
+          "settings": {
+            "image": ""
+          }
+        },
+        "1605556096757": {
+          "type": "text-columns-with-images--dynamic",
+          "blocks": {
+            "1605556096757-0": {
+              "type": "column",
+              "settings": {
+                "image": "",
+                "image_max_width": 50,
+                "title": "Column one",
+                "subheading": "Start here. Introduce your vision, or explain why what you do or sell is superior to your competitors.",
+                "text_max_width": 36,
+                "link_text": "Read more"
+              }
+            },
+            "1605556096757-1": {
+              "type": "column",
+              "settings": {
+                "image": "",
+                "image_max_width": 50,
+                "title": "Column two",
+                "subheading": "Get into your process a bit. The quality of handiwork, proprietary knowledge, or materials that you use that make your products better.",
+                "text_max_width": 36,
+                "link_text": "Read more"
+              }
+            },
+            "1605556096757-2": {
+              "type": "column",
+              "settings": {
+                "image": "",
+                "image_max_width": 50,
+                "title": "Column three",
+                "subheading": "End it with an action item that the user can take advantage of. Link to a more in-depth page, or go straight to a collection. Your call.",
+                "text_max_width": 36,
+                "link_text": "Read more"
+              }
+            }
+          },
+          "block_order": [
+            "1605556096757-0",
+            "1605556096757-1",
+            "1605556096757-2"
+          ],
+          "settings": {
+            "section_style": "default",
+            "columns": 3,
+            "overline": "",
+            "title": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_alignment": "center",
+            "text_max_width": 36
+          }
+        }
+      },
+      "content_for_index": [
+        "1602299175982",
+        "1605556096757",
+        "1602299320050",
+        "1602299409613",
+        "1602299518294",
+        "1602299855490",
+        "1602299921603",
+        "1602299989448",
+        "1602300184343",
+        "1601670854865",
+        "1602300692658",
+        "1602300825789",
+        "1602300955150",
+        "1602301004470",
+        "1602301096982"
+      ]
+    },
+    "Natural": {
+      "color_accent": "#ae877b",
+      "color_text": "#5b4c47",
+      "color_bg": "#fcf7ee",
+      "color_button": "#f4f4f4",
+      "color_border": "#e1d8ce",
+      "color_input_text": "#5b4c47",
+      "color_icon": "#5b4c47",
+      "color_header_text": "#534540",
+      "color_header_bg": "#fcf7ee",
+      "color_header_border": "#e1d8ce",
+      "color_footer_text": "#ffffff",
+      "color_footer_bg": "#ae877b",
+      "color_footer_border": "#9a766c",
+      "color_footer_button_background": "#927269",
+      "color_footer_button_text": "#ffffff",
+      "color_contrast_text": "#ffffff",
+      "color_contrast_bg": "#846b63",
+      "color_contrast_border": "#b69f97",
+      "color_contrast_input_text": "#ebd8d3",
+      "color_contrast_icon": "#ebd8d3",
+      "color_drawer_text": "#ffffff",
+      "color_drawer_bg": "#89695f",
+      "color_drawer_border": "#ab8d84",
+      "color_drawer_input_text": "#ebd8d3",
+      "color_drawer_icon": "#ebd8d3",
+      "font_heading": "mariposa_sans_n7",
+      "size_heading": 18,
+      "uppercase_headings": false,
+      "font_body": "din_next_slab_n4",
+      "size_body": 15,
+      "font_logo": "mariposa_sans_n7",
+      "logo_uppercase": false,
+      "font_logo_size": 22,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_snapchat_link": "",
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "search_max_result_size": 4,
+      "search_show_products": true,
+      "search_show_articles": true,
+      "search_show_pages": true,
+      "search_show_price": true,
+      "search_show_vendor": false,
+      "swatch_option": "Color",
+      "chip_options": "Size",
+      "cart_quick_shop_enabled": true,
+      "cart_quick_shop_show_quantity_input": false,
+      "cart_notes_enable": true,
+      "quick_cart_note": "Your subtotal today is [subtotal]. Shipping and taxes will calculated at checkout.",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "color_input_inactive_text": "#9c8881",
+      "color_sale_badge": "#c47961",
+      "color_sold_out_badge": "#1b1b1b",
+      "color_success_message": "#82b875",
+      "color_error_message": "#b6534c",
+      "color_contrast_input_inactive_text": "#ebd8d3",
+      "color_navigation_text": "#534540",
+      "color_navigation_bg": "#fcf7ee",
+      "color_navigation_feature": "#f0e8d9",
+      "color_drawer_input_inactive_text": "#ebd8d3",
+      "color_quick_search_highlight": "#ffe898",
+      "color_navigation_border": "#e2e2e2",
+      "color_navigation_icon": "#aaaaaa",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "background_color": "",
+                "text_color": "#ffffff",
+                "text": "Announce something here",
+                "link": ""
+              }
+            },
+            "1602188457696": {
+              "type": "announcement",
+              "settings": {
+                "background_color": "#ae8979",
+                "text_color": "#ffffff",
+                "text": "You can cycle through multiple announcements",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0",
+            "1602188457696"
+          ],
+          "settings": {
+            "announcement_bar_enabled": true,
+            "announcement_bar_timing": 5
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "header_style": "default",
+            "nav_alignment": "left",
+            "detect_menu_length": false,
+            "show_locale_selector": false,
+            "show_currency_selector": true,
+            "logo": "",
+            "logo_max_size": 150,
+            "menu": "main-menu",
+            "transparent_index_header_enabled": true,
+            "transparent_logo": "",
+            "transparent_header_foreground_color": "#ffffff",
+            "transparent_header_border_color": "#ffffff",
+            "transparent_header_border_opacity": 10
+          }
+        },
+        "exit-intent": {
+          "type": "exit-intent",
+          "settings": {
+            "enable_exit_intent": false,
+            "exit_intent_position": "bottom-right",
+            "exit_intent_image": "",
+            "exit_intent_heading": "Sign up for our newsletter",
+            "exit_intent_text": "Use this popup to capture customer email addresses at the last moment.",
+            "text_color": "#1b1b1b",
+            "bg_color": "#ffffff",
+            "border_color": "#dedede",
+            "input_text_color": "#1b1b1b"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1602297933570": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "1602015986783": {
+              "type": "link_list",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "1605557765620": {
+              "type": "link_list",
+              "settings": {
+                "menu": "main-menu"
+              }
+            }
+          },
+          "block_order": [
+            "1602297933570",
+            "1602015986783",
+            "1605557765620"
+          ],
+          "settings": {
+            "show_headings": true,
+            "show_payment_icons": true,
+            "show_newsletter_signup": true,
+            "newsletter_subheading": "Subscribe to our mailing list",
+            "show_locale_selector": true,
+            "show_currency_selector": true
+          }
+        },
+        "1601928793422": {
+          "type": "slideshow--dynamic",
+          "blocks": {
+            "1601928793422-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+                "link_text": "Shop now",
+                "overlay_opacity": 50,
+                "overlay_color": "#563d35",
+                "text_color": "#ffffff",
+                "text_max_width": 39,
+                "horizontal_text_position": "center",
+                "vertical_text_position": "middle"
+              }
+            }
+          },
+          "block_order": [
+            "1601928793422-0"
+          ],
+          "settings": {
+            "aspect_ratio": "full_height",
+            "timer": 7
+          }
+        },
+        "1601928812015": {
+          "type": "gallery--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "top_center",
+            "columns": 4,
+            "aspect_ratio": "square",
+            "overline": "Gallery",
+            "title": "Gallery section",
+            "subheading": "Use this Section to display your favourite images from your social media channels",
+            "link": "",
+            "link_text": "",
+            "text_max_width": 36
+          }
+        },
+        "1601928819901": {
+          "type": "featured-collection--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "middle_left",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Featured collection",
+            "subheading": "Add a subheading to provide more details about this collection.",
+            "link_text": "Shop now",
+            "text_max_width": 27
+          }
+        },
+        "1601932384660": {
+          "type": "slideshow--dynamic",
+          "blocks": {
+            "1601932384660-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect",
+                "link_text": "Shop now",
+                "overlay_opacity": 50,
+                "overlay_color": "#563d35",
+                "text_color": "#ffffff",
+                "text_max_width": 39,
+                "horizontal_text_position": "left",
+                "vertical_text_position": "middle"
+              }
+            }
+          },
+          "block_order": [
+            "1601932384660-0"
+          ],
+          "settings": {
+            "aspect_ratio": "full_height",
+            "timer": 7
+          }
+        },
+        "1601932468553": {
+          "type": "image-with-text-split--dynamic",
+          "settings": {
+            "feature_image": "",
+            "feature_link": "",
+            "feature_description": "",
+            "feature_text_color": "#ffffff",
+            "background_color": "#846b63",
+            "feature_alignment": "left_bottom",
+            "overlay_image": "",
+            "image_text": "",
+            "text_color": "#ffffff",
+            "detail_alignment": "center_bottom",
+            "text_max_width": 36,
+            "gradient_color": "rgba(0,0,0,0)",
+            "gradient_length": 30
+          }
+        },
+        "collection--template": {
+          "type": "collection--template",
+          "settings": {
+            "show_collection_image": true,
+            "overlay_opacity": 20,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "show_border": true,
+            "show_heading": true,
+            "show_small_heading": true,
+            "show_description": true,
+            "heading_alignment": "center",
+            "text_max_width": 38,
+            "show_swatches": false,
+            "products_per_row": 4,
+            "aspect_ratio": "natural",
+            "pagination": "click"
+          }
+        },
+        "testimonials--static": {
+          "type": "testimonials--static",
+          "settings": {
+            "enabled": false,
+            "text_position": "top_center",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Testimonials",
+            "title": "Testimonials Section",
+            "subheading": "Use this section to showcase your product reviews.",
+            "link": "",
+            "link_text": "",
+            "text_max_width": 36
+          }
+        },
+        "featured-collection--static": {
+          "type": "featured-collection--static",
+          "settings": {
+            "enabled": true,
+            "text_position": "top_center",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Our favourites",
+            "subheading": "A small edit of our favourite products.",
+            "link_text": "Shop now",
+            "text_max_width": 36
+          }
+        },
+        "gallery--static": {
+          "type": "gallery--static",
+          "settings": {
+            "enabled": false,
+            "text_position": "top_center",
+            "columns": 3,
+            "aspect_ratio": "square",
+            "overline": "Gallery",
+            "title": "Gallery section",
+            "subheading": "Use this Section to display your favourite images. Automatically crop them to be uniform using the dropdown setting.",
+            "link": "",
+            "link_text": "",
+            "text_max_width": 36
+          }
+        },
+        "1601934169652": {
+          "type": "image-with-text--dynamic",
+          "settings": {
+            "section_style": "default",
+            "enable_animation": true,
+            "image": "",
+            "video_url": "",
+            "image_width": "two-third",
+            "image_position": "left",
+            "overline": "Image with text",
+            "title": "Image with text section",
+            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.<\/p>",
+            "link_text": "Shop now",
+            "text_alignment": "left",
+            "text_color": "#5b4c47",
+            "text_container_color": "",
+            "button_text_color": "#5b4c47",
+            "button_border_color": "#e1d8ce",
+            "text_max_width": 40
+          }
+        },
+        "1601934461161": {
+          "type": "quote--dynamic",
+          "blocks": {
+            "1601934461161-0": {
+              "type": "quote",
+              "settings": {
+                "quote": "Absolutely unparalleled products and service. I'm confident that this store will be the next big thing in its industry, and that its products will be timeless.",
+                "author": "Mabel Strawsbry"
+              }
+            }
+          },
+          "block_order": [
+            "1601934461161-0"
+          ],
+          "settings": {
+            "section_style": "default",
+            "timer": 7,
+            "text_max_width": 28
+          }
+        },
+        "1601934485262": {
+          "type": "featured-collection--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "middle_left",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Featured collection",
+            "subheading": "Add a subheading to provide more details about this collection.",
+            "link_text": "Shop now",
+            "text_max_width": 27
+          }
+        },
+        "1601934543722": {
+          "type": "testimonials--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "top_center",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Testimonials",
+            "title": "Don't take our word for it",
+            "subheading": "Our customers love our products. Here's what they have to say about them.",
+            "link": "",
+            "link_text": "",
+            "text_max_width": 36
+          }
+        },
+        "1601935379003": {
+          "type": "collection-list-grid--dynamic",
+          "settings": {
+            "section_style": "default",
+            "columns": 2,
+            "aspect_ratio": "natural",
+            "overline": "Collections",
+            "title": "Our favourite collections",
+            "subheading": "Most of our customers want just a few of these things!",
+            "heading_alignment": "center",
+            "text_max_width": 36
+          }
+        },
+        "1601939783439": {
+          "type": "slideshow-split--dynamic",
+          "settings": {
+            "timer": 7,
+            "overline": "",
+            "title": "The Slideshow Split",
+            "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+            "link_text": "Shop now",
+            "overlay_opacity": 50,
+            "overlay_color": "#563d35",
+            "text_color": "#ffffff",
+            "text_max_width": 39,
+            "horizontal_text_position": "center",
+            "vertical_text_position": "middle"
+          }
+        },
+        "1601940902242": {
+          "type": "featured-collection--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "top_center",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Featured collection",
+            "subheading": "Add a subheading to provide more details about this collection.",
+            "link_text": "Shop now",
+            "text_max_width": 27
+          }
+        },
+        "page-about--template": {
+          "type": "page-about--template",
+          "settings": {
+            "overline": "about"
+          }
+        },
+        "page-contact--template": {
+          "type": "page-contact--template",
+          "settings": {
+            "image": ""
+          }
+        },
+        "1602022778607": {
+          "type": "blog-posts--dynamic",
+          "blocks": {
+            "1602291977947": {
+              "type": "article",
+              "settings": {
+                "article": ""
+              }
+            }
+          },
+          "block_order": [
+            "1602291977947"
+          ],
+          "settings": {
+            "section_style": "default",
+            "columns": 1,
+            "aspect_ratio": "landscape",
+            "title": "Story",
+            "link_text": "Read more",
+            "text_max_width": 48
+          }
+        },
+        "1602023627625": {
+          "type": "slideshow--dynamic",
+          "blocks": {
+            "1602023627625-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect",
+                "link_text": "Shop now",
+                "overlay_opacity": 50,
+                "overlay_color": "#563d35",
+                "text_color": "#ffffff",
+                "text_max_width": 39,
+                "horizontal_text_position": "left",
+                "vertical_text_position": "middle"
+              }
+            }
+          },
+          "block_order": [
+            "1602023627625-0"
+          ],
+          "settings": {
+            "aspect_ratio": "3_2",
+            "timer": 7
+          }
+        },
+        "1602023764873": {
+          "type": "image-with-text--dynamic",
+          "settings": {
+            "section_style": "default",
+            "enable_animation": true,
+            "image": "",
+            "video_url": "",
+            "image_width": "two-third",
+            "image_position": "left",
+            "overline": "Image with text",
+            "title": "Image with text section",
+            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.<\/p>",
+            "link_text": "Shop now",
+            "text_alignment": "left",
+            "text_color": "#5b4c47",
+            "text_container_color": "",
+            "button_text_color": "#5b4c47",
+            "button_border_color": "#e1d8ce",
+            "text_max_width": 40
+          }
+        },
+        "product--static": {
+          "type": "product--static",
+          "settings": {
+            "show_vendor": false,
+            "show_swatches": false,
+            "show_share_buttons": false,
+            "show_quantity_input": true,
+            "enable_payment_button": true,
+            "enable_video_looping": true
+          }
+        },
+        "text--static": {
+          "type": "text--static",
+          "settings": {
+            "enabled": true,
+            "title": "Text",
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.<\/p>"
+          }
+        },
+        "gallery-grid--static": {
+          "type": "gallery-grid--static",
+          "settings": {
+            "enabled": false,
+            "columns": 4,
+            "aspect_ratio": "square",
+            "title": "Gallery",
+            "text": "<p>Let people know about where to find you on social media. Don't forget to add a <a href='#'>link<\/a>.<\/p>"
+          }
+        },
+        "product-recommendations--static": {
+          "type": "product-recommendations--static",
+          "settings": {
+            "enabled": true,
+            "heading": "Related",
+            "columns": 4
+          }
+        },
+        "blog--template": {
+          "type": "blog--template",
+          "settings": {
+            "layout": "latest_featured",
+            "show_rss": true
+          }
+        },
+        "list-collections--template": {
+          "type": "list-collections--template",
+          "settings": {
+            "display_type": "all",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "collection_title_alignment": "left",
+            "show_product_count": true
+          }
+        },
+        "1602291559494": {
+          "type": "text-columns-with-images--dynamic",
+          "blocks": {
+            "1602291559494-0": {
+              "type": "column",
+              "settings": {
+                "image": "",
+                "image_max_width": 50,
+                "title": "Step one",
+                "subheading": "Start here. Introduce your vision, or explain why what you do or sell is superior to your competitors.",
+                "text_max_width": 36,
+                "link_text": "Read more"
+              }
+            },
+            "1602291559494-1": {
+              "type": "column",
+              "settings": {
+                "image": "",
+                "image_max_width": 50,
+                "title": "Step two",
+                "subheading": "Get into your process a bit. The quality of handiwork or unique materials that you use that make your products better.",
+                "text_max_width": 36,
+                "link_text": "Read more"
+              }
+            },
+            "1602291559494-2": {
+              "type": "column",
+              "settings": {
+                "image": "",
+                "image_max_width": 50,
+                "title": "Step three",
+                "subheading": "End it with an action item that the user can take advantage of. Link to a more in-depth page, or go straight to a collection.",
+                "text_max_width": 36,
+                "link_text": "Read more"
+              }
+            }
+          },
+          "block_order": [
+            "1602291559494-0",
+            "1602291559494-1",
+            "1602291559494-2"
+          ],
+          "settings": {
+            "section_style": "contrast",
+            "columns": 3,
+            "overline": "",
+            "title": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_alignment": "center",
+            "text_max_width": 36
+          }
+        }
+      },
+      "content_for_index": [
+        "1601928793422",
+        "1602291559494",
+        "1601928819901",
+        "1601934485262",
+        "1601932384660",
+        "1601934169652",
+        "1601934461161",
+        "1601939783439",
+        "1601940902242",
+        "1601935379003",
+        "1601932468553",
+        "1602023764873",
+        "1601934543722",
+        "1602023627625",
+        "1602022778607",
+        "1601928812015"
+      ]
+    },
+    "Modern": {
+      "color_accent": "#c47961",
+      "color_text": "#1b1b1b",
+      "color_bg": "#ffffff",
+      "color_button": "#f4f4f4",
+      "color_border": "#dedede",
+      "color_input_text": "#8b8b8b",
+      "color_icon": "#b1b1b1",
+      "color_header_text": "#1b1b1b",
+      "color_header_bg": "#ffffff",
+      "color_header_border": "#dedede",
+      "color_footer_text": "#ffffff",
+      "color_footer_bg": "#253734",
+      "color_footer_border": "#465552",
+      "color_footer_button_background": "#324340",
+      "color_footer_button_text": "#ffffff",
+      "color_contrast_text": "#363636",
+      "color_contrast_bg": "#f9f9f9",
+      "color_contrast_border": "#e2e2e2",
+      "color_contrast_input_text": "#838383",
+      "color_contrast_icon": "#919191",
+      "color_drawer_text": "#1b1b1b",
+      "color_drawer_bg": "#ffffff",
+      "color_drawer_border": "#dadada",
+      "color_drawer_input_text": "#919191",
+      "color_drawer_icon": "#b1b1b1",
+      "font_heading": "electra_n7",
+      "size_heading": 18,
+      "uppercase_headings": false,
+      "font_body": "neue_haas_unica_n4",
+      "size_body": 14,
+      "font_logo": "electra_n7",
+      "logo_uppercase": true,
+      "font_logo_size": 22,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_snapchat_link": "",
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "search_max_result_size": 4,
+      "search_show_products": true,
+      "search_show_articles": true,
+      "search_show_pages": true,
+      "search_show_price": true,
+      "search_show_vendor": false,
+      "swatch_option": "Color",
+      "chip_options": "Size",
+      "cart_quick_shop_enabled": true,
+      "cart_quick_shop_show_quantity_input": false,
+      "cart_notes_enable": true,
+      "quick_cart_note": "Your subtotal today is [subtotal]. Shipping and taxes will calculated at checkout.",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "color_input_inactive_text": "#8b8b8b",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "background_color": "#203a36",
+                "text_color": "#ffffff",
+                "text": "Announce something here",
+                "link": ""
+              }
+            },
+            "51c6b612-4c82-4885-b651-5b184c8665ff": {
+              "type": "announcement",
+              "settings": {
+                "background_color": "#203a36",
+                "text_color": "#ffffff",
+                "text": "Cycle through multiple messages",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0",
+            "51c6b612-4c82-4885-b651-5b184c8665ff"
+          ],
+          "settings": {
+            "announcement_bar_enabled": true,
+            "announcement_bar_timing": 5
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "header_style": "default",
+            "nav_alignment": "left",
+            "detect_menu_length": false,
+            "show_locale_selector": false,
+            "show_currency_selector": true,
+            "logo": "",
+            "logo_max_size": 150,
+            "menu": "main-menu",
+            "transparent_index_header_enabled": true,
+            "transparent_logo": "",
+            "transparent_header_foreground_color": "#ffffff",
+            "transparent_header_border_color": "#ffffff",
+            "transparent_header_border_opacity": 10
+          }
+        },
+        "exit-intent": {
+          "type": "exit-intent",
+          "settings": {
+            "enable_exit_intent": false,
+            "exit_intent_position": "bottom-right",
+            "exit_intent_image": "",
+            "exit_intent_heading": "Sign up for our newsletter",
+            "exit_intent_text": "Use this popup to capture customer email addresses at the last moment.",
+            "text_color": "#1b1b1b",
+            "bg_color": "#ffffff",
+            "border_color": "#dedede",
+            "input_text_color": "#1b1b1b"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "62c7cebd-df83-485d-aa6f-8ed9fd675c96": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "71054815-9750-443e-88a4-ce5b01013146": {
+              "type": "link_list",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "6891703d-c4fc-4833-8da7-8e24a36813b6": {
+              "type": "link_list",
+              "settings": {
+                "menu": "main-menu"
+              }
+            }
+          },
+          "block_order": [
+            "62c7cebd-df83-485d-aa6f-8ed9fd675c96",
+            "71054815-9750-443e-88a4-ce5b01013146",
+            "6891703d-c4fc-4833-8da7-8e24a36813b6"
+          ],
+          "settings": {
+            "show_headings": true,
+            "show_payment_icons": true,
+            "show_newsletter_signup": true,
+            "newsletter_subheading": "Subscribe to our mailing list below and we'll keep you in the loop about our latest sales and promotions.",
+            "show_locale_selector": true,
+            "show_currency_selector": true
+          }
+        },
+        "1602100844222d406f": {
+          "type": "quote--dynamic",
+          "blocks": {
+            "1602100844222d406f-0": {
+              "type": "quote",
+              "settings": {
+                "quote": "Supremely beautiful slippers. Made ethically by hand with materials sourced from sustainable sources.",
+                "author": "bill presthaus"
+              }
+            }
+          },
+          "block_order": [
+            "1602100844222d406f-0"
+          ],
+          "settings": {
+            "section_style": "default",
+            "timer": 7,
+            "text_max_width": 28
+          }
+        },
+        "page-about--template": {
+          "type": "page-about--template",
+          "blocks": {
+            "7b5d858b-3e80-4dd0-b5d9-0e9bb3224d78": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "video_url": ""
+              }
+            },
+            "1d44ba34-cb21-4c39-8c03-f1a020695de8": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "video_url": ""
+              }
+            },
+            "560a5ff7-472e-4252-b14e-9b5f16641ac7": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "video_url": ""
+              }
+            }
+          },
+          "block_order": [
+            "7b5d858b-3e80-4dd0-b5d9-0e9bb3224d78",
+            "1d44ba34-cb21-4c39-8c03-f1a020695de8",
+            "560a5ff7-472e-4252-b14e-9b5f16641ac7"
+          ],
+          "settings": {
+            "overline": "about"
+          }
+        },
+        "collection--template": {
+          "type": "collection--template",
+          "settings": {
+            "show_collection_image": false,
+            "overlay_opacity": 20,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "show_border": true,
+            "show_heading": true,
+            "show_small_heading": false,
+            "show_description": false,
+            "heading_alignment": "center",
+            "text_max_width": 38,
+            "show_swatches": false,
+            "products_per_row": 3,
+            "aspect_ratio": "natural",
+            "pagination": "click"
+          }
+        },
+        "testimonials--static": {
+          "type": "testimonials--static",
+          "settings": {
+            "enabled": false,
+            "text_position": "top_center",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Testimonials",
+            "title": "Testimonials Section",
+            "subheading": "Use this section to showcase your product reviews.",
+            "link": "",
+            "link_text": "",
+            "text_max_width": 36
+          }
+        },
+        "featured-collection--static": {
+          "type": "featured-collection--static",
+          "settings": {
+            "enabled": true,
+            "text_position": "top_center",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "The Fall Collection",
+            "subheading": "Working hand-in-hand with luxury footwear makers, we've designed the perfect all the time slipper in a variety of colors.",
+            "link_text": "Shop now",
+            "text_max_width": 36
+          }
+        },
+        "gallery--static": {
+          "type": "gallery--static",
+          "settings": {
+            "enabled": false,
+            "text_position": "top_center",
+            "columns": 3,
+            "aspect_ratio": "square",
+            "overline": "Gallery",
+            "title": "Gallery section",
+            "subheading": "Use this Section to display your favourite images. Automatically crop them to be uniform using the dropdown setting.",
+            "link": "",
+            "link_text": "",
+            "text_max_width": 36
+          }
+        },
+        "product--static": {
+          "type": "product--static",
+          "settings": {
+            "show_vendor": false,
+            "show_swatches": false,
+            "show_share_buttons": false,
+            "show_quantity_input": true,
+            "enable_payment_button": true,
+            "enable_video_looping": true
+          }
+        },
+        "text--static": {
+          "type": "text--static",
+          "settings": {
+            "enabled": false,
+            "title": "Text",
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.<\/p>"
+          }
+        },
+        "gallery-grid--static": {
+          "type": "gallery-grid--static",
+          "settings": {
+            "enabled": false,
+            "columns": 4,
+            "aspect_ratio": "square",
+            "title": "Gallery",
+            "text": "<p>Let people know about where to find you on social media. Don&#x27;t forget to add a <a href=\"#\">link<\/a>.<\/p>"
+          }
+        },
+        "product-recommendations--static": {
+          "type": "product-recommendations--static",
+          "settings": {
+            "enabled": true,
+            "heading": "Related",
+            "columns": 4
+          }
+        },
+        "page-contact--template": {
+          "type": "page-contact--template",
+          "settings": {
+            "image": ""
+          }
+        },
+        "1602302639a7b60f3e": {
+          "type": "slideshow--dynamic",
+          "blocks": {
+            "1602302639a7b60f3e-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+                "link_text": "Shop now",
+                "overlay_opacity": 50,
+                "overlay_color": "#000000",
+                "text_color": "#ffffff",
+                "text_max_width": 39,
+                "horizontal_text_position": "center",
+                "vertical_text_position": "middle"
+              }
+            }
+          },
+          "block_order": [
+            "1602302639a7b60f3e-0"
+          ],
+          "settings": {
+            "aspect_ratio": "full_height",
+            "timer": 7
+          }
+        },
+        "1602302827aaa0807e": {
+          "type": "featured-collection--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "top_center",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Featured collection",
+            "subheading": "Add a subheading to provide more details about this collection.",
+            "link_text": "Shop now",
+            "text_max_width": 24
+          }
+        },
+        "1602302926ac40fa14": {
+          "type": "slideshow--dynamic",
+          "blocks": {
+            "1602302926ac40fa14-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "Slideshow",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+                "link_text": "Shop now",
+                "overlay_opacity": 30,
+                "overlay_color": "#000000",
+                "text_color": "#ffffff",
+                "text_max_width": 37,
+                "horizontal_text_position": "left",
+                "vertical_text_position": "middle"
+              }
+            }
+          },
+          "block_order": [
+            "1602302926ac40fa14-0"
+          ],
+          "settings": {
+            "aspect_ratio": "full_height",
+            "timer": 7
+          }
+        },
+        "160230298895c3eda9": {
+          "type": "featured-collection--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "middle_left",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Featured collection",
+            "subheading": "Add a subheading to provide more details about this collection.",
+            "link_text": "Shop now",
+            "text_max_width": 24
+          }
+        },
+        "1602303073f053a328": {
+          "type": "featured-collection--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "middle_left",
+            "collection": "",
+            "columns": 3,
+            "aspect_ratio": "natural",
+            "overline": "Collection",
+            "title": "Featured collection",
+            "subheading": "Add a subheading to provide more details about this collection.",
+            "link_text": "Shop now",
+            "text_max_width": 24
+          }
+        },
+        "160230308822ca402f": {
+          "type": "slideshow--dynamic",
+          "blocks": {
+            "160230308822ca402f-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+                "link_text": "Shop now",
+                "overlay_opacity": 50,
+                "overlay_color": "#000000",
+                "text_color": "#ffffff",
+                "text_max_width": 37,
+                "horizontal_text_position": "center",
+                "vertical_text_position": "middle"
+              }
+            }
+          },
+          "block_order": [
+            "160230308822ca402f-0"
+          ],
+          "settings": {
+            "aspect_ratio": "full_height",
+            "timer": 7
+          }
+        },
+        "160230316278a885f2": {
+          "type": "image-with-text--dynamic",
+          "settings": {
+            "section_style": "default",
+            "enable_animation": true,
+            "image": "",
+            "video_url": "",
+            "image_width": "two-third",
+            "image_position": "left",
+            "overline": "Image with text",
+            "title": "Image with text section",
+            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.<\/p>",
+            "link_text": "Shop now",
+            "text_alignment": "left",
+            "text_color": "#000000",
+            "text_container_color": "rgba(0,0,0,0)",
+            "button_text_color": "#1b1b1b",
+            "button_border_color": "#dedede",
+            "text_max_width": 36
+          }
+        },
+        "1602303261a0f747d4": {
+          "type": "slideshow--dynamic",
+          "blocks": {
+            "1602303261a0f747d4-0": {
+              "type": "slide",
+              "settings": {
+                "image": "",
+                "video_url": "",
+                "overline": "Slideshow",
+                "title": "This is your slideshow",
+                "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+                "link_text": "Shop now",
+                "overlay_opacity": 50,
+                "overlay_color": "#000000",
+                "text_color": "#ffffff",
+                "text_max_width": 37,
+                "horizontal_text_position": "left",
+                "vertical_text_position": "middle"
+              }
+            }
+          },
+          "block_order": [
+            "1602303261a0f747d4-0"
+          ],
+          "settings": {
+            "aspect_ratio": "full_height",
+            "timer": 7
+          }
+        },
+        "1602303455b937a2c3": {
+          "type": "blog-posts--dynamic",
+          "settings": {
+            "section_style": "default",
+            "columns": 1,
+            "aspect_ratio": "landscape",
+            "title": "Story",
+            "link_text": "Read more",
+            "text_max_width": 35
+          }
+        },
+        "1602303595e1ce026d": {
+          "type": "gallery--dynamic",
+          "settings": {
+            "section_style": "default",
+            "text_position": "top_center",
+            "columns": 3,
+            "aspect_ratio": "square",
+            "overline": "Gallery",
+            "title": "Gallery section",
+            "subheading": "Use this Section to display your favourite images. Automatically crop them to be uniform using the dropdown setting.",
+            "link": "",
+            "link_text": "",
+            "text_max_width": 36
+          }
+        }
+      },
+      "content_for_index": [
+        "1602302639a7b60f3e",
+        "1602302827aaa0807e",
+        "1602302926ac40fa14",
+        "160230298895c3eda9",
+        "1602303073f053a328",
+        "160230308822ca402f",
+        "160230316278a885f2",
+        "1602100844222d406f",
+        "1602303261a0f747d4",
+        "1602303455b937a2c3",
+        "1602303595e1ce026d"
+      ]
+    }
+  }
+}

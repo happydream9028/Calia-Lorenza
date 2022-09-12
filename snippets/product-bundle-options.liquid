@@ -1,0 +1,57 @@
+<div id="product-bundle-options">
+  {% for tag in product.tags %}
+    {% unless tag contains 'bundle--' %}
+      {% continue %}
+    {% endunless %}
+    {% assign split = tag | split: '--' %}
+    {% if split.size < 3 %}
+      {% continue %}
+    {% endif %}
+    {% assign c = collections[split[1]] %}
+    {% if c == blank %}
+      {% continue %}
+    {% endif %}
+    {% assign count = split[2] | plus: 0 %}
+    {% if count == blank or count <= 0 %}
+      {% continue %}
+    {% endif %}
+    <p><strong>{{c.title}}</strong></p>
+    {% for i in (1..count) %}
+    <select required name="properties[{{c.title}} {{i}}]">
+      <option value="">Option {{i}}</option>
+      {% for p in c.products %}
+      <option value="{{p.title}}">{{p.title}}</option>
+      {% endfor %}
+    </select>
+    <br /><br />
+    {% endfor %}
+
+  {% endfor %}
+</div>
+<script type="text/javascript">
+  window.onload = function() {
+    var container = document.getElementById('product-bundle-options');
+    var selects = container.getElementsByTagName('select');
+    var addToCart = document.getElementsByClassName('product-form__cart-submit');
+    if (addToCart.length && selects.length) {
+      addToCart = addToCart[0];
+
+      var validate = function() {
+        console.log("validating");
+        var valid = true;
+        for (var i=0; i<selects.length; i++) {
+          if(!selects[i].value) {
+            valid = false;
+          }
+        }
+        addToCart.disabled = !valid;
+      };
+      for (var i=0; i<selects.length; i++) {
+        selects[i].onchange = validate;
+      }
+
+      validate();    
+    }
+  }
+</script>
+
