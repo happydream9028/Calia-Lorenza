@@ -5274,6 +5274,69 @@ window.onload = function() {
     var input = inputs2[i];
     input.onchange = onQuantityChange2;
   }
-  
-  data-update
+
+	// Code for quiz goes below
+	const stepOK = document.querySelector('[data-step-ok]'),
+				stepContainer = document.querySelector('.quiz-content'),
+				stepBack = document.querySelector('[data-step-back]'),
+				stepForth = document.querySelector('[data-step-forth]'),
+				step3_1Container = document.querySelector('[data-step3-1]'),
+				step3_2Container = document.querySelector('[data-step3-2]'),
+				step4Container = document.querySelector('[data-step4]');
+
+	if (stepOK) {
+		localStorage.setItem('step', 0);
+		stepOK.addEventListener('click', (e) => {
+			var step = parseInt(localStorage.getItem('step')), options, val;
+			
+			if (step < 4) {
+				switch(step) {
+					case 2:
+						options = document.getElementsByName(`step${step}`);
+						options.forEach((el) => {
+							if (el.checked) {
+								val = el.value;
+								localStorage.setItem('step2', val);
+							}
+						});
+						if (val == '1') {
+							stepContainer.appendChild(step3_2Container);
+						}
+						else {
+							stepContainer.appendChild(step3_1Container);
+						}
+						break;
+					case 3:
+						var step2Val = localStorage.getItem('step2');
+						options = document.getElementsByName(`step${step}_${step2Val}`);
+						options.forEach((el) => {
+							if (el.checked) {
+								val = el.value
+								localStorage.setItem('step3', val);
+							}
+						});
+						document.querySelector(`[data-product${val}]`).style.display = 'block';
+						break;
+				}
+
+				step ++;
+				localStorage.setItem('step', step);
+				stepContainer.style.transform = `translateY(${step * -600}px)`;
+			}
+		});
+		stepForth.addEventListener('click', (e) => {
+			var step = parseInt(localStorage.getItem('step')) + 1;
+			if (step <= 5) {
+				localStorage.setItem('step', step);
+				stepContainer.style.transform = `translateY(${step * -600}px)`;
+			}
+		});
+		stepBack.addEventListener('click', (e) => {
+			var step = parseInt(localStorage.getItem('step')) - 1;
+			if (step >= 0) {
+				localStorage.setItem('step', step);
+				stepContainer.style.transform = `translateY(${step * -600}px)`;
+			}
+		});
+	}
 };

@@ -1,0 +1,68 @@
+{% render 'pages--quiz' with 
+  step1: section.settings.step1,
+  step2: section.settings.step2,
+  step3_1: section.settings.step3_1,
+  step3_2: section.settings.step3_2,
+  product1: section.settings.product1,
+  product2: section.settings.product2,
+  product3: section.settings.product3,
+  product4: section.settings.product4,
+  product5: section.settings.product5
+%}
+
+{% schema %}
+  {
+    "name": "Quiz section",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "step1",
+        "label": "Step1 Question",
+        "default": "Do you want healthy hair?"
+      },
+      {
+        "type": "textarea",
+        "id": "step2",
+        "label": "Step2 Question",
+        "default": "Are you new to natural hair care?"
+      },
+      {
+        "type": "textarea",
+        "id": "step3_1",
+        "label": "Step3-1 Question",
+        "default": "Do you prefer products with or without fragrance?"
+      },
+      {
+        "type": "textarea",
+        "id": "step3_2",
+        "label": "Step3-2 Question",
+        "default": "Do you have dry hair & an itchy scalp, normal hair & scalp(not too oil or too dry), OR dry hair & an oily scalp?"
+      },
+      {
+        "type": "product",
+        "id": "product1",
+        "label": "Recommended product1"
+      },
+      {
+        "type": "product",
+        "id": "product2",
+        "label": "Recommended product2"
+      },
+      {
+        "type": "product",
+        "id": "product3",
+        "label": "Recommended product3"
+      },
+      {
+        "type": "product",
+        "id": "product4",
+        "label": "Recommended product4"
+      },
+      {
+        "type": "product",
+        "id": "product5",
+        "label": "Recommended product5"
+      }
+    ]
+  }
+{% endschema %}
