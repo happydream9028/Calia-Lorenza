@@ -5230,7 +5230,6 @@ function qs(t){const e=t||{};this.settings=Object.assign({method:"scroll",contai
 
 /***************************** custom js *******************************/
 window.onload = function() {
-	localStorage.clear();
   var inputs = document.querySelectorAll('input[data-identifier]');
   var onQuantityChange = function(e) {
     var target = e.target;
@@ -5291,6 +5290,9 @@ window.onload = function() {
 	var step, val;
 
 	if (stepOK) {
+		localStorage.removeItem('step');
+		localStorage.removeItem('step2');
+		localStorage.removeItem('step3');
 		localStorage.setItem('step', 0);
 		stepOK.addEventListener('click', (e) => {
 			step = parseInt(localStorage.getItem('step'));
@@ -5362,6 +5364,7 @@ window.onload = function() {
 					if (!localStorage.getItem('step2')) {
 						stepForth.disabled = true;
 					}
+					stepBack.disabled = false;
 				}
 				else if (step == 3) {
 					stepForth.disabled = true;
@@ -5385,6 +5388,9 @@ window.onload = function() {
 					step4Container.style.height = '600px';
 					stepScreen.style.height = `600px`;
 					window.scrollTo(0, 0);
+				}
+				if (step == 2) {
+					stepBack.disabled = true;
 				}
 				step --;
 				stepTransition(step);

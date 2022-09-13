@@ -17323,7 +17323,7 @@ model-viewer {
   display: none;
 }
 
-.quiz-collection {
+.quiz-container .quiz-collection, .quiz-container .product-item__quick-shop-button {
   display: none;
 }
 
