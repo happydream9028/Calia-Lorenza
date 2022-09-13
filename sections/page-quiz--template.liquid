@@ -1,19 +1,27 @@
 {% render 'pages--quiz' with 
+  step0: section.settings.step0,
   step1: section.settings.step1,
   step2: section.settings.step2,
   step3_1: section.settings.step3_1,
   step3_2: section.settings.step3_2,
-  product1: section.settings.product1,
-  product2: section.settings.product2,
-  product3: section.settings.product3,
-  product4: section.settings.product4,
-  product5: section.settings.product5
+  result: section.settings.result,
+  collection1: section.settings.collection1,
+  collection2: section.settings.collection2,
+  collection3: section.settings.collection3,
+  collection4: section.settings.collection4,
+  collection5: section.settings.collection5
 %}
 
 {% schema %}
   {
     "name": "Quiz section",
     "settings": [
+      {
+        "type": "textarea",
+        "id": "step0",
+        "label": "Intro text",
+        "default": "Find the collection that is suitable for your hair"
+      },
       {
         "type": "textarea",
         "id": "step1",
@@ -30,7 +38,7 @@
         "type": "textarea",
         "id": "step3_1",
         "label": "Step3-1 Question",
-        "default": "Do you prefer products with or without fragrance?"
+        "default": "Do you prefer collections with or without fragrance?"
       },
       {
         "type": "textarea",
@@ -39,29 +47,35 @@
         "default": "Do you have dry hair & an itchy scalp, normal hair & scalp(not too oil or too dry), OR dry hair & an oily scalp?"
       },
       {
-        "type": "product",
-        "id": "product1",
-        "label": "Recommended product1"
+        "type": "textarea",
+        "id": "result",
+        "label": "Recommendation text",
+        "default": "We think you'll enjoy these products"
       },
       {
-        "type": "product",
-        "id": "product2",
-        "label": "Recommended product2"
+        "type": "collection",
+        "id": "collection1",
+        "label": "Recommending collection1"
       },
       {
-        "type": "product",
-        "id": "product3",
-        "label": "Recommended product3"
+        "type": "collection",
+        "id": "collection2",
+        "label": "Recommending collection2"
       },
       {
-        "type": "product",
-        "id": "product4",
-        "label": "Recommended product4"
+        "type": "collection",
+        "id": "collection3",
+        "label": "Recommending collection3"
       },
       {
-        "type": "product",
-        "id": "product5",
-        "label": "Recommended product5"
+        "type": "collection",
+        "id": "collection4",
+        "label": "Recommending collection4"
+      },
+      {
+        "type": "collection",
+        "id": "collection5",
+        "label": "Recommending collection5"
       }
     ]
   }

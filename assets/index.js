@@ -5230,6 +5230,7 @@ function qs(t){const e=t||{};this.settings=Object.assign({method:"scroll",contai
 
 /***************************** custom js *******************************/
 window.onload = function() {
+	localStorage.clear();
   var inputs = document.querySelectorAll('input[data-identifier]');
   var onQuantityChange = function(e) {
     var target = e.target;
@@ -5282,61 +5283,127 @@ window.onload = function() {
 				stepForth = document.querySelector('[data-step-forth]'),
 				step3_1Container = document.querySelector('[data-step3-1]'),
 				step3_2Container = document.querySelector('[data-step3-2]'),
-				step4Container = document.querySelector('[data-step4]');
+				step4Container = document.querySelector('[data-step4]'),
+				stepProgressbar = document.querySelector('.quiz-progress-bar'),
+				stepScreen = document.querySelector('.quiz-screen'),
+				resultCollections = document.querySelectorAll('.quiz-collection');
+
+	var step, val;
 
 	if (stepOK) {
 		localStorage.setItem('step', 0);
 		stepOK.addEventListener('click', (e) => {
-			var step = parseInt(localStorage.getItem('step')), options, val;
+			step = parseInt(localStorage.getItem('step'));
 			
-			if (step < 4) {
-				switch(step) {
-					case 2:
-						options = document.getElementsByName(`step${step}`);
-						options.forEach((el) => {
-							if (el.checked) {
-								val = el.value;
-								localStorage.setItem('step2', val);
-							}
-						});
-						if (val == '1') {
-							stepContainer.appendChild(step3_2Container);
-						}
-						else {
-							stepContainer.appendChild(step3_1Container);
-						}
-						break;
-					case 3:
-						var step2Val = localStorage.getItem('step2');
-						options = document.getElementsByName(`step${step}_${step2Val}`);
-						options.forEach((el) => {
-							if (el.checked) {
-								val = el.value
-								localStorage.setItem('step3', val);
-							}
-						});
-						document.querySelector(`[data-product${val}]`).style.display = 'block';
-						break;
-				}
-
-				step ++;
-				localStorage.setItem('step', step);
-				stepContainer.style.transform = `translateY(${step * -600}px)`;
-			}
+			stepTransition(1);
+			stepOK.style.display = 'none';
+			document.querySelector('.btn-container').style.display = 'flex';
 		});
+
+		document.getElementById('step1-1').addEventListener('change', (e) => {
+			stepBack.disabled = false;
+			stepTransition(2);
+		});
+
+		document.getElementsByName('step2').forEach((el) => {
+			el.addEventListener('change', (e) => {
+				val = e.target.value;
+				localStorage.setItem('step2', val);
+				if (val == '2') {
+					stepContainer.appendChild(step4Container);
+					stepContainer.appendChild(step3_1Container);
+				}
+				else if (val == '1') {
+					stepContainer.appendChild(step3_1Container);
+					stepContainer.appendChild(step4Container);
+					stepContainer.appendChild(step3_2Container);
+				}
+				if (!localStorage.getItem('step3')) {
+					stepForth.disabled = true;
+				}
+				stepTransition(3);
+			});
+		});
+
+		document.getElementsByName('step3_1').forEach((el) => {
+			el.addEventListener('change', (e) => {
+				val = e.target.value;
+				localStorage.setItem('step3', val);
+				stepForth.disabled = true;
+				resultCollections.forEach((ele) => {
+					ele.style.display = 'none';
+				});
+				document.querySelector(`[data-product${val}]`).style.display = 'grid';
+				step4Container.style.height = 'unset';
+				stepScreen.style.height = `${step4Container.offsetHeight}px`;
+				stepTransition(4);
+			});
+		});
+
+		document.getElementsByName('step3_2').forEach((el) => {
+			el.addEventListener('change', (e) => {
+				val = e.target.value;
+				localStorage.setItem('step3', val);
+				stepForth.disabled = true;
+				resultCollections.forEach((ele) => {
+					ele.style.display = 'none';
+				});
+				document.querySelector(`[data-product${val}]`).style.display = 'grid';
+				step4Container.style.height = 'unset';
+				stepScreen.style.height = `${step4Container.offsetHeight}px`;
+				stepTransition(4);
+			});
+		});
+
 		stepForth.addEventListener('click', (e) => {
-			var step = parseInt(localStorage.getItem('step')) + 1;
-			if (step <= 5) {
-				localStorage.setItem('step', step);
-				stepContainer.style.transform = `translateY(${step * -600}px)`;
+			var step = parseInt(localStorage.getItem('step'));
+			if (step < 5) {
+				if (step == 1 || step == 2) {
+					if (!localStorage.getItem('step2')) {
+						stepForth.disabled = true;
+					}
+				}
+				else if (step == 3) {
+					stepForth.disabled = true;
+					val = localStorage.getItem('step3');
+					resultCollections.forEach((ele) => {
+						ele.style.display = 'none';
+					});
+					document.querySelector(`[data-product${val}]`).style.display = 'grid';
+					step4Container.style.height = 'unset';
+					stepScreen.style.height = `${step4Container.offsetHeight}px`;		
+				}
+				step ++;
+				stepTransition(step);
 			}
 		});
 		stepBack.addEventListener('click', (e) => {
-			var step = parseInt(localStorage.getItem('step')) - 1;
-			if (step >= 0) {
-				localStorage.setItem('step', step);
-				stepContainer.style.transform = `translateY(${step * -600}px)`;
+			var step = parseInt(localStorage.getItem('step'));
+			stepForth.disabled = false;
+			if (step > 0) {
+				if (step == 4) {
+					step4Container.style.height = '600px';
+					stepScreen.style.height = `600px`;
+					window.scrollTo(0, 0);
+				}
+				step --;
+				stepTransition(step);
 			}
 		});
+
+		function stepTransition(step) {
+			localStorage.setItem('step', step);
+			stepContainer.style.transform = `translateY(${step * -600}px)`;
+			stepProgressbar.style.width = `${ stepContainer.offsetWidth * step / 4 }px`;
+		}
 	}
 };
+
+window.onresize = () => {
+	if (document.querySelector('[data-step-ok]')) {
+		var step = localStorage.getItem('step');
+		document.querySelector('.quiz-content').style.transform = `translateY(${step * -600}px)`;
+		document.querySelector('.quiz-progress-bar').style.width = `${ document.querySelector('.quiz-content').offsetWidth * step / 4 }px`;
+	}
+};
+

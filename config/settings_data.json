@@ -1151,6 +1151,22 @@
           "button_border_color": "#dedede",
           "text_max_width": 36
         }
+      },
+      "page-quiz--template": {
+        "type": "page-quiz--template",
+        "settings": {
+          "step0": "Find the collection that is suitable for your hair",
+          "step1": "Do you want healthy hair?",
+          "step2": "Are you new to natural hair care?",
+          "step3_1": "Do you prefer products with or without fragrance?",
+          "step3_2": "Do you have dry hair & an itchy scalp, normal hair & scalp(not too oil or too dry), OR dry hair & an oily scalp?",
+          "result": "We think you'll enjoy these products",
+          "collection1": "hydrating",
+          "collection2": "moisturizing",
+          "collection3": "balancing-formula",
+          "collection4": "purifying",
+          "collection5": "best-selling-essential-oils"
+        }
       }
     },
     "content_for_index": [

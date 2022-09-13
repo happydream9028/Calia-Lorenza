@@ -7,7 +7,8 @@ class="section page">
     <div class="quiz-screen">
       <div class="quiz-content">
         <div class="step-container" data-step0>
-          <h2 class="type-heading-display">Find the product that is suitable for your hair</h2>
+          <h2 class="type-heading-display">{{ step0 }}</h2>
+          <button class="bttn bttn--primary btn-ok" data-step-ok>Get started</button>
         </div>
         <div class="step-container" data-step1>
           <h2 class="type-heading-display">1. {{ step1 }}</h2>
@@ -37,42 +38,52 @@ class="section page">
           </div>
         </div>
         <div class="step-container" data-step4>
-          <h2 class="type-heading-display">We think you'll enjoy this product.</h2>
-          <div class="quiz-products-container">
-            <div class="quiz-product" data-product1>
-              {% render 'product-item' with
-                      product: product1,
-                      swatches_enabled: false,
-                      aspect_ratio: 'natural'
-              %}
+          <h2 class="type-heading-display">{{ result }}</h2>
+          <div class="quiz-products-container w-100">
+            <div class="quiz-collection grid-display w-100 grid-display--one-quarter" data-product1>
+              {% for product in collection1.products %}
+                {% render 'product-item' with
+                        product: product,
+                        swatches_enabled: false,
+                        aspect_ratio: 'natural'
+                %}
+              {% endfor %}
             </div>
-            <div class="quiz-product" data-product2>
-              {% render 'product-item' with
-                      product: product2,
-                      swatches_enabled: false,
-                      aspect_ratio: 'natural'
-              %}
+            <div class="quiz-collection grid-display w-100 grid-display--one-quarter" data-product2>
+              {% for product in collection2.products %}
+                {% render 'product-item' with
+                        product: product,
+                        swatches_enabled: false,
+                        aspect_ratio: 'natural'
+                %}
+              {% endfor %}
             </div>
-            <div class="quiz-product" data-product3>
-              {% render 'product-item' with
-                      product: product3,
-                      swatches_enabled: false,
-                      aspect_ratio: 'natural'
-              %}
+            <div class="quiz-collection grid-display w-100 grid-display--one-quarter" data-product3>
+              {% for product in collection3.products %}
+                {% render 'product-item' with
+                        product: product,
+                        swatches_enabled: false,
+                        aspect_ratio: 'natural'
+                %}
+              {% endfor %}
             </div>
-            <div class="quiz-product" data-product4>
-              {% render 'product-item' with
-                      product: product4,
-                      swatches_enabled: false,
-                      aspect_ratio: 'natural'
-              %}
+            <div class="quiz-collection grid-display w-100 grid-display--one-quarter" data-product4>
+              {% for product in collection4.products %}
+                {% render 'product-item' with
+                        product: product,
+                        swatches_enabled: false,
+                        aspect_ratio: 'natural'
+                %}
+              {% endfor %}
             </div>
-            <div class="quiz-product" data-product5>
-              {% render 'product-item' with
-                      product: product5,
-                      swatches_enabled: false,
-                      aspect_ratio: 'natural'
-              %}
+            <div class="quiz-collection grid-display w-100 grid-display--one-quarter" data-product5>
+              {% for product in collection5.products %}
+                {% render 'product-item' with
+                        product: product,
+                        swatches_enabled: false,
+                        aspect_ratio: 'natural'
+                %}
+              {% endfor %}
             </div>
           </div>
         </div>
@@ -90,10 +101,9 @@ class="section page">
           </div>
         </div>
       </div>
-      <button class="bttn bttn--primary btn-ok" data-step-ok>OK</button>
       <div class="btn-container">
-        <button class="bttn bttn--primary" data-step-back>{% render 'icon-chevron-left' %}</button>
-        <button class="bttn bttn--primary" data-step-forth>{% render 'icon-chevron-right' %}</button>
+        <button class="bttn bttn--primary" data-step-back disabled>{% render 'icon-chevron-left' %}</button>
+        <button class="bttn bttn--primary" data-step-forth disabled>{% render 'icon-chevron-right' %}</button>
       </div>
     </div>
   </div>
