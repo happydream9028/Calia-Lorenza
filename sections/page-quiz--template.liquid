@@ -1,16 +1,21 @@
 {% render 'pages--quiz' with 
-  step0: section.settings.step0,
-  step1: section.settings.step1,
-  step2: section.settings.step2,
-  step3_1: section.settings.step3_1,
-  step3_2: section.settings.step3_2,
-  result: section.settings.result,
-  collection1: section.settings.collection1,
-  collection2: section.settings.collection2,
-  collection3: section.settings.collection3,
-  collection4: section.settings.collection4,
-  collection5: section.settings.collection5
-%}
+      step0: section.settings.step0,
+      step1: section.settings.step1,
+      step2: section.settings.step2,
+      step3_1: section.settings.step3_1,
+      step3_2: section.settings.step3_2,
+      result: section.settings.result,
+      collection1: section.settings.collection1,
+      collection2: section.settings.collection2,
+      collection3: section.settings.collection3,
+      collection4: section.settings.collection4,
+      collection5: section.settings.collection5,
+      description1: section.settings.description1,
+      description2: section.settings.description2,
+      description3: section.settings.description3,
+      description4: section.settings.description4,
+      description5: section.settings.description5
+    %}
 
 {% schema %}
   {
@@ -39,43 +44,73 @@
         "id": "step3_1",
         "label": "Step3-1 Question",
         "default": "Do you prefer collections with or without fragrance?"
-      },
+      }, 
       {
         "type": "textarea",
         "id": "step3_2",
         "label": "Step3-2 Question",
         "default": "Do you have dry hair & an itchy scalp, normal hair & scalp(not too oil or too dry), OR dry hair & an oily scalp?"
-      },
+      }, 
       {
         "type": "textarea",
         "id": "result",
         "label": "Recommendation text",
         "default": "We think you'll enjoy these products"
-      },
+      }, 
       {
         "type": "collection",
         "id": "collection1",
-        "label": "Recommending collection1"
-      },
+        "label": "Recommended collection1",
+        "info": "Step2->Yes, Step3->With"
+      }, 
+      {
+        "type": "textarea",
+        "id": "description1",
+        "label": "Recommended description1"
+      }, 
       {
         "type": "collection",
         "id": "collection2",
-        "label": "Recommending collection2"
-      },
+        "label": "Recommended collection2",
+        "info": "Step2->Yes, Step3->Without"
+      }, 
+      {
+        "type": "textarea",
+        "id": "description2",
+        "label": "Recommended description2"
+      }, 
       {
         "type": "collection",
         "id": "collection3",
-        "label": "Recommending collection3"
-      },
+        "label": "Recommended collection3",
+        "info": "Step2->No, Step3->Dry hair & itchy scalp"
+      }, 
+      {
+        "type": "textarea",
+        "id": "description3",
+        "label": "Recommended description3"
+      }, 
       {
         "type": "collection",
         "id": "collection4",
-        "label": "Recommending collection4"
-      },
+        "label": "Recommended collection4",
+        "info": "Step2->No, Step3->Normal hair & scalp"
+      }, 
+      {
+        "type": "textarea",
+        "id": "description4",
+        "label": "Recommended description4"
+      }, 
       {
         "type": "collection",
         "id": "collection5",
-        "label": "Recommending collection5"
+        "label": "Recommended collection5",
+        "info": "Step2->No, Step3->Dry hair & oily scalp"
+      }, 
+      {
+        "type": "textarea",
+        "id": "description5",
+        "label": "Recommended description5"
       }
     ]
   }

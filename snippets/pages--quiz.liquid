@@ -38,52 +38,67 @@ class="section page">
           </div>
         </div>
         <div class="step-container" data-step4>
-          <h2 class="type-heading-display">{{ result }}</h2>
+          <h2 class="type-heading-display mb0">{{ result }}</h2>
           <div class="quiz-products-container w-100">
-            <div class="quiz-collection grid-display w-100 grid-display--one-quarter" data-product1>
-              {% for product in collection1.products %}
-                {% render 'product-item' with
-                        product: product,
-                        swatches_enabled: false,
-                        aspect_ratio: 'natural'
-                %}
-              {% endfor %}
+            <div class="quiz-collection" data-product1>
+              <p class="tc">{{ description1 }}</p>
+              <div class="grid-display w-100 grid-display--one-quarter">
+                {% for product in collection1.products %}
+                  {% render 'product-item' with
+                          product: product,
+                          swatches_enabled: false,
+                          aspect_ratio: 'natural'
+                  %}
+                {% endfor %}
+              </div>
             </div>
-            <div class="quiz-collection grid-display w-100 grid-display--one-quarter" data-product2>
-              {% for product in collection2.products %}
-                {% render 'product-item' with
-                        product: product,
-                        swatches_enabled: false,
-                        aspect_ratio: 'natural'
-                %}
-              {% endfor %}
+            <div class="quiz-collection" data-product2>
+              <p class="tc">{{ description2 }}</p>
+              <div class="grid-display w-100 grid-display--one-quarter">
+                {% for product in collection2.products %}
+                  {% render 'product-item' with
+                          product: product,
+                          swatches_enabled: false,
+                          aspect_ratio: 'natural'
+                  %}
+                {% endfor %}
+              </div>
             </div>
-            <div class="quiz-collection grid-display w-100 grid-display--one-quarter" data-product3>
-              {% for product in collection3.products %}
-                {% render 'product-item' with
-                        product: product,
-                        swatches_enabled: false,
-                        aspect_ratio: 'natural'
-                %}
-              {% endfor %}
+            <div class="quiz-collection" data-product3>
+              <p class="tc">{{ description3 }}</p>
+              <div class="quiz-collection grid-display w-100 grid-display--one-quarter">
+                {% for product in collection3.products %}
+                  {% render 'product-item' with
+                          product: product,
+                          swatches_enabled: false,
+                          aspect_ratio: 'natural'
+                  %}
+                {% endfor %}
+              </div>
             </div>
-            <div class="quiz-collection grid-display w-100 grid-display--one-quarter" data-product4>
-              {% for product in collection4.products %}
-                {% render 'product-item' with
-                        product: product,
-                        swatches_enabled: false,
-                        aspect_ratio: 'natural'
-                %}
-              {% endfor %}
+            <div class="quiz-collection" data-product4>
+              <p class="tc">{{ description4 }}</p>
+              <div class="grid-display w-100 grid-display--one-quarter">
+                {% for product in collection4.products %}
+                  {% render 'product-item' with
+                          product: product,
+                          swatches_enabled: false,
+                          aspect_ratio: 'natural'
+                  %}
+                {% endfor %}
+              </div>
             </div>
-            <div class="quiz-collection grid-display w-100 grid-display--one-quarter" data-product5>
-              {% for product in collection5.products %}
-                {% render 'product-item' with
-                        product: product,
-                        swatches_enabled: false,
-                        aspect_ratio: 'natural'
-                %}
-              {% endfor %}
+            <div class="quiz-collection" data-product5>
+              <p class="tc">{{ description5 }}</p>
+              <div class="grid-display w-100 grid-display--one-quarter" data-product5>
+                {% for product in collection5.products %}
+                  {% render 'product-item' with
+                          product: product,
+                          swatches_enabled: false,
+                          aspect_ratio: 'natural'
+                  %}
+                {% endfor %}
+              </div>
             </div>
           </div>
         </div>

@@ -5335,7 +5335,7 @@ window.onload = function() {
 				resultCollections.forEach((ele) => {
 					ele.style.display = 'none';
 				});
-				document.querySelector(`[data-product${val}]`).style.display = 'grid';
+				document.querySelector(`[data-product${val}]`).style.display = 'block';
 				step4Container.style.height = 'unset';
 				stepScreen.style.height = `${step4Container.offsetHeight}px`;
 				stepTransition(4);
@@ -5350,7 +5350,7 @@ window.onload = function() {
 				resultCollections.forEach((ele) => {
 					ele.style.display = 'none';
 				});
-				document.querySelector(`[data-product${val}]`).style.display = 'grid';
+				document.querySelector(`[data-product${val}]`).style.display = 'block';
 				step4Container.style.height = 'unset';
 				stepScreen.style.height = `${step4Container.offsetHeight}px`;
 				stepTransition(4);
@@ -5372,7 +5372,7 @@ window.onload = function() {
 					resultCollections.forEach((ele) => {
 						ele.style.display = 'none';
 					});
-					document.querySelector(`[data-product${val}]`).style.display = 'grid';
+					document.querySelector(`[data-product${val}]`).style.display = 'block';
 					step4Container.style.height = 'unset';
 					stepScreen.style.height = `${step4Container.offsetHeight}px`;		
 				}
