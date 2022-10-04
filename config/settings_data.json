@@ -1162,15 +1162,15 @@
           "step3_2": "Do you have dry hair & an itchy scalp, normal hair & scalp(not too oil or too dry), OR dry hair & an oily scalp?",
           "result": "We think you'll enjoy these products",
           "collection1": "hydrating",
-          "description1": "description1 goes here.",
+          "description1": "We recommend these products 1",
           "collection2": "moisturizing",
-          "description2": "",
+          "description2": "We recommend these products 2",
           "collection3": "balancing-formula",
-          "description3": "",
+          "description3": "We recommend these products 3",
           "collection4": "purifying",
-          "description4": "",
+          "description4": "We recommend these products 4",
           "collection5": "best-selling-essential-oils",
-          "description5": ""
+          "description5": "We recommend these products 5"
         }
       }
     },
