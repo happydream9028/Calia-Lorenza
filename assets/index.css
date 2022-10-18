@@ -17274,6 +17274,7 @@ model-viewer {
   justify-content: center;
   align-items: center;
   width: 100%;
+  text-align: center;
 }
 
 [data-step4].step-container {
