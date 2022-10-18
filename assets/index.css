@@ -17294,6 +17294,7 @@ model-viewer {
   visibility: hidden;
   height: 0;
   width: 0;
+  position: absolute;
 }
 
 .quiz-container label {
@@ -17304,6 +17305,7 @@ model-viewer {
   padding: 5px 10px;
   transition: all 0.3s ease-out;
   min-width: 100px;
+  margin: 0 5px;
 }
 
 .quiz-container input[type="radio"]:checked + label {
