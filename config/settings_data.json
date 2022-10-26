@@ -1191,6 +1191,49 @@
           "collection5": "balancing-formula",
           "description5": "Balancing is our most trusted formula for treating dry hair and all types of combination scalp conditions, including dandruff!"
         }
+      },
+      "0bfac928-64a9-4339-8a13-8e677d4193d1": {
+        "type": "page-about-image-with-text--dynamic-2",
+        "disabled": true,
+        "settings": {
+          "section_style": "full-height",
+          "enable_animation": false,
+          "image": "shopify:\/\/shop_images\/1W9A9626.jpg",
+          "video_url": "",
+          "image_width": "two-third",
+          "image_position": "right",
+          "overline": "Find Your Formula!",
+          "title": "Take The Quiz!",
+          "subheading": "<p><br\/>Whether you are a natural hair care novice or a seasoned pro, take our quiz <a href=\"https:\/\/trk.klclick.com\/ls\/click?upn=BRX6WmlktYb3zLpvkN-2B0rVLQqmIJJK-2BIFS5x6h0K4H-2BHPr36hWfPyfsuJWcimokeKlK89epGKJUh7LxZF-2BGWZA-3D-3DR4dQ_b3UvgzggLzttAEbDvpD6L2EQ26UUAjVu-2FAJloZZFF-2FxAlB12JUiX6OxYKwPQFM7KOrETFRYnY29RMQ-2FpkNmW-2BPQDzbITF8SsiNYMn9TPrajMRzxiURjrOg5dLPh4MyObiKfW7CQba5k5Evqn2W7jNkSXpz8pk9PG242E1G8YOS8NFZKgjnKhTPCqaLzMpy3T3w4e-2BTbuVvtAsP68fTrV4IEzlFr8KNej1Yvuk3uWlz2VrJMhuFf6EvzlTQxCuJOQy5O5byVwhxV2FI-2FlW4K4Rg-3D-3D\" target=\"_blank\">here<\/a> to find the perfect Calia hair care formula for you. <\/p>",
+          "link": "https:\/\/calianatural.com\/pages\/quiz",
+          "link_text": "TAKE THE QUIZ",
+          "text_below": "<p>Then shop hair care <a href=\"https:\/\/calianatural.com\/collections\/hair-care\" title=\"https:\/\/calianatural.com\/collections\/hair-care\">here.<\/a><\/p>",
+          "text_alignment": "center",
+          "text_color": "#000000",
+          "text_container_color": "",
+          "button_text_color": "#1b1b1b",
+          "button_border_color": "#dedede",
+          "text_max_width": 36
+        }
+      },
+      "3e9aa851-1af2-418d-8a7e-dad68302e031": {
+        "type": "image-with-text-split--dynamic",
+        "settings": {
+          "feature_image": "shopify:\/\/shop_images\/1W9A9626.jpg",
+          "feature_link": "",
+          "feature_description": "<p><br\/>Whether you are a natural hair care novice or a seasoned pro, take our quiz <a href=\"https:\/\/trk.klclick.com\/ls\/click?upn=BRX6WmlktYb3zLpvkN-2B0rVLQqmIJJK-2BIFS5x6h0K4H-2BHPr36hWfPyfsuJWcimokeKlK89epGKJUh7LxZF-2BGWZA-3D-3DR4dQ_b3UvgzggLzttAEbDvpD6L2EQ26UUAjVu-2FAJloZZFF-2FxAlB12JUiX6OxYKwPQFM7KOrETFRYnY29RMQ-2FpkNmW-2BPQDzbITF8SsiNYMn9TPrajMRzxiURjrOg5dLPh4MyObiKfW7CQba5k5Evqn2W7jNkSXpz8pk9PG242E1G8YOS8NFZKgjnKhTPCqaLzMpy3T3w4e-2BTbuVvtAsP68fTrV4IEzlFr8KNej1Yvuk3uWlz2VrJMhuFf6EvzlTQxCuJOQy5O5byVwhxV2FI-2FlW4K4Rg-3D-3D\" target=\"_blank\">here<\/a> to find the perfect Calia hair care formula for you. <\/p>",
+          "feature_text_color": "#000",
+          "background_color": "#F3F3F3",
+          "feature_alignment": "left_bottom",
+          "overlay_image": "shopify:\/\/shop_images\/1W9A9651_2048x_fc13dd4b-8ef1-40aa-8604-24fec8d60830.jpg",
+          "link": "https:\/\/calianatural.com\/pages\/quiz",
+          "image_text": "",
+          "text_color": "#ffffff",
+          "detail_alignment": "center_bottom",
+          "text_max_width": 31,
+          "gradient_color": "#030303",
+          "gradient_length": 30
+        }
       }
     },
     "content_for_index": [
@@ -1202,7 +1245,9 @@
       "1646232246f2548999",
       "160230316278a885f2",
       "1602302926ac40fa14",
-      "1602100844222d406f"
+      "0bfac928-64a9-4339-8a13-8e677d4193d1",
+      "1602100844222d406f",
+      "3e9aa851-1af2-418d-8a7e-dad68302e031"
     ]
   },
   "presets": {
