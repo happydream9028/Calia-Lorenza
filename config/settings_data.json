@@ -878,7 +878,7 @@
               "image": "shopify:\/\/shop_images\/1W9A2173.jpg",
               "video_url": "",
               "overline": "HAIR CARE SALE",
-              "title": "Save 10% on All Hair Care!",
+              "title": "Save 10% On Hair Care!",
               "subheading": "AUTOMATIC SAVINGS UNTIL MIDNIGHT EST OCTOBER 31ST",
               "link": "shopify:\/\/collections\/hair-care",
               "link_text": "Shop now",
@@ -1218,6 +1218,7 @@
       },
       "3e9aa851-1af2-418d-8a7e-dad68302e031": {
         "type": "image-with-text-split--dynamic",
+        "disabled": true,
         "settings": {
           "feature_image": "shopify:\/\/shop_images\/1W9A9626.jpg",
           "feature_link": "",
@@ -1240,14 +1241,14 @@
       "1624375712c5aab0ae",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
+      "3e9aa851-1af2-418d-8a7e-dad68302e031",
       "16462322602b16515f",
       "160230298895c3eda9",
       "1646232246f2548999",
       "160230316278a885f2",
       "1602302926ac40fa14",
       "0bfac928-64a9-4339-8a13-8e677d4193d1",
-      "1602100844222d406f",
-      "3e9aa851-1af2-418d-8a7e-dad68302e031"
+      "1602100844222d406f"
     ]
   },
   "presets": {
