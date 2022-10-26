@@ -83,13 +83,13 @@
    		{% endif %}
   	  {% endfor %}
     {% endif %}
-    {% unless product.tags contains 'bundle' %}
-    {% if product.compare_at_price > product.price %}
+
+    {% if product.compare_at_price > product.price or bundle_sale == true %}
       <div class="badge type-body-small ttu lh-title absolute top-0 right-0 mt3 mr3 bg-sale same-as-bg">
         {{ 'products.product.on_sale' | t }}
       </div>
     {% endif %}
-    {% endunless %}
+
 
     {% comment %} SOLD OUT BADGE {% endcomment %}
     {% unless product.available %}
