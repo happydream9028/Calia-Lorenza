@@ -863,7 +863,7 @@
               "overlay_opacity": 10,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
-              "text_max_width": 48,
+              "text_max_width": 29,
               "horizontal_text_position": "right",
               "vertical_text_position": "middle"
             }
