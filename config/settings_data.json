@@ -473,28 +473,6 @@
           "text_max_width": 46
         }
       },
-      "160230316278a885f2": {
-        "type": "image-with-text--dynamic",
-        "settings": {
-          "section_style": "contrast",
-          "enable_animation": false,
-          "image": "shopify:\/\/shop_images\/1W9A9651_2048x_fc13dd4b-8ef1-40aa-8604-24fec8d60830.jpg",
-          "video_url": "",
-          "image_width": "one-half",
-          "image_position": "left",
-          "overline": "About Us",
-          "title": "Who We Are",
-          "subheading": "<p>Welcome! Calia is a small, independent beauty care company located on Canada's west coast. <\/p><p>We are purveyors of natural organic hair care, skin care, and essential oils: made with care and dedication in Vancouver, BC. We are proud to ship our products to customers worldwide!<\/p>",
-          "link": "shopify:\/\/pages\/about",
-          "link_text": "Read More About Calia",
-          "text_alignment": "left",
-          "text_color": "#646464",
-          "text_container_color": "rgba(0,0,0,0)",
-          "button_text_color": "#ffffff",
-          "button_border_color": "rgba(0,0,0,0)",
-          "text_max_width": 50
-        }
-      },
       "password--template": {
         "type": "password--template",
         "settings": {
@@ -1216,24 +1194,53 @@
           "text_max_width": 36
         }
       },
-      "3e9aa851-1af2-418d-8a7e-dad68302e031": {
-        "type": "image-with-text-split--dynamic",
-        "disabled": true,
+      "814c684f-1f42-49cf-bfc5-609f2691d73d": {
+        "type": "slideshow--dynamic",
+        "blocks": {
+          "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1W9A2141.jpg",
+              "video_url": "",
+              "overline": "TAKE THE HAIR CARE QUIZ",
+              "title": "Find Your Formula!",
+              "subheading": "Whether you are a natural hair care novice or a seasoned pro, take our quiz here to find the perfect Calia hair care formula for you.",
+              "link": "https:\/\/calianatural.com\/pages\/quiz",
+              "link_text": "Shop now",
+              "overlay_opacity": 10,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "text_max_width": 48,
+              "horizontal_text_position": "right",
+              "vertical_text_position": "middle"
+            }
+          },
+          "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1": {
+            "type": "slide",
+            "disabled": true,
+            "settings": {
+              "video_url": "",
+              "overline": "",
+              "title": "This is your slideshow",
+              "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+              "link": "",
+              "link_text": "Shop now",
+              "overlay_opacity": 20,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "text_max_width": 48,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          }
+        },
+        "block_order": [
+          "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0",
+          "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1"
+        ],
         "settings": {
-          "feature_image": "shopify:\/\/shop_images\/1W9A9626.jpg",
-          "feature_link": "",
-          "feature_description": "<p><br\/>Whether you are a natural hair care novice or a seasoned pro, take our quiz <a href=\"https:\/\/trk.klclick.com\/ls\/click?upn=BRX6WmlktYb3zLpvkN-2B0rVLQqmIJJK-2BIFS5x6h0K4H-2BHPr36hWfPyfsuJWcimokeKlK89epGKJUh7LxZF-2BGWZA-3D-3DR4dQ_b3UvgzggLzttAEbDvpD6L2EQ26UUAjVu-2FAJloZZFF-2FxAlB12JUiX6OxYKwPQFM7KOrETFRYnY29RMQ-2FpkNmW-2BPQDzbITF8SsiNYMn9TPrajMRzxiURjrOg5dLPh4MyObiKfW7CQba5k5Evqn2W7jNkSXpz8pk9PG242E1G8YOS8NFZKgjnKhTPCqaLzMpy3T3w4e-2BTbuVvtAsP68fTrV4IEzlFr8KNej1Yvuk3uWlz2VrJMhuFf6EvzlTQxCuJOQy5O5byVwhxV2FI-2FlW4K4Rg-3D-3D\" target=\"_blank\">here<\/a> to find the perfect Calia hair care formula for you. <\/p>",
-          "feature_text_color": "#000",
-          "background_color": "#F3F3F3",
-          "feature_alignment": "left_bottom",
-          "overlay_image": "shopify:\/\/shop_images\/1W9A9651_2048x_fc13dd4b-8ef1-40aa-8604-24fec8d60830.jpg",
-          "link": "https:\/\/calianatural.com\/pages\/quiz",
-          "image_text": "",
-          "text_color": "#ffffff",
-          "detail_alignment": "center_bottom",
-          "text_max_width": 31,
-          "gradient_color": "#030303",
-          "gradient_length": 30
+          "aspect_ratio": "full_height",
+          "timer": 7
         }
       }
     },
@@ -1241,14 +1248,13 @@
       "1624375712c5aab0ae",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
-      "3e9aa851-1af2-418d-8a7e-dad68302e031",
       "16462322602b16515f",
       "160230298895c3eda9",
       "1646232246f2548999",
-      "160230316278a885f2",
       "1602302926ac40fa14",
       "0bfac928-64a9-4339-8a13-8e677d4193d1",
-      "1602100844222d406f"
+      "1602100844222d406f",
+      "814c684f-1f42-49cf-bfc5-609f2691d73d"
     ]
   },
   "presets": {
