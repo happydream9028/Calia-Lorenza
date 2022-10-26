@@ -1208,10 +1208,10 @@
               "subheading": "Whether you are a natural hair care novice or a seasoned pro, take our quiz here to find the perfect Calia hair care formula for you.",
               "link": "https:\/\/calianatural.com\/pages\/quiz",
               "link_text": "TAKE THE QUIZ",
-              "overlay_opacity": 0,
+              "overlay_opacity": 10,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
-              "text_max_width": 48,
+              "text_max_width": 32,
               "horizontal_text_position": "right",
               "vertical_text_position": "middle"
             }
