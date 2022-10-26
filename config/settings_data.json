@@ -382,6 +382,7 @@
       },
       "1602302639a7b60f3e": {
         "type": "slideshow--dynamic",
+        "disabled": true,
         "blocks": {
           "1602302639a7b60f3e-0": {
             "type": "slide",
@@ -850,7 +851,6 @@
       },
       "1624375712c5aab0ae": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "1624375712c5aab0ae-0": {
             "type": "slide",
@@ -871,10 +871,29 @@
               "horizontal_text_position": "right",
               "vertical_text_position": "bottom"
             }
+          },
+          "b8e795ad-3cb3-4c8a-91e7-82820e0d2339": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1W9A2173.jpg",
+              "video_url": "",
+              "overline": "HAIR CARE SALE",
+              "title": "Save 10% on All Hair Care!",
+              "subheading": "AUTOMATIC SAVINGS UNTIL MIDNIGHT EST OCTOBER 31ST",
+              "link": "shopify:\/\/collections\/hair-care",
+              "link_text": "Shop now",
+              "overlay_opacity": 10,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "text_max_width": 48,
+              "horizontal_text_position": "right",
+              "vertical_text_position": "middle"
+            }
           }
         },
         "block_order": [
-          "1624375712c5aab0ae-0"
+          "1624375712c5aab0ae-0",
+          "b8e795ad-3cb3-4c8a-91e7-82820e0d2339"
         ],
         "settings": {
           "aspect_ratio": "full_height",
