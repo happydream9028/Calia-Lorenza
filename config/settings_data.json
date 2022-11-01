@@ -386,17 +386,17 @@
           "1602302639a7b60f3e-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/calia-home-banner.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/calia-home-banner-mobile.jpg",
+              "image": "shopify:\/\/shop_images\/1W9A2173.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/1W9A2173.jpg",
               "video_url": "",
               "overline": "WELCOME TO CALIA!",
               "title": "Super Natural Hair Care",
               "subheading": "Natural organic hair care, skin care, and essential oils made with care and dedication",
               "link": "shopify:\/\/collections\/hair-care",
               "link_text": "Shop Hair Care",
-              "overlay_opacity": 0,
+              "overlay_opacity": 20,
               "overlay_color": "#000000",
-              "text_color": "#324340",
+              "text_color": "#ffffff",
               "text_max_width": 44,
               "horizontal_text_position": "left",
               "vertical_text_position": "middle"
