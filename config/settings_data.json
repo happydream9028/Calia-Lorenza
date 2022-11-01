@@ -80,6 +80,7 @@
         "blocks": {
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -381,7 +382,6 @@
       },
       "1602302639a7b60f3e": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "1602302639a7b60f3e-0": {
             "type": "slide",
@@ -851,6 +851,7 @@
           },
           "b8e795ad-3cb3-4c8a-91e7-82820e0d2339": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/1W9A2173.jpg",
               "video_url": "",
