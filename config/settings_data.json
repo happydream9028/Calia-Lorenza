@@ -386,19 +386,18 @@
           "1602302639a7b60f3e-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1W9A2173.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/1W9A2173.jpg",
+              "image": "shopify:\/\/shop_images\/1W9A3960.jpg",
               "video_url": "",
               "overline": "WELCOME TO CALIA!",
-              "title": "Super Natural Hair Care",
-              "subheading": "Natural organic hair care, skin care, and essential oils made with care and dedication",
-              "link": "shopify:\/\/collections\/hair-care",
-              "link_text": "Shop Hair Care",
+              "title": "Introducing our new Anxiety Oil Blend!",
+              "subheading": "We offer natural organic hair care, skin care, and essential oils made with care and dedication",
+              "link": "shopify:\/\/collections",
+              "link_text": "Shop Here",
               "overlay_opacity": 20,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
-              "text_max_width": 48,
-              "horizontal_text_position": "left",
+              "text_max_width": 35,
+              "horizontal_text_position": "right",
               "vertical_text_position": "middle"
             }
           }
