@@ -391,13 +391,13 @@
               "video_url": "",
               "overline": "WELCOME TO CALIA!",
               "title": "Unwind with our new Anxiety Oil Blend!",
-              "subheading": "",
+              "subheading": "Our soothing new pure essential oil blend made with Chamomile, Frankincense and Ylang Ylang.",
               "link": "shopify:\/\/collections",
               "link_text": "Shop Here",
               "overlay_opacity": 20,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
-              "text_max_width": 41,
+              "text_max_width": 50,
               "horizontal_text_position": "center",
               "vertical_text_position": "top"
             }
