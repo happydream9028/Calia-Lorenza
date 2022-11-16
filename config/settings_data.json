@@ -407,7 +407,7 @@
           "1602302639a7b60f3e-0"
         ],
         "settings": {
-          "aspect_ratio": "unconstrained",
+          "aspect_ratio": "3_2",
           "timer": 7
         }
       },
@@ -828,6 +828,7 @@
       },
       "1624375712c5aab0ae": {
         "type": "slideshow--dynamic",
+        "disabled": true,
         "blocks": {
           "1624375712c5aab0ae-0": {
             "type": "slide",
