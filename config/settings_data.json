@@ -1243,6 +1243,19 @@
           "aspect_ratio": "full_height",
           "timer": 7
         }
+      },
+      "212d16d9-06d3-4d48-97c0-dee361e29dc8": {
+        "type": "rich-text--dynamic",
+        "settings": {
+          "section_style": "default",
+          "overline": "",
+          "title": "Welcome to Calia!",
+          "text": "<p>We offer natural organic hair care, skin care, and essential oils made with care and dedication. <\/p>",
+          "link": "",
+          "link_text": "",
+          "alignment": "center",
+          "text_max_width": 36
+        }
       }
     },
     "content_for_index": [
@@ -1255,7 +1268,8 @@
       "1646232246f2548999",
       "1602302926ac40fa14",
       "0bfac928-64a9-4339-8a13-8e677d4193d1",
-      "1602100844222d406f"
+      "1602100844222d406f",
+      "212d16d9-06d3-4d48-97c0-dee361e29dc8"
     ]
   },
   "presets": {
