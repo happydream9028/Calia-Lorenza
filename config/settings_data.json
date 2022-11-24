@@ -1265,15 +1265,16 @@
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
             "settings": {
+              "image": "shopify:\/\/shop_images\/BF_Banner.jpg",
               "video_url": "",
               "overline": "",
-              "title": "This is your slideshow",
-              "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+              "title": "BLACK FRIDAY SAVINGS!",
+              "subheading": "Save 15% off our ENTIRE store!",
               "link": "",
               "link_text": "Shop now",
               "overlay_opacity": 20,
               "overlay_color": "#000000",
-              "text_color": "#ffffff",
+              "text_color": "#bd0007",
               "text_max_width": 48,
               "horizontal_text_position": "left",
               "vertical_text_position": "middle"
@@ -1282,15 +1283,17 @@
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1": {
             "type": "slide",
             "settings": {
+              "image": "shopify:\/\/shop_images\/BF_Banner.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/BF_Banner.jpg",
               "video_url": "",
               "overline": "",
-              "title": "This is your slideshow",
-              "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+              "title": "BLACK FRIDAY SAVINGS!",
+              "subheading": "Save 15% off our ENTIRE store!",
               "link": "",
               "link_text": "Shop now",
               "overlay_opacity": 20,
               "overlay_color": "#000000",
-              "text_color": "#ffffff",
+              "text_color": "#bd0007",
               "text_max_width": 48,
               "horizontal_text_position": "left",
               "vertical_text_position": "middle"
