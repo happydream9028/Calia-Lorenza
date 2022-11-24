@@ -1260,19 +1260,18 @@
       },
       "668e1059-87ee-4711-8e0a-30b5c353bf64": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BF_Banner.jpg",
+              "image": "shopify:\/\/shop_images\/BF_Banner_1.jpg",
               "video_url": "",
               "overline": "",
               "title": "BLACK FRIDAY SAVINGS!",
               "subheading": "Save 15% off our ENTIRE store!",
               "link": "",
               "link_text": "Shop now",
-              "overlay_opacity": 20,
+              "overlay_opacity": 0,
               "overlay_color": "#000000",
               "text_color": "#bd0007",
               "text_max_width": 48,
