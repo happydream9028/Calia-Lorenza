@@ -828,7 +828,6 @@
       },
       "1624375712c5aab0ae": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "1624375712c5aab0ae-0": {
             "type": "slide",
@@ -1260,9 +1259,11 @@
       },
       "668e1059-87ee-4711-8e0a-30b5c353bf64": {
         "type": "slideshow--dynamic",
+        "disabled": true,
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/BF_Banner_1.jpg",
               "video_url": "",
