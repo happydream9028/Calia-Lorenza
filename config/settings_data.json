@@ -80,11 +80,10 @@
         "blocks": {
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "SAVE 10% ON HAIR CARE UNTIL OCTOBER 31ST!",
+              "text": "SAVE 15% SITE-WIDE FOR BLACK FRIDAY! | SALE ENDS SATURDAY, NOVEMBER 26TH AT MIDNIGHT PST!",
               "link": "shopify:\/\/collections\/hair-care"
             }
           },
