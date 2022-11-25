@@ -382,6 +382,7 @@
       },
       "1602302639a7b60f3e": {
         "type": "slideshow--dynamic",
+        "disabled": true,
         "blocks": {
           "1602302639a7b60f3e-0": {
             "type": "slide",
@@ -1250,7 +1251,7 @@
         "settings": {
           "section_style": "default",
           "overline": "ALWAYS ACT NATURALLY",
-          "title": "Welcome to Calia!",
+          "title": "Welcome to the Calia Black Friday Sale!",
           "text": "<p>We offer natural organic hair care, skin care, and essential oils made with care and dedication. <\/p>",
           "link": "",
           "link_text": "",
@@ -1260,7 +1261,6 @@
       },
       "668e1059-87ee-4711-8e0a-30b5c353bf64": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
@@ -1272,16 +1272,17 @@
               "subheading": "",
               "link": "shopify:\/\/collections\/all",
               "link_text": "Shop now",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
+              "overlay_opacity": 30,
+              "overlay_color": "#ffffff",
               "text_color": "#bd0007",
-              "text_max_width": 48,
+              "text_max_width": 50,
               "horizontal_text_position": "center",
               "vertical_text_position": "middle"
             }
           },
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/BF_Banner.jpg",
               "mobile_image": "shopify:\/\/shop_images\/BF_Banner.jpg",
