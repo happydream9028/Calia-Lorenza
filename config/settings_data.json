@@ -1250,11 +1250,11 @@
         "type": "rich-text--dynamic",
         "settings": {
           "section_style": "default",
-          "overline": "ALWAYS ACT NATURALLY",
+          "overline": "SAVE 15% FOR 2 DAYS!",
           "title": "Welcome to the Calia Black Friday Sale!",
           "text": "<p>We offer natural organic hair care, skin care, and essential oils made with care and dedication. <\/p>",
-          "link": "",
-          "link_text": "",
+          "link": "shopify:\/\/collections\/all",
+          "link_text": "SHOP THE SALE",
           "alignment": "center",
           "text_max_width": 50
         }
