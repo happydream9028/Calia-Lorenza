@@ -89,6 +89,7 @@
           },
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -98,6 +99,7 @@
           },
           "51c6b612-4c82-4885-b651-5b184c8665ff": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
