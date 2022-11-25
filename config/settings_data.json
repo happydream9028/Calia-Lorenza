@@ -115,7 +115,7 @@
         ],
         "settings": {
           "announcement_bar_enabled": true,
-          "announcement_bar_timing": 3
+          "announcement_bar_timing": 6
         }
       },
       "header": {
