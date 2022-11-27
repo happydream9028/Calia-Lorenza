@@ -83,7 +83,7 @@
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "SAVE 15% SITE-WIDE FOR BLACK FRIDAY! | SALE ENDS SATURDAY, NOVEMBER 26TH AT MIDNIGHT PST!",
+              "text": "SAVE 15% SITE-WIDE FOR BLACK FRIDAY! | SALE ENDS SUNDAY, NOVEMBER 27TH AT MIDNIGHT PST!",
               "link": "shopify:\/\/collections\/all"
             }
           },
@@ -1269,8 +1269,8 @@
               "image": "shopify:\/\/shop_images\/BF_Banner_1.jpg",
               "video_url": "",
               "overline": "Save 15% off our ENTIRE store!",
-              "title": "BLACK FRIDAY SAVINGS ARE HERE!",
-              "subheading": "Save 15% on Hair Care, Skin Care, Essential Oils and TEK brushes until Saturday, November 26th at Midnight PST!",
+              "title": "BLACK FRIDAY SAVINGS ARE EXTENDED!",
+              "subheading": "Save 15% on Hair Care, Skin Care, Essential Oils and TEK brushes until Sunday, November 27th at Midnight PST!",
               "link": "shopify:\/\/collections\/all",
               "link_text": "Shop now",
               "overlay_opacity": 40,
