@@ -80,6 +80,7 @@
         "blocks": {
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -89,7 +90,6 @@
           },
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -99,7 +99,6 @@
           },
           "51c6b612-4c82-4885-b651-5b184c8665ff": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -383,7 +382,6 @@
       },
       "1602302639a7b60f3e": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "1602302639a7b60f3e-0": {
             "type": "slide",
@@ -1249,6 +1247,7 @@
       },
       "212d16d9-06d3-4d48-97c0-dee361e29dc8": {
         "type": "rich-text--dynamic",
+        "disabled": true,
         "settings": {
           "section_style": "default",
           "overline": "SAVE 15% ON OUR ENTIRE STORE!",
@@ -1262,6 +1261,7 @@
       },
       "668e1059-87ee-4711-8e0a-30b5c353bf64": {
         "type": "slideshow--dynamic",
+        "disabled": true,
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
@@ -1316,11 +1316,11 @@
       "668e1059-87ee-4711-8e0a-30b5c353bf64",
       "1624375712c5aab0ae",
       "1602302639a7b60f3e",
+      "1602302827aaa0807e",
       "212d16d9-06d3-4d48-97c0-dee361e29dc8",
       "814c684f-1f42-49cf-bfc5-609f2691d73d",
-      "1602302827aaa0807e",
-      "16462322602b16515f",
       "160230298895c3eda9",
+      "16462322602b16515f",
       "1646232246f2548999",
       "1602302926ac40fa14",
       "0bfac928-64a9-4339-8a13-8e677d4193d1",
