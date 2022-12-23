@@ -84,7 +84,7 @@
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "SAVE 15% SITE-WIDE FOR BLACK FRIDAY! | SALE ENDS SUNDAY, NOVEMBER 27TH AT MIDNIGHT PST!",
+              "text": "SAVE 10% SITE-WIDE FOR BOXING DAY! | SALE ENDS TUESDAY, DECEMBER 27th AT MIDNIGHT PST!",
               "link": "shopify:\/\/collections\/all"
             }
           },
@@ -1261,16 +1261,16 @@
       },
       "668e1059-87ee-4711-8e0a-30b5c353bf64": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/BF_Banner_1.jpg",
               "video_url": "",
-              "overline": "Save 15% off our ENTIRE store!",
-              "title": "BLACK FRIDAY SAVINGS ARE EXTENDED!",
-              "subheading": "Save 15% on SITE-WIDE until this Sunday, November 27th at Midnight PST!",
+              "overline": "Save 10% off our ENTIRE store!",
+              "title": "BOXING DAY SAVINGS!",
+              "subheading": "Save 10% SITE-WIDE until Midnight PST on December 27th!",
               "link": "shopify:\/\/collections\/all",
               "link_text": "Shop now",
               "overlay_opacity": 40,
