@@ -382,7 +382,6 @@
       },
       "1602302639a7b60f3e": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "1602302639a7b60f3e-0": {
             "type": "slide",
@@ -1262,6 +1261,7 @@
       },
       "668e1059-87ee-4711-8e0a-30b5c353bf64": {
         "type": "slideshow--dynamic",
+        "disabled": true,
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
