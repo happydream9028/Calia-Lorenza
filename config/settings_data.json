@@ -1244,13 +1244,13 @@
               "video_url": "",
               "overline": "TAKE THE HAIR CARE QUIZ",
               "title": "Find Your Formula!",
-              "subheading": "Are a natural hair care novice? \nTake our quiz here to find the perfect Calia hair care formula for you!",
+              "subheading": "Are a natural hair care novice? Take our quiz to find the perfect Calia hair care formula for you!",
               "link": "https:\/\/calianatural.com\/pages\/quiz",
               "link_text": "Shop now",
               "overlay_opacity": 10,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
-              "text_max_width": 31,
+              "text_max_width": 32,
               "horizontal_text_position": "right",
               "vertical_text_position": "middle"
             }
