@@ -382,6 +382,7 @@
       },
       "1602302639a7b60f3e": {
         "type": "slideshow--dynamic",
+        "disabled": true,
         "blocks": {
           "1602302639a7b60f3e-0": {
             "type": "slide",
@@ -1234,11 +1235,30 @@
               "horizontal_text_position": "left",
               "vertical_text_position": "middle"
             }
+          },
+          "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1W9A9659.jpg",
+              "video_url": "",
+              "overline": "TAKE THE HAIR CARE QUIZ",
+              "title": "Find Your Formula!",
+              "subheading": "Are a natural hair care novice? \nTake our quiz here to find the perfect Calia hair care formula for you!",
+              "link": "https:\/\/calianatural.com\/pages\/quiz",
+              "link_text": "Shop now",
+              "overlay_opacity": 10,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "text_max_width": 48,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
           }
         },
         "block_order": [
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0",
-          "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1"
+          "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1",
+          "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05"
         ],
         "settings": {
           "aspect_ratio": "full_height",
