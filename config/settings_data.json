@@ -430,6 +430,7 @@
       },
       "1602302926ac40fa14": {
         "type": "slideshow--dynamic",
+        "disabled": true,
         "blocks": {
           "1602302926ac40fa14-0": {
             "type": "slide",
@@ -1200,7 +1201,6 @@
       },
       "814c684f-1f42-49cf-bfc5-609f2691d73d": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0": {
             "type": "slide",
@@ -1335,7 +1335,6 @@
       }
     },
     "content_for_index": [
-      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "668e1059-87ee-4711-8e0a-30b5c353bf64",
       "1624375712c5aab0ae",
       "1602302639a7b60f3e",
@@ -1344,6 +1343,7 @@
       "160230298895c3eda9",
       "16462322602b16515f",
       "1646232246f2548999",
+      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "1602302926ac40fa14",
       "0bfac928-64a9-4339-8a13-8e677d4193d1",
       "1602100844222d406f"
