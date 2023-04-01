@@ -1199,6 +1199,7 @@
       },
       "814c684f-1f42-49cf-bfc5-609f2691d73d": {
         "type": "slideshow--dynamic",
+        "disabled": true,
         "blocks": {
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0": {
             "type": "slide",
@@ -1282,7 +1283,6 @@
       },
       "668e1059-87ee-4711-8e0a-30b5c353bf64": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
@@ -1290,8 +1290,8 @@
               "image": "shopify:\/\/shop_images\/BF_Banner_1.jpg",
               "video_url": "",
               "overline": "Save 10% off our ENTIRE store!",
-              "title": "BOXING DAY SAVINGS!",
-              "subheading": "Save 10% SITE-WIDE until Midnight PST on December 27th!",
+              "title": "STORE-WIDE SAVINGS!",
+              "subheading": "Save 10% STORE-WIDE until Midnight PST on April 2nd!",
               "link": "shopify:\/\/collections\/all",
               "link_text": "Shop now",
               "overlay_opacity": 40,
