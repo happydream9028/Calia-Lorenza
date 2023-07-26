@@ -829,11 +829,9 @@
       },
       "1624375712c5aab0ae": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "1624375712c5aab0ae-0": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/1W9A7317.jpg",
               "mobile_image": "shopify:\/\/shop_images\/1W9A7296.jpg",
@@ -1335,11 +1333,11 @@
       }
     },
     "content_for_index": [
-      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "668e1059-87ee-4711-8e0a-30b5c353bf64",
       "1624375712c5aab0ae",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
+      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "16462322602b16515f",
       "212d16d9-06d3-4d48-97c0-dee361e29dc8",
       "160230298895c3eda9",
