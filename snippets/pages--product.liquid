@@ -26,7 +26,7 @@
       </s>
       {% endif %}
       {% if product.metafields.custom.bundle_price != blank %}
-        <span data-product-price>{{ product.metafields.custom.bundle_price }}</span>
+        <span data-product-price>${{ product.metafields.custom.bundle_price }} CAD</span>
       {% else %}
         <span data-product-price>{% render 'bundle-price', product: product %}</span>
       {% endif %}
