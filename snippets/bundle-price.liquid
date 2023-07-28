@@ -26,6 +26,8 @@
 		  {% endif %}
         {% endfor %}
       {% endif %}
+    {% else %}
+      false
     {% endif %}
   {% endfor %}
   {{ total | money }}
