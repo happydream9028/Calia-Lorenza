@@ -12,7 +12,7 @@
   {{total | money}}
 {% else %}
   {% for tag in product.tags %}
-    {% if tag contains 'choice--' %}
+    {% if tag contains 'choice--' %}true
       {% assign split = tag | split: '--' %}
       {% assign title = split[1] %}
       {% assign count = split[2] | plus: 0 %}
