@@ -80,16 +80,16 @@
         "blocks": {
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "SAVE 10% SITE-WIDE! | SALE ENDS SUNDAY, APRIL 2ND AT MIDNIGHT PST!",
+              "text": "SAVE 10% SITE-WIDE! | SALE ENDS FRIDAY, AUGUST 4TH AT MIDNIGHT PST!",
               "link": "shopify:\/\/collections\/all"
             }
           },
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -829,6 +829,7 @@
       },
       "1624375712c5aab0ae": {
         "type": "slideshow--dynamic",
+        "disabled": true,
         "blocks": {
           "1624375712c5aab0ae-0": {
             "type": "slide",
@@ -1280,17 +1281,15 @@
       },
       "668e1059-87ee-4711-8e0a-30b5c353bf64": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/BF_Banner_1.jpg",
               "video_url": "",
               "overline": "Save 10% off our ENTIRE store!",
               "title": "STORE-WIDE SAVINGS!",
-              "subheading": "Save 10% STORE-WIDE until Midnight PST on April 2nd!",
+              "subheading": "Save 10% STORE-WIDE until Midnight PST on August 4th!",
               "link": "shopify:\/\/collections\/all",
               "link_text": "Shop now",
               "overlay_opacity": 40,
