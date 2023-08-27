@@ -382,7 +382,6 @@
       },
       "1602302639a7b60f3e": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "1602302639a7b60f3e-0": {
             "type": "slide",
@@ -407,6 +406,7 @@
         "block_order": [
           "1602302639a7b60f3e-0"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "3_2",
           "timer": 7
@@ -453,6 +453,7 @@
         "block_order": [
           "1602302926ac40fa14-0"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "unconstrained",
           "timer": 7
@@ -1060,7 +1061,6 @@
       },
       "1646232246f2548999": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "1646232246f2548999-0": {
             "type": "slide",
@@ -1122,6 +1122,7 @@
           "1646232246f2548999-1",
           "1789a02f-84b7-410b-9f75-e72a14b9d3b1"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1280,7 +1281,6 @@
       },
       "668e1059-87ee-4711-8e0a-30b5c353bf64": {
         "type": "slideshow--dynamic",
-        "disabled": true,
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
@@ -1325,6 +1325,7 @@
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0",
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1332,15 +1333,15 @@
       }
     },
     "content_for_index": [
+      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "668e1059-87ee-4711-8e0a-30b5c353bf64",
-      "1624375712c5aab0ae",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
-      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "16462322602b16515f",
       "212d16d9-06d3-4d48-97c0-dee361e29dc8",
       "160230298895c3eda9",
       "1646232246f2548999",
+      "1624375712c5aab0ae",
       "1602302926ac40fa14",
       "0bfac928-64a9-4339-8a13-8e677d4193d1",
       "1602100844222d406f"
