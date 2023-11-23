@@ -1284,6 +1284,7 @@
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/BF_Banner_1.jpg",
               "video_url": "",
@@ -1302,7 +1303,6 @@
           },
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/BF_Banner.jpg",
               "mobile_image": "shopify:\/\/shop_images\/BF_Banner.jpg",
@@ -1310,13 +1310,13 @@
               "overline": "",
               "title": "BLACK FRIDAY SAVINGS!",
               "subheading": "Save 15% off our ENTIRE store!",
-              "link": "",
+              "link": "shopify:\/\/collections\/all",
               "link_text": "Shop now",
-              "overlay_opacity": 20,
+              "overlay_opacity": 10,
               "overlay_color": "#000000",
               "text_color": "#bd0007",
-              "text_max_width": 48,
-              "horizontal_text_position": "left",
+              "text_max_width": 50,
+              "horizontal_text_position": "center",
               "vertical_text_position": "middle"
             }
           }
@@ -1325,7 +1325,6 @@
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0",
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
