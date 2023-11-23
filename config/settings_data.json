@@ -1268,12 +1268,11 @@
       },
       "212d16d9-06d3-4d48-97c0-dee361e29dc8": {
         "type": "rich-text--dynamic",
-        "disabled": true,
         "settings": {
           "section_style": "default",
           "overline": "SAVE 15% ON OUR ENTIRE STORE!",
           "title": "Welcome to the Calia Black Friday Sale!",
-          "text": "<p>We offer natural organic hair care, skin care, and essential oils made with care and dedication. Our annual Black Friday Sale is extended until Sunday, November 27th, Midnight PST!<\/p>",
+          "text": "<p>We offer natural organic hair care, skin care, and essential oils made with care and dedication. Our annual Black Friday Sale is ends November 25th at Midnight PST. Don't wait! <\/p>",
           "link": "shopify:\/\/collections\/all",
           "link_text": "SHOP THE SALE",
           "alignment": "center",
