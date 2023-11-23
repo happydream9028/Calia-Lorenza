@@ -1261,7 +1261,6 @@
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1",
           "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1333,9 +1332,9 @@
       }
     },
     "content_for_index": [
-      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "668e1059-87ee-4711-8e0a-30b5c353bf64",
       "212d16d9-06d3-4d48-97c0-dee361e29dc8",
+      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
       "16462322602b16515f",
