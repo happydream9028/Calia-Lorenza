@@ -1201,6 +1201,7 @@
         "blocks": {
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/About_Page_c453131d-a7bb-4370-821e-2007e0c9fc6b.jpg",
               "video_url": "",
