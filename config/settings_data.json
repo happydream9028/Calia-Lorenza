@@ -1346,7 +1346,18 @@
       "1602302926ac40fa14",
       "0bfac928-64a9-4339-8a13-8e677d4193d1",
       "1602100844222d406f"
-    ]
+    ],
+    "blocks": {
+      "1119079220096577164": {
+        "type": "shopify:\/\/apps\/loyaltylion\/blocks\/embed-sdk\/6f172e67-4106-4ac0-89c5-b32a069b3101",
+        "disabled": false,
+        "settings": {
+          "disableBundledCSS": false,
+          "disableBundledFonts": false,
+          "useClassIsolator": false
+        }
+      }
+    }
   },
   "presets": {
     "Chic": {
