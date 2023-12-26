@@ -1288,7 +1288,7 @@
               "video_url": "",
               "overline": "Save 10% off our ENTIRE store!",
               "title": "BOXING DAY SAVINGS!",
-              "subheading": "Save 10% SITE-WIDE until Midnight PST on December 27th!",
+              "subheading": "Save 10% SITE-WIDE for TWO DAYS!",
               "link": "shopify:\/\/collections\/hair-care",
               "link_text": "Shop now",
               "overlay_opacity": 40,
@@ -1324,7 +1324,6 @@
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0",
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1334,10 +1333,10 @@
     "content_for_index": [
       "668e1059-87ee-4711-8e0a-30b5c353bf64",
       "212d16d9-06d3-4d48-97c0-dee361e29dc8",
-      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
       "16462322602b16515f",
+      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "160230298895c3eda9",
       "1646232246f2548999",
       "1624375712c5aab0ae",
