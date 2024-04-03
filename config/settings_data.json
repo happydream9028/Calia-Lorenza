@@ -1302,6 +1302,7 @@
           },
           "slide_3RzBRf": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "video_url": "",
               "overline": "",
