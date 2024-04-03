@@ -80,11 +80,10 @@
         "blocks": {
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "SAVE 10% SITE-WIDE FOR BOXING DAY! | SALE ENDS WEDNESDAY, DECEMBER 27TH AT MIDNIGHT PST!",
+              "text": "SAVE 10% SITE-WIDE UNTIL SATURDAY, APRIL 6th AT MIDNIGHT PST!",
               "link": "shopify:\/\/collections\/all"
             }
           },
