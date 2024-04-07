@@ -80,6 +80,7 @@
         "blocks": {
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -1200,7 +1201,6 @@
         "blocks": {
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/About_Page_c453131d-a7bb-4370-821e-2007e0c9fc6b.jpg",
               "video_url": "",
@@ -1284,6 +1284,7 @@
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/BF_Banner_1.jpg",
               "video_url": "",
@@ -1344,6 +1345,7 @@
           "slide_3RzBRf",
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
