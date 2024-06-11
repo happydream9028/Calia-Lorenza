@@ -1201,6 +1201,7 @@
         "blocks": {
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/About_Page_c453131d-a7bb-4370-821e-2007e0c9fc6b.jpg",
               "video_url": "",
@@ -1219,19 +1220,19 @@
           },
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1": {
             "type": "slide",
-            "disabled": true,
             "settings": {
+              "image": "shopify:\/\/shop_images\/20190629-1W9A3467.jpg",
               "video_url": "",
-              "overline": "",
-              "title": "This is your slideshow",
-              "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+              "overline": "GIFT WITH PURCHASE",
+              "title": "Get Free Lavender!",
+              "subheading": "ALL ORDERS OVER $50 GET A FREE 10ML LAVENDER OIL!",
               "link": "",
               "link_text": "Shop now",
-              "overlay_opacity": 20,
+              "overlay_opacity": 10,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
               "text_max_width": 48,
-              "horizontal_text_position": "left",
+              "horizontal_text_position": "right",
               "vertical_text_position": "middle"
             }
           },
