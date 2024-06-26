@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "color_accent": "#c30e2e",
@@ -80,6 +89,7 @@
         "blocks": {
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -89,7 +99,6 @@
           },
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -952,8 +961,8 @@
         "type": "cart--template",
         "settings": {
           "cart_ajax_enable": true,
-          "minimum_spend": 50,
-          "free_gift": "free-gift-lavender"
+          "minimum_spend": 0,
+          "free_gift": ""
         }
       },
       "page-about-image-with-text--dynamic": {
@@ -1221,6 +1230,7 @@
           },
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/20190629-1W9A3467.jpg",
               "video_url": "",
@@ -1239,7 +1249,6 @@
           },
           "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/1W9A9659.jpg",
               "video_url": "",
