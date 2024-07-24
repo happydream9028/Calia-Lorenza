@@ -1230,14 +1230,13 @@
           },
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1": {
             "type": "slide",
-            "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/20190629-1W9A3467.jpg",
+              "image": "shopify:\/\/shop_images\/20190629-1W9A3530.jpg",
               "video_url": "",
-              "overline": "GIFT WITH PURCHASE",
-              "title": "Get Free Lavender!",
-              "subheading": "ALL ORDERS OVER $50 GET A FREE 10ML LAVENDER OIL!",
-              "link": "shopify:\/\/collections\/all",
+              "overline": "TEK ACCESSORIES SALE!",
+              "title": "20% Off Tek Brushes + Combs!",
+              "subheading": "SHOP AND SAVE ON THE BEST FOR YOUR HAIR",
+              "link": "shopify:\/\/collections\/accessories",
               "link_text": "Shop now",
               "overlay_opacity": 10,
               "overlay_color": "#000000",
@@ -1249,6 +1248,7 @@
           },
           "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/1W9A9659.jpg",
               "video_url": "",
