@@ -89,16 +89,16 @@
         "blocks": {
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "GET A FREE 10ML LAVENDER ON ALL ORDERS OVER $50!",
+              "text": "SAVE 20% ON ALL TEK BRUSHES AND COMBS!",
               "link": "shopify:\/\/collections\/all"
             }
           },
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
