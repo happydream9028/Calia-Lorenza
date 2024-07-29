@@ -89,6 +89,7 @@
         "blocks": {
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -98,7 +99,6 @@
           },
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -108,7 +108,6 @@
           },
           "51c6b612-4c82-4885-b651-5b184c8665ff": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -1230,6 +1229,7 @@
           },
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/20190629-1W9A3530.jpg",
               "video_url": "",
@@ -1248,7 +1248,6 @@
           },
           "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/1W9A9659.jpg",
               "video_url": "",
@@ -1264,12 +1263,31 @@
               "horizontal_text_position": "right",
               "vertical_text_position": "middle"
             }
+          },
+          "slide_anUYpC": {
+            "type": "slide",
+            "disabled": true,
+            "settings": {
+              "video_url": "",
+              "overline": "",
+              "title": "",
+              "subheading": "",
+              "link": "",
+              "link_text": "Shop now",
+              "overlay_opacity": 20,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "text_max_width": 48,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
           }
         },
         "block_order": [
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0",
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1",
-          "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05"
+          "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05",
+          "slide_anUYpC"
         ],
         "settings": {
           "aspect_ratio": "full_height",
