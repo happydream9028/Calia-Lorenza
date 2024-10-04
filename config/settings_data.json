@@ -47,9 +47,9 @@
     "share_twitter": true,
     "share_pinterest": true,
     "social_twitter_link": "",
-    "social_facebook_link": "https:\/\/www.facebook.com\/calianatural",
+    "social_facebook_link": "https://www.facebook.com/calianatural",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/instagram.com\/calianatural\/",
+    "social_instagram_link": "https://instagram.com/calianatural/",
     "social_snapchat_link": "",
     "social_tumblr_link": "",
     "social_youtube_link": "",
@@ -67,9 +67,9 @@
     "cart_quick_shop_show_quantity_input": false,
     "cart_notes_enable": true,
     "quick_cart_note": "Your subtotal today is [subtotal]. Shipping and taxes will be calculated at checkout.",
-    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "favicon": "shopify://shop_images/favicon.png",
     "checkout_header_image": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/calia-natural-logo.png",
+    "checkout_logo_image": "shopify://shop_images/calia-natural-logo.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
@@ -94,7 +94,7 @@
               "background_color": "#719362",
               "text_color": "#ffffff",
               "text": "SAVE 20% ON ALL TEK BRUSHES AND COMBS!",
-              "link": "shopify:\/\/collections\/all"
+              "link": "shopify://collections/all"
             }
           },
           "announcement-bar-0": {
@@ -103,7 +103,7 @@
               "background_color": "#719362",
               "text_color": "#ffffff",
               "text": "We ship to most destinations worldwide!",
-              "link": "shopify:\/\/collections\/all-products"
+              "link": "shopify://collections/all-products"
             }
           },
           "51c6b612-4c82-4885-b651-5b184c8665ff": {
@@ -112,7 +112,7 @@
               "background_color": "#719362",
               "text_color": "#ffffff",
               "text": "We offer free standard shipping within Canada on orders over $95!",
-              "link": "shopify:\/\/collections"
+              "link": "shopify://collections"
             }
           }
         },
@@ -133,10 +133,10 @@
             "type": "mega_nav",
             "settings": {
               "dropdown_parent_link": "Shop",
-              "mega_nav_featured_image": "shopify:\/\/shop_images\/bundles-nav-thumb.jpg",
+              "mega_nav_featured_image": "shopify://shop_images/bundles-nav-thumb.jpg",
               "featured_image_heading": "Save when you bundle up!",
               "featured_image_link_text": "Shop Bundles",
-              "featured_image_link": "shopify:\/\/collections\/bundles",
+              "featured_image_link": "shopify://collections/bundles",
               "feature_text": ""
             }
           }
@@ -150,7 +150,7 @@
           "detect_menu_length": true,
           "show_locale_selector": false,
           "show_currency_selector": false,
-          "logo": "shopify:\/\/shop_images\/calia-natural-logo.png",
+          "logo": "shopify://shop_images/calia-natural-logo.png",
           "logo_max_size": 120,
           "menu": "main-menu-new",
           "transparent_index_header_enabled": true,
@@ -197,7 +197,7 @@
           "show_payment_icons": true,
           "show_newsletter_signup": true,
           "newsletter_subheading": "Subscribe here and save 10% on your first order!",
-          "klaviyo": "<div class=\"klaviyo-form-SiJBGs\"><\/div>",
+          "klaviyo": "<div class=\"klaviyo-form-SiJBGs\"></div>",
           "show_locale_selector": false,
           "show_currency_selector": false
         }
@@ -363,7 +363,7 @@
         "settings": {
           "enabled": false,
           "title": "Text",
-          "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.<\/p>"
+          "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.</p>"
         }
       },
       "gallery-grid--static": {
@@ -373,7 +373,7 @@
           "columns": 4,
           "aspect_ratio": "square",
           "title": "Gallery",
-          "text": "<p>Let people know about where to find you on social media. Don't forget to add a <a href=\"#\">link<\/a>.<\/p>"
+          "text": "<p>Let people know about where to find you on social media. Don't forget to add a <a href=\"#\">link</a>.</p>"
         }
       },
       "product-recommendations--static": {
@@ -395,13 +395,13 @@
           "1602302639a7b60f3e-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1W9A3985.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/1W9A3986.jpg",
+              "image": "shopify://shop_images/1W9A3985.jpg",
+              "mobile_image": "shopify://shop_images/1W9A3986.jpg",
               "video_url": "",
               "overline": "WELCOME TO CALIA!",
               "title": "Unwind with our new Anxiety Oil Blend!",
               "subheading": "Our soothing new pure essential oil blend made with Chamomile, Frankincense and Ylang Ylang.",
-              "link": "shopify:\/\/products\/anxiety",
+              "link": "shopify://products/anxiety",
               "link_text": "Shop Here",
               "overlay_opacity": 20,
               "overlay_color": "#000000",
@@ -442,13 +442,13 @@
           "1602302926ac40fa14-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/calia-home-moisturizing-lineup.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/calia-home-moisturizing-lineup-mobile.jpg",
+              "image": "shopify://shop_images/calia-home-moisturizing-lineup.jpg",
+              "mobile_image": "shopify://shop_images/calia-home-moisturizing-lineup-mobile.jpg",
               "video_url": "",
               "overline": "Hair Care",
               "title": "Our Moisturizing Formula",
               "subheading": "Our original naturally fragrance free formula",
-              "link": "shopify:\/\/collections\/hair-care",
+              "link": "shopify://collections/hair-care",
               "link_text": "Shop HAIR CARE HERE",
               "overlay_opacity": 0,
               "overlay_color": "#000000",
@@ -489,7 +489,7 @@
           "background_overlay_opacity": 20,
           "background_overlay_color": "#000000",
           "heading": "We'll be right back!",
-          "text": "<p>We are updating our website. We'll be back in a few hours.<\/p>",
+          "text": "<p>We are updating our website. We'll be back in a few hours.</p>",
           "text_color": "",
           "show_share": true
         }
@@ -509,7 +509,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/chcdird3XHo\" frameborder=\"0\" allowfullscreen=\"\"><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/chcdird3XHo\" frameborder=\"0\" allowfullscreen=\"\"></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -520,7 +520,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/TZ--WVHLOko\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/TZ--WVHLOko\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -531,7 +531,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/VTuofIl3IZc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/VTuofIl3IZc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -542,7 +542,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/34gKvyDCbSQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/34gKvyDCbSQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -553,7 +553,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/HuEeqg8VdHc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/HuEeqg8VdHc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -564,7 +564,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/3P_mgSLNz7g\" frameborder=\"0\" allowfullscreen=\"\"><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/3P_mgSLNz7g\" frameborder=\"0\" allowfullscreen=\"\"></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -575,7 +575,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/_sc-8HadeSE\" frameborder=\"0\" allowfullscreen=\"\"><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/_sc-8HadeSE\" frameborder=\"0\" allowfullscreen=\"\"></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -586,7 +586,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/9BoQwBSpgoA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/9BoQwBSpgoA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -597,7 +597,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/Mndws_dgrXY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/Mndws_dgrXY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -608,7 +608,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/B3GrdZsei7c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/B3GrdZsei7c\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -619,7 +619,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/kB0284johDg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/kB0284johDg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -630,7 +630,7 @@
             "settings": {
               "image_max_width": 100,
               "title": "",
-              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https:\/\/www.youtube.com\/embed\/NE7ve4Y6McI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+              "subheading": "<iframe width=\"100%\" height=\"auto\" src=\"https://www.youtube.com/embed/NE7ve4Y6McI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
               "text_max_width": 80,
               "link": "",
               "link_text": "Read more"
@@ -671,7 +671,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"I just wanted to say thank-you so much for saving my terrible, dry, wavy hair! Over the years, I have made the transition of trying to live only natural\/organic, as much as I can.  I have struggled for years trying to find the perfect natural hair products to save my terrible hair.  All the products I tried were often expensive and produced such disappointing results.  I had almost given up on trying to incorporate natural hair care products into my life... until I watched Sarah Nagel's video which featured your beautiful hair care range! I love that your products are natural (with no hidden nasties), deliver amazing results, you only have to use a small amount of product each time, and your prices are so reasonable :)<br\/><br\/>So thank-you from the bottom of my heart!\"<\/p><p><strong>~ Jasmine, Australia<\/strong><\/p>",
+              "subheading": "<p>\"I just wanted to say thank-you so much for saving my terrible, dry, wavy hair! Over the years, I have made the transition of trying to live only natural/organic, as much as I can.  I have struggled for years trying to find the perfect natural hair products to save my terrible hair.  All the products I tried were often expensive and produced such disappointing results.  I had almost given up on trying to incorporate natural hair care products into my life... until I watched Sarah Nagel's video which featured your beautiful hair care range! I love that your products are natural (with no hidden nasties), deliver amazing results, you only have to use a small amount of product each time, and your prices are so reasonable :)<br/><br/>So thank-you from the bottom of my heart!\"</p><p><strong>~ Jasmine, Australia</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -682,7 +682,7 @@
             "settings": {
               "image_max_width": 30,
               "title": "",
-              "subheading": "<p>\"I just wanted to say thank you so much for a wonderful trustworthy line of hair products that are organic and free of synthetic chemical products and affordable. I have tried your hydrating set and it has been wonderful—- have even been able to add more lavender essential oil to it. I learned of your line of products from Holistic Habits Youtube channel and I am so grateful. Thank you so much for listing all the ingredients!! I am encouraged that there safe no hidden unhealthy chemicals sneaked in to make my hair “fake silky”. Since using this line, my hair has grown faster with less split ends and a small amount goes a long way. This is even with having never dyed my hair and already oiling a bit and using minimal heat!! Even with swimming in a chlorine pool with a swim cap several times a week, my hair feels undamaged after using your products. I tried an apple cider hair rinse for the first time a couple of weeks ago and it was wonderful, too. Thank you for your wonderful products. Definitely my only go to for cleansing hair products. Thank you so much!!\" <br\/><br\/><strong>~ Elisabeth, USA<\/strong><\/p>",
+              "subheading": "<p>\"I just wanted to say thank you so much for a wonderful trustworthy line of hair products that are organic and free of synthetic chemical products and affordable. I have tried your hydrating set and it has been wonderful—- have even been able to add more lavender essential oil to it. I learned of your line of products from Holistic Habits Youtube channel and I am so grateful. Thank you so much for listing all the ingredients!! I am encouraged that there safe no hidden unhealthy chemicals sneaked in to make my hair “fake silky”. Since using this line, my hair has grown faster with less split ends and a small amount goes a long way. This is even with having never dyed my hair and already oiling a bit and using minimal heat!! Even with swimming in a chlorine pool with a swim cap several times a week, my hair feels undamaged after using your products. I tried an apple cider hair rinse for the first time a couple of weeks ago and it was wonderful, too. Thank you for your wonderful products. Definitely my only go to for cleansing hair products. Thank you so much!!\" <br/><br/><strong>~ Elisabeth, USA</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -693,7 +693,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"I received the products we discussed about through email yesterday and I have to say I'm so impressed! I wasn't expecting my hair to have so much body, shine, and definition that I wish I took the chance to use Calia along time ago. Never knew your products would be so affected on curly hair. I just have a question about the intensive conditioner, I kept it on until I was done with my shower then rinsed it off. But I was wondering if this deep treatment can be heated up under the hair dryer for further penetration or just left on for 30mins just using body heat. Other than that I'm in love with how every product worked!\"<\/p><p><strong>~ Franchesca Castillo<\/strong><\/p>",
+              "subheading": "<p>\"I received the products we discussed about through email yesterday and I have to say I'm so impressed! I wasn't expecting my hair to have so much body, shine, and definition that I wish I took the chance to use Calia along time ago. Never knew your products would be so affected on curly hair. I just have a question about the intensive conditioner, I kept it on until I was done with my shower then rinsed it off. But I was wondering if this deep treatment can be heated up under the hair dryer for further penetration or just left on for 30mins just using body heat. Other than that I'm in love with how every product worked!\"</p><p><strong>~ Franchesca Castillo</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -704,7 +704,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"I LOVE CALIA, and honestly, I used it for the first time yesterday. While applying the conditioner, I slowly realized it was unlike any I had ever used. I can't explain how, it just made my hair feel like MY hair, not stripped, not heavy, not chemically. My hair usually takes 3 wash's and conditionings, to really show a difference, but this time it started on wash day #1. Can't wait to try all of the different products of Calia. So excited.<\/p><p><strong>~ Shannon Rafuse <\/strong><\/p>",
+              "subheading": "<p>\"I LOVE CALIA, and honestly, I used it for the first time yesterday. While applying the conditioner, I slowly realized it was unlike any I had ever used. I can't explain how, it just made my hair feel like MY hair, not stripped, not heavy, not chemically. My hair usually takes 3 wash's and conditionings, to really show a difference, but this time it started on wash day #1. Can't wait to try all of the different products of Calia. So excited.</p><p><strong>~ Shannon Rafuse </strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -715,7 +715,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"Hello! I purchased the balancing shampoo & conditioner as a Valentine's gift to myself and I can not believe the difference it has made with my hair! It feels softer and cleaner than it has in years, and so much more manageable! Thank you so much! I'm very glad I splurged and tried your products!!! I will definitely continue to use your products as I grow out my natural color. So so happy!\"<\/p><p><strong>~ Emily Jones, Instagram<\/strong><\/p>",
+              "subheading": "<p>\"Hello! I purchased the balancing shampoo & conditioner as a Valentine's gift to myself and I can not believe the difference it has made with my hair! It feels softer and cleaner than it has in years, and so much more manageable! Thank you so much! I'm very glad I splurged and tried your products!!! I will definitely continue to use your products as I grow out my natural color. So so happy!\"</p><p><strong>~ Emily Jones, Instagram</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -726,7 +726,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"Hello! I recently purchased your intensive conditioner and I have only used it about six times and I’m already noticing a difference on my hair! It feels so much thicker and healthier! Thank you so much for making such a wonderful conditioner. I have a question about it. I have been using you’re hydrating shampoo and conditioner for about a year now and my hair is now growing and I love it! Now that I have the intensive conditioner, do I use that instead of the hydrating conditioner? I only use the hydrating conditioner on my ends and the intensive conditioner on my ends. I’m not sure how to incorporate it into my hair care routine. Thank you so much for the best hair care products ever! My hair would never grow past a certain point and was always breaking and now that I am using your products my hair is growing beautifully and very long! I’m in love with your products! Thank you!\"<\/p><p><strong>~ Michele<\/strong><\/p>",
+              "subheading": "<p>\"Hello! I recently purchased your intensive conditioner and I have only used it about six times and I’m already noticing a difference on my hair! It feels so much thicker and healthier! Thank you so much for making such a wonderful conditioner. I have a question about it. I have been using you’re hydrating shampoo and conditioner for about a year now and my hair is now growing and I love it! Now that I have the intensive conditioner, do I use that instead of the hydrating conditioner? I only use the hydrating conditioner on my ends and the intensive conditioner on my ends. I’m not sure how to incorporate it into my hair care routine. Thank you so much for the best hair care products ever! My hair would never grow past a certain point and was always breaking and now that I am using your products my hair is growing beautifully and very long! I’m in love with your products! Thank you!\"</p><p><strong>~ Michele</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -737,7 +737,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"My shampoo and conditioner came today and I used them right away and I felt that I had to write this email. The products are AMAZING. The ingredients are why i bought them both and I am throughly pleased. I will defiantly be purchasing from the website again. In fact, I don't know if I will use a different brand EVER AGAIN. They are amazing! I think that this brand needs to be more noticed by people. The shampoo and conditioner are so much better than any other I have used before :)\"<\/p><p><strong>~ Lois Harvey, United Kingdom<\/strong><\/p>",
+              "subheading": "<p>\"My shampoo and conditioner came today and I used them right away and I felt that I had to write this email. The products are AMAZING. The ingredients are why i bought them both and I am throughly pleased. I will defiantly be purchasing from the website again. In fact, I don't know if I will use a different brand EVER AGAIN. They are amazing! I think that this brand needs to be more noticed by people. The shampoo and conditioner are so much better than any other I have used before :)\"</p><p><strong>~ Lois Harvey, United Kingdom</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -748,7 +748,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"This stuff is FANTASTIC!<\/p><p>I came across it through Sarah Nagel’s videos (I’ve become seriously attached to her videos) and I got my package yesterday (I’m on the other side of Canada so it came rather promptly) and all I want to do is shower...forget school!<\/p><p>I also wanted to thank you for the extra essential oil bottle, I have also just ordered a diffuser so it’ll come in great handy!<\/p><p>I’ll be back for more!\"<\/p><p><strong>~ Maddison S<\/strong><\/p>",
+              "subheading": "<p>\"This stuff is FANTASTIC!</p><p>I came across it through Sarah Nagel’s videos (I’ve become seriously attached to her videos) and I got my package yesterday (I’m on the other side of Canada so it came rather promptly) and all I want to do is shower...forget school!</p><p>I also wanted to thank you for the extra essential oil bottle, I have also just ordered a diffuser so it’ll come in great handy!</p><p>I’ll be back for more!\"</p><p><strong>~ Maddison S</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -759,7 +759,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"About two years ago I began to look for the perfect all natural shampoo and conditioner. I tried many different vegan brands, no poo methods, etc. but I was never fully happy with the results. That was until I tried Calia products. This shampoo left my hair feeling so soft and smooth. I also felt like it didn’t need washing after two days like it normally does. Best thing of all, I have been able to reduce the number of days I straighten my hair. In this review, it wouldn’t be fair not to mention the excellent customer service this company has. After placing my second order with Calia, USPS failed to deliver my products. I send out an email and they were super helpful. Randy kept in touch with me while I waited for USPS to do their job. I finally received all of my products and couldn’t be happier. Calia has won over a loyal customer.\"<\/p><p><strong>~ America M<\/strong><\/p>",
+              "subheading": "<p>\"About two years ago I began to look for the perfect all natural shampoo and conditioner. I tried many different vegan brands, no poo methods, etc. but I was never fully happy with the results. That was until I tried Calia products. This shampoo left my hair feeling so soft and smooth. I also felt like it didn’t need washing after two days like it normally does. Best thing of all, I have been able to reduce the number of days I straighten my hair. In this review, it wouldn’t be fair not to mention the excellent customer service this company has. After placing my second order with Calia, USPS failed to deliver my products. I send out an email and they were super helpful. Randy kept in touch with me while I waited for USPS to do their job. I finally received all of my products and couldn’t be happier. Calia has won over a loyal customer.\"</p><p><strong>~ America M</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -770,7 +770,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"THANK YOU CALIA!!! For years I’ve suffered with dry, uncontrollable hair. I saw Sarah’s video and then emailed you guys and you were kind enough to take the time to tell me I should probably try the Balancing formula. Well it has made my crazy hair look great... what a treat after all these years! My itchy scalp has disappeared too.<\/p><p>You guys are the best!\"<\/p><p><strong>~ Barb G<\/strong><\/p>",
+              "subheading": "<p>\"THANK YOU CALIA!!! For years I’ve suffered with dry, uncontrollable hair. I saw Sarah’s video and then emailed you guys and you were kind enough to take the time to tell me I should probably try the Balancing formula. Well it has made my crazy hair look great... what a treat after all these years! My itchy scalp has disappeared too.</p><p>You guys are the best!\"</p><p><strong>~ Barb G</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -781,7 +781,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"Can’t thank you enough for your prompt and personal reply. I ordered the hydrating products. I received them today and used them right away. I am amazed! I am very much pleasantly shocked that I have had the opportunity to come across a product that works on my aging, dry, fine, difficult, unpredictable hair, and I can’t stress enough that it \"works.\" How do you adequately put into words such delight when you finally find something that works for YOU? Like many others, I have tried an infinite number of products, organic\/natural as well as those with chemicals. I returned to your website to read more about your products, company, standards and goals for your enterprise. I am highly impressed with your editorial and how you want to make your products available as much as possible, but also wish to remain a small, cozy, manageable operation. I applaud you for your efforts, your passion, your realistic outlook and your desire to provide wonderful items to us, and to the \"fish downstream!\" I am located in the U.S. (Ohio) and will happily make room in my budget for your products.<\/p><p>Take care and I wish you, your family and staff all the best!\"<\/p><p><strong>~ Susan M<\/strong><\/p>",
+              "subheading": "<p>\"Can’t thank you enough for your prompt and personal reply. I ordered the hydrating products. I received them today and used them right away. I am amazed! I am very much pleasantly shocked that I have had the opportunity to come across a product that works on my aging, dry, fine, difficult, unpredictable hair, and I can’t stress enough that it \"works.\" How do you adequately put into words such delight when you finally find something that works for YOU? Like many others, I have tried an infinite number of products, organic/natural as well as those with chemicals. I returned to your website to read more about your products, company, standards and goals for your enterprise. I am highly impressed with your editorial and how you want to make your products available as much as possible, but also wish to remain a small, cozy, manageable operation. I applaud you for your efforts, your passion, your realistic outlook and your desire to provide wonderful items to us, and to the \"fish downstream!\" I am located in the U.S. (Ohio) and will happily make room in my budget for your products.</p><p>Take care and I wish you, your family and staff all the best!\"</p><p><strong>~ Susan M</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -792,7 +792,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"I recently ordered a few items from you, and I absolutely love everything I ordered! The Rose facial cream is phenomenal! I am 51 years old and I spent in the past a lot of money on facial cream, and your product is by far the best! I love the shampoo and the conditioner as well. I want to order a gallon of the shampoo and conditioner next.<\/p><p>Thank you so very much!\"<\/p>",
+              "subheading": "<p>\"I recently ordered a few items from you, and I absolutely love everything I ordered! The Rose facial cream is phenomenal! I am 51 years old and I spent in the past a lot of money on facial cream, and your product is by far the best! I love the shampoo and the conditioner as well. I want to order a gallon of the shampoo and conditioner next.</p><p>Thank you so very much!\"</p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -803,7 +803,7 @@
             "settings": {
               "image_max_width": 50,
               "title": "",
-              "subheading": "<p>\"I will start off by saying that I have naturally wavy, and very frizzy hair. I had no expectations from this product. Your product promised me nothing. I was simply on a mission one day to find items that were as pure and nourishing as possible, as I have been using natural products for years but they are never as \"natural\" as I would like them to be. Not only did I find that with Calia, but your products were also affordable!<\/p><p>The thing that has always bothered me is that I have never been able to let my hair air dry and have it even look half way decent without a ton of styling product (because, you know, the cave-man\/lady look is not cute at work). I have had my hydrating shampoo, conditioner, and leave-in conditioner for two weeks now and I wanted to give them a fair run before posting a review.<\/p><p>My results are nothing short of a miracle, really. (Perhaps a Christmas miracle?) I have gone through countless bottles of expensive products and I have NEVER been able to allow my hair to air dry, without pulling it back in an effort to hide the frizz. With your products I am able to allow my hair to air dry WITHOUT any styling product and it dries smooth and (I never thought I would say this) silky! You have no idea what a difference this has made for me.<\/p><p>I never write reviews like this, simply because I have never had a product actually work so well. Also, I always thought reviews like this were bogus. Even though you are in Canada and the shipping can be a bit pricey, I will continue to order from you for as long as you continue to produce these lovely products (in bulk!!).<\/p><p>You promise nothing on your bottles, but you have truly given me something that I thought I would never be able to have. I no longer have to be an \"up-do master\"! And I know, it’s just hair, but as someone who has battled to tame the beast on top of my head my entire life, I thank you a million times!!!!!!\"<\/p><p><strong>~ Terah R<\/strong><\/p>",
+              "subheading": "<p>\"I will start off by saying that I have naturally wavy, and very frizzy hair. I had no expectations from this product. Your product promised me nothing. I was simply on a mission one day to find items that were as pure and nourishing as possible, as I have been using natural products for years but they are never as \"natural\" as I would like them to be. Not only did I find that with Calia, but your products were also affordable!</p><p>The thing that has always bothered me is that I have never been able to let my hair air dry and have it even look half way decent without a ton of styling product (because, you know, the cave-man/lady look is not cute at work). I have had my hydrating shampoo, conditioner, and leave-in conditioner for two weeks now and I wanted to give them a fair run before posting a review.</p><p>My results are nothing short of a miracle, really. (Perhaps a Christmas miracle?) I have gone through countless bottles of expensive products and I have NEVER been able to allow my hair to air dry, without pulling it back in an effort to hide the frizz. With your products I am able to allow my hair to air dry WITHOUT any styling product and it dries smooth and (I never thought I would say this) silky! You have no idea what a difference this has made for me.</p><p>I never write reviews like this, simply because I have never had a product actually work so well. Also, I always thought reviews like this were bogus. Even though you are in Canada and the shipping can be a bit pricey, I will continue to order from you for as long as you continue to produce these lovely products (in bulk!!).</p><p>You promise nothing on your bottles, but you have truly given me something that I thought I would never be able to have. I no longer have to be an \"up-do master\"! And I know, it’s just hair, but as someone who has battled to tame the beast on top of my head my entire life, I thank you a million times!!!!!!\"</p><p><strong>~ Terah R</strong></p>",
               "text_max_width": 36,
               "link": "",
               "link_text": "Read more"
@@ -843,13 +843,13 @@
           "1624375712c5aab0ae-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1W9A7317.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/1W9A7298.jpg",
+              "image": "shopify://shop_images/1W9A7317.jpg",
+              "mobile_image": "shopify://shop_images/1W9A7298.jpg",
               "video_url": "",
               "overline": "FRAGRANCE FREE HAIR CARE!",
               "title": "New Fragrance Free Leave-in Conditioner!",
               "subheading": "",
-              "link": "shopify:\/\/collections\/hair-care",
+              "link": "shopify://collections/hair-care",
               "link_text": "SHOP HERE",
               "overlay_opacity": 0,
               "overlay_color": "#ffffff",
@@ -863,12 +863,12 @@
             "type": "slide",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/1W9A2173.jpg",
+              "image": "shopify://shop_images/1W9A2173.jpg",
               "video_url": "",
               "overline": "HAIR CARE SALE",
               "title": "Save 10% On Hair Care!",
               "subheading": "AUTOMATIC SAVINGS UNTIL MIDNIGHT EST OCTOBER 31ST",
-              "link": "shopify:\/\/collections\/hair-care",
+              "link": "shopify://collections/hair-care",
               "link_text": "Shop now",
               "overlay_opacity": 10,
               "overlay_color": "#000000",
@@ -895,13 +895,13 @@
           "c16a480e-e9b8-47ac-b2ff-787c19a11cf1": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/loyalty-banner-image-2.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/loyalty-banner-image-2-mobile.jpg",
+              "image": "shopify://shop_images/loyalty-banner-image-2.jpg",
+              "mobile_image": "shopify://shop_images/loyalty-banner-image-2-mobile.jpg",
               "video_url": "",
               "overline": "",
               "title": "Join The Calia Loyalty Club!",
               "subheading": "Earn 5 points for every dollar you spend and redeem them with discounts.",
-              "link": "\/account\/register",
+              "link": "/account/register",
               "link_text": "Create An Account",
               "overlay_opacity": 20,
               "overlay_color": "#000000",
@@ -925,16 +925,16 @@
         "settings": {
           "section_style": "default",
           "enable_animation": false,
-          "image": "shopify:\/\/shop_images\/calia-loyalty-signup.jpg",
+          "image": "shopify://shop_images/calia-loyalty-signup.jpg",
           "video_url": "",
           "image_width": "one-half",
           "image_position": "left",
           "overline": "Start Saving",
           "title": "Ready to join?",
           "subheading": "",
-          "link": "\/account\/register",
+          "link": "/account/register",
           "link_text": "Create an account to get started",
-          "text_below": "<p>Already have an account? <a href=\"\/account\/register\" title=\"\/account\"><strong>Sign in<\/strong><\/a> and start collecting points! <\/p>",
+          "text_below": "<p>Already have an account? <a href=\"/account/register\" title=\"/account\"><strong>Sign in</strong></a> and start collecting points! </p>",
           "text_alignment": "left",
           "text_color": "#000000",
           "text_container_color": "",
@@ -949,7 +949,7 @@
           "section_style": "contrast",
           "overline": "",
           "title": "",
-          "text": "<p>Our Loyalty Club works on a collected points basis, redeemable with any purchase, anytime. You’ll get points for your purchases, friend referrals and even your birthday!<\/p><p>Redeem points for rewards of $5, $10, or $25 towards a future purchase. Once Loyalty Vouchers are redeemed, they do not expire. <\/p>",
+          "text": "<p>Our Loyalty Club works on a collected points basis, redeemable with any purchase, anytime. You’ll get points for your purchases, friend referrals and even your birthday!</p><p>Redeem points for rewards of $5, $10, or $25 towards a future purchase. Once Loyalty Vouchers are redeemed, they do not expire. </p>",
           "link": "",
           "link_text": "",
           "alignment": "center",
@@ -969,13 +969,13 @@
         "settings": {
           "section_style": "contrast",
           "enable_animation": true,
-          "image": "shopify:\/\/shop_images\/calia-about-banner-1.png",
+          "image": "shopify://shop_images/calia-about-banner-1.png",
           "video_url": "",
           "image_width": "one-half",
           "image_position": "left",
           "overline": "",
           "title": "Our History",
-          "subheading": "<p>At the turn of the last millennium, we created a line of natural hair and skin care products to add to our line of our popular essential oils. It has always been our desire to have Calia products made without the use of modern chemicals - using only naturally sourced ingredients that could provide genuine efficacy and benefits to both the skin and hair.<\/p><p>Our first few items were created fragrance-free, allowing the user to keep them as is, or to add the essential oils of their choice. In time, we introduced several other hair care items with essential oils already introduced into the product. This added not only a special, natural scent but gave them a slightly more defined effect on different hair types.<\/p><p>The result has been that we have created a very strong following of people that are nothing but amazed at how well something so simply natural can work so incredibly well.<\/p>",
+          "subheading": "<p>At the turn of the last millennium, we created a line of natural hair and skin care products to add to our line of our popular essential oils. It has always been our desire to have Calia products made without the use of modern chemicals - using only naturally sourced ingredients that could provide genuine efficacy and benefits to both the skin and hair.</p><p>Our first few items were created fragrance-free, allowing the user to keep them as is, or to add the essential oils of their choice. In time, we introduced several other hair care items with essential oils already introduced into the product. This added not only a special, natural scent but gave them a slightly more defined effect on different hair types.</p><p>The result has been that we have created a very strong following of people that are nothing but amazed at how well something so simply natural can work so incredibly well.</p>",
           "link": "",
           "link_text": "Shop now",
           "text_below": "",
@@ -993,7 +993,7 @@
           "section_style": "default",
           "overline": "",
           "title": "Our Commitment",
-          "text": "<p>It was, and of course, always will be, our desire to give the best value for the highest grade products we can provide. With so many of today's products containing a wide variety of synthetic and sometimes harmful ingredients, we at Calia have created a line of aromatherapy and personal care products that are as pure and as natural as possible, the way things used to be. Even our name CALIA (Kah-Lee-Ah), an Italian word for old-fashioned, reflects our goal.<\/p><p>Our oils are all steam distilled or expressed, are 100% pure, and all have been tested for potency and every oil we sell has a paper trail to its Certificate of Analysis. The Calia hair products will leave your hair and scalp feeling alive and natural, while our skin products will leave your skin moisturized with none of the greasiness common in many synthetic products.<\/p><p><strong>Each time you use a Calia product you are treating yourself to traditional quality from the past, made with the care and attention that we know you will appreciate.<\/strong><\/p><p>Over the last dozen years, we've made small changes to the formulas of our shampoos and conditioners, all in the quest of improving what they will do for you hair. Judging from our overwhelmingly positive (almost fanatical) feedback, we can't help but feel it is working. Your hair ends up being your hair! It doesn't end up being coated with synthetic chemicals and leaves your hair in a natural, well nourished state.<\/p>",
+          "text": "<p>It was, and of course, always will be, our desire to give the best value for the highest grade products we can provide. With so many of today's products containing a wide variety of synthetic and sometimes harmful ingredients, we at Calia have created a line of aromatherapy and personal care products that are as pure and as natural as possible, the way things used to be. Even our name CALIA (Kah-Lee-Ah), an Italian word for old-fashioned, reflects our goal.</p><p>Our oils are all steam distilled or expressed, are 100% pure, and all have been tested for potency and every oil we sell has a paper trail to its Certificate of Analysis. The Calia hair products will leave your hair and scalp feeling alive and natural, while our skin products will leave your skin moisturized with none of the greasiness common in many synthetic products.</p><p><strong>Each time you use a Calia product you are treating yourself to traditional quality from the past, made with the care and attention that we know you will appreciate.</strong></p><p>Over the last dozen years, we've made small changes to the formulas of our shampoos and conditioners, all in the quest of improving what they will do for you hair. Judging from our overwhelmingly positive (almost fanatical) feedback, we can't help but feel it is working. Your hair ends up being your hair! It doesn't end up being coated with synthetic chemicals and leaves your hair in a natural, well nourished state.</p>",
           "link": "",
           "link_text": "",
           "alignment": "center",
@@ -1005,13 +1005,13 @@
         "settings": {
           "section_style": "contrast",
           "enable_animation": true,
-          "image": "shopify:\/\/shop_images\/20180307-1W9A1365_1.jpg",
+          "image": "shopify://shop_images/20180307-1W9A1365_1.jpg",
           "video_url": "",
           "image_width": "one-half",
           "image_position": "right",
           "overline": "",
           "title": "",
-          "subheading": "<p>Calia hair and body care products are 100% complete on their own. They have been formulated using the highest quality ingredients to give you the best natural hair and skin treatments.<br\/><br\/>You may create your own custom fragrance by adding our Calia essential oils on your own. This is based on the art of Aromatherapy. Ancient civilizations used these concentrated botanical extracts as part of their lifestyle. For those that want to have the essential oil fragrance already infused, we offer the Hydrating, Balancing, and Purifying formulas that now only carry a fresh natural scent, but also allow subtle differences in the way they respond to different hair types.<\/p><p>We have no intention of growing Calia into a mass market company and wish to remain small. As one goes forward in life, one realizes (or should do) that time and quality remain very important. Both seem increasingly hard to find in this age of pushing and grovelling to get the most money in the least time. Well we don't buy into that. We prefer the old way. Even our name \"Calia\" is an old fashioned Italian word for old fashion.<\/p><p><strong>We hope you enjoy Calia and we will endeavour to continue providing you with a real, natural alternative.<\/strong><\/p><p><em>Always act naturally.<\/em><\/p><p><em>Randall Cunningham<br\/><\/em>Owner, Calia Natural<\/p>",
+          "subheading": "<p>Calia hair and body care products are 100% complete on their own. They have been formulated using the highest quality ingredients to give you the best natural hair and skin treatments.<br/><br/>You may create your own custom fragrance by adding our Calia essential oils on your own. This is based on the art of Aromatherapy. Ancient civilizations used these concentrated botanical extracts as part of their lifestyle. For those that want to have the essential oil fragrance already infused, we offer the Hydrating, Balancing, and Purifying formulas that now only carry a fresh natural scent, but also allow subtle differences in the way they respond to different hair types.</p><p>We have no intention of growing Calia into a mass market company and wish to remain small. As one goes forward in life, one realizes (or should do) that time and quality remain very important. Both seem increasingly hard to find in this age of pushing and grovelling to get the most money in the least time. Well we don't buy into that. We prefer the old way. Even our name \"Calia\" is an old fashioned Italian word for old fashion.</p><p><strong>We hope you enjoy Calia and we will endeavour to continue providing you with a real, natural alternative.</strong></p><p><em>Always act naturally.</em></p><p><em>Randall Cunningham<br/></em>Owner, Calia Natural</p>",
           "link": "",
           "link_text": "Shop now",
           "text_below": "",
@@ -1029,8 +1029,8 @@
           "402b78e0-392b-45ea-be66-9d1308f543a7": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/calia-natural-about-us.png",
-              "mobile_image": "shopify:\/\/shop_images\/calia-natural-about-us-mobile.png",
+              "image": "shopify://shop_images/calia-natural-about-us.png",
+              "mobile_image": "shopify://shop_images/calia-natural-about-us-mobile.png",
               "video_url": "",
               "overline": "About Us",
               "title": "Welcome",
@@ -1075,12 +1075,12 @@
           "1646232246f2548999-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1W9A9815.jpg",
+              "image": "shopify://shop_images/1W9A9815.jpg",
               "video_url": "",
               "overline": "SELF CARE WITHOUT SYNTHETICS",
               "title": "Naturally Pure Skin Care",
               "subheading": "Skin care that cleanses, tones and nourishes your skin naturally",
-              "link": "shopify:\/\/collections\/skin-care",
+              "link": "shopify://collections/skin-care",
               "link_text": "Shop now",
               "overlay_opacity": 10,
               "overlay_color": "#000000",
@@ -1093,12 +1093,12 @@
           "1646232246f2548999-1": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1W9A9802.jpg",
+              "image": "shopify://shop_images/1W9A9802.jpg",
               "video_url": "",
               "overline": "SELF CARE WITHOUT SYNTHETICS",
               "title": "Intensive Facial Cream",
               "subheading": "The answer to your dry skin's dreams with almond & avocado oils",
-              "link": "shopify:\/\/products\/intensive-facial-cream-with-rose-geranium",
+              "link": "shopify://products/intensive-facial-cream-with-rose-geranium",
               "link_text": "Shop now",
               "overlay_opacity": 0,
               "overlay_color": "#000000",
@@ -1111,12 +1111,12 @@
           "1789a02f-84b7-410b-9f75-e72a14b9d3b1": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1W9A9798.jpg",
+              "image": "shopify://shop_images/1W9A9798.jpg",
               "video_url": "",
               "overline": "SELF CARE WITHOUT SYNTHETICS",
               "title": "Naturally Pure Skin Care Bundle",
               "subheading": "Our must have skin care bundle",
-              "link": "shopify:\/\/collections\/bundles",
+              "link": "shopify://collections/bundles",
               "link_text": "Shop Bundles",
               "overlay_opacity": 0,
               "overlay_color": "#000000",
@@ -1142,14 +1142,14 @@
         "settings": {
           "section_style": "default",
           "enable_animation": true,
-          "image": "shopify:\/\/shop_images\/1W9A9485.jpg",
+          "image": "shopify://shop_images/1W9A9485.jpg",
           "video_url": "",
           "image_width": "two-third",
           "image_position": "left",
           "overline": "SYNTHETIC FREE SELF CARE",
           "title": "Silicones? No way!",
-          "subheading": "<p>Silicones do not have a place in any of our products, especially our hair care! Learn more about why we don't use silicones, <em>ever. <\/em><\/p>",
-          "link": "shopify:\/\/blogs\/news\/why-we-dont-use-silicones",
+          "subheading": "<p>Silicones do not have a place in any of our products, especially our hair care! Learn more about why we don't use silicones, <em>ever. </em></p>",
+          "link": "shopify://blogs/news/why-we-dont-use-silicones",
           "link_text": "READ MORE",
           "text_below": "",
           "text_alignment": "left",
@@ -1187,16 +1187,16 @@
         "settings": {
           "section_style": "full-height",
           "enable_animation": false,
-          "image": "shopify:\/\/shop_images\/1W9A9626.jpg",
+          "image": "shopify://shop_images/1W9A9626.jpg",
           "video_url": "",
           "image_width": "two-third",
           "image_position": "right",
           "overline": "Find Your Formula!",
           "title": "Take The Quiz!",
-          "subheading": "<p><br\/>Whether you are a natural hair care novice or a seasoned pro, take our quiz <a href=\"https:\/\/trk.klclick.com\/ls\/click?upn=BRX6WmlktYb3zLpvkN-2B0rVLQqmIJJK-2BIFS5x6h0K4H-2BHPr36hWfPyfsuJWcimokeKlK89epGKJUh7LxZF-2BGWZA-3D-3DR4dQ_b3UvgzggLzttAEbDvpD6L2EQ26UUAjVu-2FAJloZZFF-2FxAlB12JUiX6OxYKwPQFM7KOrETFRYnY29RMQ-2FpkNmW-2BPQDzbITF8SsiNYMn9TPrajMRzxiURjrOg5dLPh4MyObiKfW7CQba5k5Evqn2W7jNkSXpz8pk9PG242E1G8YOS8NFZKgjnKhTPCqaLzMpy3T3w4e-2BTbuVvtAsP68fTrV4IEzlFr8KNej1Yvuk3uWlz2VrJMhuFf6EvzlTQxCuJOQy5O5byVwhxV2FI-2FlW4K4Rg-3D-3D\" target=\"_blank\">here<\/a> to find the perfect Calia hair care formula for you. <\/p>",
-          "link": "https:\/\/calianatural.com\/pages\/quiz",
+          "subheading": "<p><br/>Whether you are a natural hair care novice or a seasoned pro, take our quiz <a href=\"https://trk.klclick.com/ls/click?upn=BRX6WmlktYb3zLpvkN-2B0rVLQqmIJJK-2BIFS5x6h0K4H-2BHPr36hWfPyfsuJWcimokeKlK89epGKJUh7LxZF-2BGWZA-3D-3DR4dQ_b3UvgzggLzttAEbDvpD6L2EQ26UUAjVu-2FAJloZZFF-2FxAlB12JUiX6OxYKwPQFM7KOrETFRYnY29RMQ-2FpkNmW-2BPQDzbITF8SsiNYMn9TPrajMRzxiURjrOg5dLPh4MyObiKfW7CQba5k5Evqn2W7jNkSXpz8pk9PG242E1G8YOS8NFZKgjnKhTPCqaLzMpy3T3w4e-2BTbuVvtAsP68fTrV4IEzlFr8KNej1Yvuk3uWlz2VrJMhuFf6EvzlTQxCuJOQy5O5byVwhxV2FI-2FlW4K4Rg-3D-3D\" target=\"_blank\">here</a> to find the perfect Calia hair care formula for you. </p>",
+          "link": "https://calianatural.com/pages/quiz",
           "link_text": "TAKE THE QUIZ",
-          "text_below": "<p>Then shop hair care <a href=\"https:\/\/calianatural.com\/collections\/hair-care\" title=\"https:\/\/calianatural.com\/collections\/hair-care\">here.<\/a><\/p>",
+          "text_below": "<p>Then shop hair care <a href=\"https://calianatural.com/collections/hair-care\" title=\"https://calianatural.com/collections/hair-care\">here.</a></p>",
           "text_alignment": "center",
           "text_color": "#000000",
           "text_container_color": "",
@@ -1212,12 +1212,12 @@
             "type": "slide",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/About_Page_c453131d-a7bb-4370-821e-2007e0c9fc6b.jpg",
+              "image": "shopify://shop_images/About_Page_c453131d-a7bb-4370-821e-2007e0c9fc6b.jpg",
               "video_url": "",
               "overline": "TAKE THE HAIR CARE QUIZ",
               "title": "Find Your Formula!",
               "subheading": "Whether you are a natural hair care novice or a seasoned pro, take our quiz here to find the perfect Calia hair care formula for you.",
-              "link": "https:\/\/calianatural.com\/pages\/quiz",
+              "link": "https://calianatural.com/pages/quiz",
               "link_text": "TAKE THE QUIZ",
               "overlay_opacity": 40,
               "overlay_color": "#000000",
@@ -1231,12 +1231,12 @@
             "type": "slide",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/20190629-1W9A3530.jpg",
+              "image": "shopify://shop_images/20190629-1W9A3530.jpg",
               "video_url": "",
               "overline": "TEK ACCESSORIES SALE!",
               "title": "20% Off Tek Brushes + Combs!",
               "subheading": "SHOP AND SAVE ON THE BEST FOR YOUR HAIR",
-              "link": "shopify:\/\/collections\/accessories",
+              "link": "shopify://collections/accessories",
               "link_text": "Shop now",
               "overlay_opacity": 10,
               "overlay_color": "#000000",
@@ -1249,12 +1249,12 @@
           "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1W9A9659.jpg",
+              "image": "shopify://shop_images/1W9A9659.jpg",
               "video_url": "",
               "overline": "TAKE THE HAIR CARE QUIZ",
               "title": "Find Your Formula!",
               "subheading": "Are a natural hair care novice? Take our quiz to find the perfect Calia hair care formula for you!",
-              "link": "https:\/\/calianatural.com\/pages\/quiz",
+              "link": "https://calianatural.com/pages/quiz",
               "link_text": "TAKE THE QUIZ",
               "overlay_opacity": 10,
               "overlay_color": "#000000",
@@ -1289,6 +1289,7 @@
           "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05",
           "slide_anUYpC"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1301,8 +1302,8 @@
           "section_style": "default",
           "overline": "SAVE 15% ON OUR ENTIRE STORE!",
           "title": "The Calia Black Friday Sale is Extended!",
-          "text": "<p>We offer natural organic hair care, skin care, and essential oils made with care and dedication. Our annual Black Friday Sale has been extended! The sale ends November 26th at Midnight PST. Don't wait! <\/p>",
-          "link": "shopify:\/\/collections\/all",
+          "text": "<p>We offer natural organic hair care, skin care, and essential oils made with care and dedication. Our annual Black Friday Sale has been extended! The sale ends November 26th at Midnight PST. Don't wait! </p>",
+          "link": "shopify://collections/all",
           "link_text": "SHOP THE SALE",
           "alignment": "center",
           "text_max_width": 50
@@ -1313,14 +1314,13 @@
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
-            "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/BF_Banner_1.jpg",
+              "image": "shopify://shop_images/BF_Banner_1.jpg",
               "video_url": "",
               "overline": "Save 10% off our ENTIRE store!",
-              "title": "SPRING SAVINGS!",
-              "subheading": "Save 10% SITE-WIDE until Midnight PST on April 6th!",
-              "link": "shopify:\/\/collections\/hair-care",
+              "title": "AUTUMN SAVINGS!",
+              "subheading": "Save 10% SITE-WIDE until Midnight PST on October 6th!",
+              "link": "shopify://collections/hair-care",
               "link_text": "Shop now",
               "overlay_opacity": 40,
               "overlay_color": "#ffffff",
@@ -1352,13 +1352,13 @@
             "type": "slide",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/BF_Banner.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/BF_Banner.jpg",
+              "image": "shopify://shop_images/BF_Banner.jpg",
+              "mobile_image": "shopify://shop_images/BF_Banner.jpg",
               "video_url": "",
               "overline": "",
               "title": "BLACK FRIDAY SAVINGS!",
               "subheading": "Save 15% off our ENTIRE store!",
-              "link": "shopify:\/\/collections\/all",
+              "link": "shopify://collections/all",
               "link_text": "Shop now",
               "overlay_opacity": 10,
               "overlay_color": "#000000",
@@ -1374,7 +1374,6 @@
           "slide_3RzBRf",
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1397,7 +1396,7 @@
     ],
     "blocks": {
       "1119079220096577164": {
-        "type": "shopify:\/\/apps\/loyaltylion\/blocks\/embed-sdk\/6f172e67-4106-4ac0-89c5-b32a069b3101",
+        "type": "shopify://apps/loyaltylion/blocks/embed-sdk/6f172e67-4106-4ac0-89c5-b32a069b3101",
         "disabled": false,
         "settings": {
           "disableBundledCSS": false,
@@ -1564,7 +1563,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+                "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "1602015986783": {
@@ -1694,7 +1693,7 @@
           "settings": {
             "enabled": false,
             "title": "Text",
-            "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.<\/p>"
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.</p>"
           }
         },
         "gallery-grid--static": {
@@ -1704,7 +1703,7 @@
             "columns": 4,
             "aspect_ratio": "square",
             "title": "Gallery",
-            "text": "<p>Let people know about where to find you on social media. Don't forget to add a <a>link<\/a>.<\/p>"
+            "text": "<p>Let people know about where to find you on social media. Don't forget to add a <a>link</a>.</p>"
           }
         },
         "product-recommendations--static": {
@@ -1801,7 +1800,7 @@
             "image_position": "left",
             "overline": "Image with text",
             "title": "Image with text",
-            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.<\/p>",
+            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.</p>",
             "link_text": "Shop now",
             "text_alignment": "left",
             "text_color": "#000000",
@@ -1946,7 +1945,7 @@
             "image_position": "left",
             "overline": "Image with text",
             "title": "Image with text",
-            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.<\/p>",
+            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.</p>",
             "link_text": "Shop now",
             "text_alignment": "left",
             "text_color": "#000000",
@@ -2298,7 +2297,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+                "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "1602015986783": {
@@ -2509,7 +2508,7 @@
             "image_position": "left",
             "overline": "Image with text",
             "title": "Image with text section",
-            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.<\/p>",
+            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.</p>",
             "link_text": "Shop now",
             "text_alignment": "left",
             "text_color": "#5b4c47",
@@ -2687,7 +2686,7 @@
             "image_position": "left",
             "overline": "Image with text",
             "title": "Image with text section",
-            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.<\/p>",
+            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.</p>",
             "link_text": "Shop now",
             "text_alignment": "left",
             "text_color": "#5b4c47",
@@ -2713,7 +2712,7 @@
           "settings": {
             "enabled": true,
             "title": "Text",
-            "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.<\/p>"
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.</p>"
           }
         },
         "gallery-grid--static": {
@@ -2723,7 +2722,7 @@
             "columns": 4,
             "aspect_ratio": "square",
             "title": "Gallery",
-            "text": "<p>Let people know about where to find you on social media. Don't forget to add a <a href='#'>link<\/a>.<\/p>"
+            "text": "<p>Let people know about where to find you on social media. Don't forget to add a <a href='#'>link</a>.</p>"
           }
         },
         "product-recommendations--static": {
@@ -2969,7 +2968,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+                "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "71054815-9750-443e-88a4-ce5b01013146": {
@@ -3133,7 +3132,7 @@
           "settings": {
             "enabled": false,
             "title": "Text",
-            "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.<\/p>"
+            "text": "<p>Use this text area to share information about your brand with your customers. Describe your shipping policy, return policy, or share announcements.</p>"
           }
         },
         "gallery-grid--static": {
@@ -3143,7 +3142,7 @@
             "columns": 4,
             "aspect_ratio": "square",
             "title": "Gallery",
-            "text": "<p>Let people know about where to find you on social media. Don&#x27;t forget to add a <a href=\"#\">link<\/a>.<\/p>"
+            "text": "<p>Let people know about where to find you on social media. Don&#x27;t forget to add a <a href=\"#\">link</a>.</p>"
           }
         },
         "product-recommendations--static": {
@@ -3303,7 +3302,7 @@
             "image_position": "left",
             "overline": "Image with text",
             "title": "Image with text section",
-            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.<\/p>",
+            "subheading": "<p>Use this section to showcase your editorial photography or images from your look book. This Section looks best with two or three sentences of text.</p>",
             "link_text": "Shop now",
             "text_alignment": "left",
             "text_color": "#000000",
