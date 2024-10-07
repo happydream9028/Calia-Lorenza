@@ -1289,7 +1289,6 @@
           "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05",
           "slide_anUYpC"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1314,6 +1313,7 @@
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BF_Banner_1.jpg",
               "video_url": "",
