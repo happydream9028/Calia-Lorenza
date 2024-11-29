@@ -1377,6 +1377,20 @@
           "aspect_ratio": "full_height",
           "timer": 7
         }
+      },
+      "featured_product_dynamic_yPztzf": {
+        "type": "featured-product--dynamic",
+        "settings": {
+          "section_style": "default",
+          "product": "calia-baseball-cap",
+          "show_vendor": true,
+          "show_swatches": false,
+          "show_share_buttons": false,
+          "show_description": true,
+          "show_quantity_input": true,
+          "enable_payment_button": true,
+          "enable_video_looping": true
+        }
       }
     },
     "content_for_index": [
@@ -1391,7 +1405,8 @@
       "1624375712c5aab0ae",
       "1602302926ac40fa14",
       "0bfac928-64a9-4339-8a13-8e677d4193d1",
-      "1602100844222d406f"
+      "1602100844222d406f",
+      "featured_product_dynamic_yPztzf"
     ],
     "blocks": {
       "1119079220096577164": {
