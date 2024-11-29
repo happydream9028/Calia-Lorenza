@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_accent": "#c30e2e",
@@ -386,8 +386,7 @@
       },
       "page-contact--template": {
         "type": "page-contact--template",
-        "settings": {
-        }
+        "settings": {}
       },
       "1602302639a7b60f3e": {
         "type": "slideshow--dynamic",
@@ -1317,9 +1316,9 @@
             "settings": {
               "image": "shopify://shop_images/BF_Banner_1.jpg",
               "video_url": "",
-              "overline": "Save 10% off our ENTIRE store!",
-              "title": "10% FALL SAVINGS!",
-              "subheading": "Save 10% SITE-WIDE until Midnight PST on October 6th!",
+              "overline": "Save 15% off our ENTIRE store!",
+              "title": "15% BLACK FRIDAY SAVINGS!",
+              "subheading": "Save 15% SITE-WIDE until Midnight PST on Sunday, December 1st!",
               "link": "shopify://collections/hair-care",
               "link_text": "Shop now",
               "overlay_opacity": 40,
