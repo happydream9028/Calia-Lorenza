@@ -1312,7 +1312,6 @@
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BF_Banner_1.jpg",
               "video_url": "",
@@ -1380,11 +1379,11 @@
       }
     },
     "content_for_index": [
-      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "668e1059-87ee-4711-8e0a-30b5c353bf64",
       "212d16d9-06d3-4d48-97c0-dee361e29dc8",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
+      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "16462322602b16515f",
       "160230298895c3eda9",
       "1646232246f2548999",
