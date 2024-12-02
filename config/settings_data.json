@@ -92,7 +92,7 @@
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "SAVE 15% SITE-WIDE FOR BLACK FRIDAY! SALE ENDS SUNDAY, DECEMBER 1ST!",
+              "text": "SALE EXTENDED! SAVE 15% SITE-WIDE FOR BLACK FRIDAY! SALE EXTENSION ENDS TONIGHT!",
               "link": "shopify://collections/all"
             }
           },
@@ -1317,8 +1317,8 @@
               "image": "shopify://shop_images/BF_Banner_1.jpg",
               "video_url": "",
               "overline": "Save 15% off our ENTIRE store!",
-              "title": "15% BLACK FRIDAY SAVINGS!",
-              "subheading": "Save 15% SITE-WIDE until Midnight PST on Sunday, December 1st!",
+              "title": "15% BLACK FRIDAY SAVINGS EXTENDED!",
+              "subheading": "Save 15% SITE-WIDE until Midnight PST on MONDAY December 2nd!",
               "link": "shopify://collections/hair-care",
               "link_text": "Shop now",
               "overlay_opacity": 40,
