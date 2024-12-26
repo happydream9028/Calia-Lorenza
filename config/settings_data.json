@@ -960,7 +960,7 @@
         "settings": {
           "cart_ajax_enable": true,
           "minimum_spend": 250,
-          "free_gift": "calia-baseball-cap"
+          "free_gift": "free-calia-baseball-cap"
         }
       },
       "page-about-image-with-text--dynamic": {
