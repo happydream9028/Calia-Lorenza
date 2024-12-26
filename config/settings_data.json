@@ -1315,9 +1315,9 @@
             "settings": {
               "image": "shopify://shop_images/BF_Banner_1.jpg",
               "video_url": "",
-              "overline": "Save 15% off our ENTIRE store!",
-              "title": "15% BLACK FRIDAY SAVINGS EXTENDED!",
-              "subheading": "Save 15% SITE-WIDE until Midnight PST on MONDAY December 2nd!",
+              "overline": "Save 10% off our ENTIRE store!",
+              "title": "10% BOXING DAY SAVINGS!",
+              "subheading": "Save 10% SITE-WIDE until Midnight PST on Saturday December 28th!",
               "link": "shopify://collections/hair-care",
               "link_text": "Shop now",
               "overlay_opacity": 40,
@@ -1372,7 +1372,6 @@
           "slide_3RzBRf",
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
