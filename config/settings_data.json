@@ -99,7 +99,6 @@
           },
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -109,7 +108,6 @@
           },
           "51c6b612-4c82-4885-b651-5b184c8665ff": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -1211,7 +1209,6 @@
         "blocks": {
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/About_Page_c453131d-a7bb-4370-821e-2007e0c9fc6b.jpg",
               "video_url": "",
@@ -1224,6 +1221,24 @@
               "overlay_color": "#000000",
               "text_color": "#ffffff",
               "text_max_width": 32,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          },
+          "slide_g4pUHH": {
+            "type": "slide",
+            "disabled": true,
+            "settings": {
+              "video_url": "",
+              "overline": "",
+              "title": "",
+              "subheading": "",
+              "link": "",
+              "link_text": "Shop now",
+              "overlay_opacity": 20,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "text_max_width": 48,
               "horizontal_text_position": "left",
               "vertical_text_position": "middle"
             }
@@ -1286,11 +1301,11 @@
         },
         "block_order": [
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0",
+          "slide_g4pUHH",
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1",
           "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05",
           "slide_anUYpC"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1315,6 +1330,7 @@
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BF_Banner_1.jpg",
               "video_url": "",
