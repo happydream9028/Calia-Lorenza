@@ -959,8 +959,8 @@
         "type": "cart--template",
         "settings": {
           "cart_ajax_enable": true,
-          "minimum_spend": 250,
-          "free_gift": "free-calia-baseball-cap"
+          "minimum_spend": 240,
+          "free_gift": ""
         }
       },
       "page-about-image-with-text--dynamic": {
