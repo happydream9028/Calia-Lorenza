@@ -89,16 +89,16 @@
         "blocks": {
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "SAVE 10% SITE-WIDE FOR BOXING DAY!",
+              "text": "SAVE 10% SITE-WIDE FOR OUR SPRING SALE!",
               "link": "shopify://collections/all"
             }
           },
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -108,6 +108,7 @@
           },
           "51c6b612-4c82-4885-b651-5b184c8665ff": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -1131,6 +1132,7 @@
           "1646232246f2548999-1",
           "1789a02f-84b7-410b-9f75-e72a14b9d3b1"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1210,19 +1212,20 @@
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify://shop_images/About_Page_c453131d-a7bb-4370-821e-2007e0c9fc6b.jpg",
+              "image": "shopify://shop_images/1W9A9664.jpg",
+              "mobile_image": "shopify://shop_images/1W9A9626.jpg",
               "video_url": "",
               "overline": "TAKE THE HAIR CARE QUIZ",
               "title": "Find Your Formula!",
               "subheading": "Whether you are a natural hair care novice or a seasoned pro, take our quiz here to find the perfect Calia hair care formula for you.",
               "link": "https://calianatural.com/pages/quiz",
               "link_text": "TAKE THE QUIZ",
-              "overlay_opacity": 40,
+              "overlay_opacity": 20,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
               "text_max_width": 32,
               "horizontal_text_position": "left",
-              "vertical_text_position": "middle"
+              "vertical_text_position": "bottom"
             }
           },
           "slide_g4pUHH": {
@@ -1330,7 +1333,6 @@
         "blocks": {
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BF_Banner_1.jpg",
               "video_url": "",
@@ -1395,36 +1397,21 @@
           "aspect_ratio": "full_height",
           "timer": 7
         }
-      },
-      "featured_product_dynamic_yPztzf": {
-        "type": "featured-product--dynamic",
-        "settings": {
-          "section_style": "default",
-          "product": "calia-baseball-cap",
-          "show_vendor": true,
-          "show_swatches": false,
-          "show_share_buttons": false,
-          "show_description": true,
-          "show_quantity_input": true,
-          "enable_payment_button": true,
-          "enable_video_looping": true
-        }
       }
     },
     "content_for_index": [
-      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "668e1059-87ee-4711-8e0a-30b5c353bf64",
       "212d16d9-06d3-4d48-97c0-dee361e29dc8",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
       "16462322602b16515f",
       "160230298895c3eda9",
+      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "1646232246f2548999",
       "1624375712c5aab0ae",
       "1602302926ac40fa14",
       "0bfac928-64a9-4339-8a13-8e677d4193d1",
-      "1602100844222d406f",
-      "featured_product_dynamic_yPztzf"
+      "1602100844222d406f"
     ],
     "blocks": {
       "1119079220096577164": {
