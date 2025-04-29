@@ -19,16 +19,16 @@
 
   <div class="product__price">
     {% if product.metafields.custom.bundle_full_price != blank or product.metafields.custom.bundle_price != blank %}
+      {% if product.metafields.custom.bundle_price != blank %}
+        <span data-product-price>${{ product.metafields.custom.bundle_price }} CAD</span>
+      {% else %}
+        <span data-product-price>{% render 'bundle-price', product: product %}</span>
+      {% endif %}
       {% if product.metafields.custom.bundle_full_price != blank %}
         <s data-compare-price class="mr1 meta">
         ${{ product.metafields.custom.bundle_full_price }} CAD
         <span class="visually-hidden" data-compare-text>{{ product.metafields.custom.bundle_full_price }}</span>
       </s>
-      {% endif %}
-      {% if product.metafields.custom.bundle_price != blank %}
-        <span data-product-price>${{ product.metafields.custom.bundle_price }} CAD</span>
-      {% else %}
-        <span data-product-price>{% render 'bundle-price', product: product %}</span>
       {% endif %}
     {% else %}
     <s data-compare-price class="mr1 meta{% if show_price_comparison == false %} hide{% endif %}">
