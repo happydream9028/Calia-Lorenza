@@ -51,6 +51,11 @@
   {% if product.tags contains 'bundle' %}
     {% if product.metafields.custom.bundle_full_price != blank %}
       <dl class="price__sale" style="display: flex !important;">
+        <dd>
+          <span class="price-item price-item--sale accent">
+            ${{ product.metafields.custom.bundle_price }}
+          </span>
+        </dd>
         <div class="price__compare meta">
           <dt>
             <span class="visually-hidden visually-hidden--inline">{{ 'products.product.regular_price' | t }}</span>
@@ -64,11 +69,6 @@
         <dt>
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.sale_price' | t }}</span>
         </dt>
-        <dd>
-          <span class="price-item price-item--sale accent">
-            ${{ product.metafields.custom.bundle_price }}
-          </span>
-        </dd>
       </dl>
     {% else %}
       <dl class="price__regular">
