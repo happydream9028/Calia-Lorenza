@@ -50,7 +50,7 @@
   {%- endcomment -%}
   {% if product.tags contains 'bundle' %}
     {% if product.metafields.custom.bundle_full_price != blank %}
-      <dl class="price__sale" style="display: inline-block !important;">
+      <dl class="price__sale" style="display: flex !important;">
         <div class="price__compare meta">
           <dt>
             <span class="visually-hidden visually-hidden--inline">{{ 'products.product.regular_price' | t }}</span>
