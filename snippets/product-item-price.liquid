@@ -59,6 +59,32 @@
         </span>
       </dd>
     </dl>
+    <dl class="price__sale">
+    <div class="price__compare meta">
+      <dt>
+        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.regular_price' | t }}</span>
+      </dt>
+      <dd>
+        <s class="price-item price-item--regular meta">
+          {% render 'bundle-compare-price', product: product %}
+        </s>
+      </dd>
+    </div>
+    <dt>
+      <span class="visually-hidden visually-hidden--inline">{{ 'products.product.sale_price' | t }}</span>
+    </dt>
+    <dd>
+      <span class="price-item price-item--sale accent">
+        {%- if product.price_varies -%}
+          {{ 'products.product.from_lowest_price_html' | t: lowest_price: money_price }}
+        {%- else -%}
+          {% render 'bundle-price', product: product %}
+        {%- endif -%}
+
+        {% render 'unit-price' item: current_variant %}
+      </span>
+    </dd>
+  </dl> 
   {% else %}
   <dl class="price__regular">
     <dt>
