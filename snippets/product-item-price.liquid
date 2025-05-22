@@ -27,7 +27,7 @@
 
 <div class="price price--listing
   {%- if available == false %} price--sold-out {% endif -%}
-  {%- if compare_at_price > price %}{% unless product.tags contains 'bundle' %} price--on-sale {% endunless %}{% endif -%}
+  {%- if compare_at_price > price %} price--on-sale{% endif -%}
   {%- if product.price_varies == false and product.compare_at_price_varies %} price--compare-price-hidden {% endif -%}"
 >
   {% if show_vendor and product %}
@@ -50,7 +50,7 @@
   {%- endcomment -%}
   {% if product.tags contains 'bundle' %}
     {% if product.metafields.custom.bundle_full_price != blank %}
-      <dl class="price__sale">
+      <dl class="price__sale" style="display: inline-block !important;">
         <div class="price__compare meta">
           <dt>
             <span class="visually-hidden visually-hidden--inline">{{ 'products.product.regular_price' | t }}</span>
