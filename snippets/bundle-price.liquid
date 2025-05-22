@@ -10,7 +10,7 @@
     {% assign total = total | plus: variant_price %}
   {% endfor %}
   {{total | money}}
-{% else %}
+{% elsif tag contains 'choice--' %}
   {% for tag in product.tags %}
     {% if tag contains 'choice--' %}
       {% assign split = tag | split: '--' %}
@@ -29,4 +29,9 @@
     {% endif %}
   {% endfor %}
   {{ total | money }}
+{% else %}
+  {% for variant in product.variants %}
+    {% assign variant_price = variant.price %}  
+    {% assign total = total | plus: variant_price %}
+  {% endfor %}
 {% endif %}
