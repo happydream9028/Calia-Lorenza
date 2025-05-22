@@ -48,7 +48,7 @@
       - div.price__unit: Displayed when the first variant has a unit price
       - div.price__availability: Displayed when the product is sold out
   {%- endcomment -%}
-  {% if product.tags contains 'variant-bundle' %}
+  {% if product.tags contains 'bundle' %}
     {% if product.metafields.custom.bundle_full_price != blank %}
       <dl class="price__sale">
         <div class="price__compare meta">
