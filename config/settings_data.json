@@ -469,6 +469,7 @@
       },
       "160230298895c3eda9": {
         "type": "featured-collection--dynamic",
+        "disabled": true,
         "settings": {
           "section_style": "contrast",
           "text_position": "middle_left",
