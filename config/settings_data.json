@@ -423,7 +423,6 @@
       },
       "1602302827aaa0807e": {
         "type": "featured-collection--dynamic",
-        "disabled": true,
         "settings": {
           "section_style": "contrast",
           "text_position": "top_center",
@@ -838,58 +837,6 @@
           "text_max_width": 50
         }
       },
-      "1624375712c5aab0ae": {
-        "type": "slideshow--dynamic",
-        "blocks": {
-          "1624375712c5aab0ae-0": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify://shop_images/1W9A7317.jpg",
-              "mobile_image": "shopify://shop_images/1W9A7298.jpg",
-              "video_url": "",
-              "overline": "FRAGRANCE FREE HAIR CARE!",
-              "title": "New Fragrance Free Leave-in Conditioner!",
-              "subheading": "",
-              "link": "shopify://collections/hair-care",
-              "link_text": "SHOP HERE",
-              "overlay_opacity": 0,
-              "overlay_color": "#ffffff",
-              "text_color": "#324340",
-              "text_max_width": 28,
-              "horizontal_text_position": "right",
-              "vertical_text_position": "bottom"
-            }
-          },
-          "b8e795ad-3cb3-4c8a-91e7-82820e0d2339": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/1W9A2173.jpg",
-              "video_url": "",
-              "overline": "HAIR CARE SALE",
-              "title": "Save 10% On Hair Care!",
-              "subheading": "AUTOMATIC SAVINGS UNTIL MIDNIGHT EST OCTOBER 31ST",
-              "link": "shopify://collections/hair-care",
-              "link_text": "Shop now",
-              "overlay_opacity": 10,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "text_max_width": 29,
-              "horizontal_text_position": "right",
-              "vertical_text_position": "middle"
-            }
-          }
-        },
-        "block_order": [
-          "1624375712c5aab0ae-0",
-          "b8e795ad-3cb3-4c8a-91e7-82820e0d2339"
-        ],
-        "disabled": true,
-        "settings": {
-          "aspect_ratio": "full_height",
-          "timer": 5
-        }
-      },
       "page-loyalty-slideshow--dynamic": {
         "type": "page-loyalty-slideshow--dynamic",
         "blocks": {
@@ -1133,6 +1080,7 @@
           "1646232246f2548999-1",
           "1789a02f-84b7-410b-9f75-e72a14b9d3b1"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1140,7 +1088,6 @@
       },
       "16462322602b16515f": {
         "type": "page-about-image-with-text--dynamic-2",
-        "disabled": true,
         "settings": {
           "section_style": "default",
           "enable_animation": true,
@@ -1229,61 +1176,6 @@
               "vertical_text_position": "bottom"
             }
           },
-          "slide_g4pUHH": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "video_url": "",
-              "overline": "",
-              "title": "",
-              "subheading": "",
-              "link": "",
-              "link_text": "Shop now",
-              "overlay_opacity": 20,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "text_max_width": 48,
-              "horizontal_text_position": "left",
-              "vertical_text_position": "middle"
-            }
-          },
-          "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/20190629-1W9A3530.jpg",
-              "video_url": "",
-              "overline": "TEK ACCESSORIES SALE!",
-              "title": "20% Off Tek Brushes + Combs!",
-              "subheading": "SHOP AND SAVE ON THE BEST FOR YOUR HAIR",
-              "link": "shopify://collections/accessories",
-              "link_text": "Shop now",
-              "overlay_opacity": 10,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "text_max_width": 48,
-              "horizontal_text_position": "right",
-              "vertical_text_position": "middle"
-            }
-          },
-          "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify://shop_images/1W9A9659.jpg",
-              "video_url": "",
-              "overline": "TAKE THE HAIR CARE QUIZ",
-              "title": "Find Your Formula!",
-              "subheading": "Are a natural hair care novice? Take our quiz to find the perfect Calia hair care formula for you!",
-              "link": "https://calianatural.com/pages/quiz",
-              "link_text": "TAKE THE QUIZ",
-              "overlay_opacity": 10,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "text_max_width": 32,
-              "horizontal_text_position": "right",
-              "vertical_text_position": "middle"
-            }
-          },
           "slide_anUYpC": {
             "type": "slide",
             "disabled": true,
@@ -1305,9 +1197,6 @@
         },
         "block_order": [
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0",
-          "slide_g4pUHH",
-          "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-1",
-          "ef7d9ca0-9795-4b7d-a7f6-f4495aa55f05",
           "slide_anUYpC"
         ],
         "settings": {
@@ -1351,24 +1240,6 @@
               "vertical_text_position": "middle"
             }
           },
-          "slide_3RzBRf": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "video_url": "",
-              "overline": "",
-              "title": "",
-              "subheading": "",
-              "link": "",
-              "link_text": "Shop now",
-              "overlay_opacity": 20,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "text_max_width": 48,
-              "horizontal_text_position": "left",
-              "vertical_text_position": "middle"
-            }
-          },
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1": {
             "type": "slide",
             "disabled": true,
@@ -1392,9 +1263,9 @@
         },
         "block_order": [
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0",
-          "slide_3RzBRf",
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1402,18 +1273,17 @@
       }
     },
     "content_for_index": [
-      "668e1059-87ee-4711-8e0a-30b5c353bf64",
+      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "212d16d9-06d3-4d48-97c0-dee361e29dc8",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
       "16462322602b16515f",
-      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "160230298895c3eda9",
       "1646232246f2548999",
-      "1624375712c5aab0ae",
       "1602302926ac40fa14",
       "0bfac928-64a9-4339-8a13-8e677d4193d1",
-      "1602100844222d406f"
+      "1602100844222d406f",
+      "668e1059-87ee-4711-8e0a-30b5c353bf64"
     ],
     "blocks": {
       "1119079220096577164": {
