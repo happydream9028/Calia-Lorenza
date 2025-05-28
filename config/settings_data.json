@@ -415,7 +415,6 @@
         "block_order": [
           "1602302639a7b60f3e-0"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "3_2",
           "timer": 7
@@ -1020,24 +1019,6 @@
       "1646232246f2548999": {
         "type": "slideshow--dynamic",
         "blocks": {
-          "1646232246f2548999-0": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify://shop_images/1W9A9815.jpg",
-              "video_url": "",
-              "overline": "SELF CARE WITHOUT SYNTHETICS",
-              "title": "Naturally Pure Skin Care",
-              "subheading": "Skin care that cleanses, tones and nourishes your skin naturally",
-              "link": "shopify://collections/skin-care",
-              "link_text": "Shop now",
-              "overlay_opacity": 10,
-              "overlay_color": "#000000",
-              "text_color": "#324340",
-              "text_max_width": 40,
-              "horizontal_text_position": "right",
-              "vertical_text_position": "middle"
-            }
-          },
           "1646232246f2548999-1": {
             "type": "slide",
             "settings": {
@@ -1055,32 +1036,11 @@
               "horizontal_text_position": "left",
               "vertical_text_position": "middle"
             }
-          },
-          "1789a02f-84b7-410b-9f75-e72a14b9d3b1": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify://shop_images/1W9A9798.jpg",
-              "video_url": "",
-              "overline": "SELF CARE WITHOUT SYNTHETICS",
-              "title": "Naturally Pure Skin Care Bundle",
-              "subheading": "Our must have skin care bundle",
-              "link": "shopify://collections/bundles",
-              "link_text": "Shop Bundles",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#324340",
-              "text_max_width": 30,
-              "horizontal_text_position": "right",
-              "vertical_text_position": "middle"
-            }
           }
         },
         "block_order": [
-          "1646232246f2548999-0",
-          "1646232246f2548999-1",
-          "1789a02f-84b7-410b-9f75-e72a14b9d3b1"
+          "1646232246f2548999-1"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
