@@ -1020,29 +1020,6 @@
       },
       "1646232246f2548999": {
         "type": "slideshow--dynamic",
-        "blocks": {
-          "1646232246f2548999-1": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify://shop_images/1W9A9802.jpg",
-              "video_url": "",
-              "overline": "SELF CARE WITHOUT SYNTHETICS",
-              "title": "Intensive Facial Cream",
-              "subheading": "The answer to your dry skin's dreams with almond & avocado oils",
-              "link": "shopify://products/intensive-facial-cream-with-rose-geranium",
-              "link_text": "Shop now",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#324340",
-              "text_max_width": 40,
-              "horizontal_text_position": "left",
-              "vertical_text_position": "middle"
-            }
-          }
-        },
-        "block_order": [
-          "1646232246f2548999-1"
-        ],
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1053,13 +1030,13 @@
         "settings": {
           "section_style": "default",
           "enable_animation": true,
-          "image": "shopify://shop_images/1W9A9485.jpg",
+          "image": "shopify://shop_images/1W9A9651_2048x_fc13dd4b-8ef1-40aa-8604-24fec8d60830.jpg",
           "video_url": "",
           "image_width": "two-third",
           "image_position": "left",
           "overline": "SYNTHETIC FREE SELF CARE",
-          "title": "Silicones? No way!",
-          "subheading": "<p>Silicones do not have a place in any of our products, especially our hair care! Learn more about why we don't use silicones, <em>ever. </em></p>",
+          "title": "Only the purest natural ingredients make it their way into our bottles.",
+          "subheading": "<p>Learn more about why we don't use silicones, <em>ever. </em></p>",
           "link": "shopify://blogs/news/why-we-dont-use-silicones",
           "link_text": "READ MORE",
           "text_below": "",
@@ -1094,7 +1071,6 @@
       },
       "0bfac928-64a9-4339-8a13-8e677d4193d1": {
         "type": "page-about-image-with-text--dynamic-2",
-        "disabled": true,
         "settings": {
           "section_style": "full-height",
           "enable_animation": false,
