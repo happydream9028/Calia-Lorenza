@@ -1085,9 +1085,9 @@
           "link_text": "TAKE THE QUIZ",
           "text_below": "<p>Then shop hair care <a href=\"https://calianatural.com/collections/hair-care\" title=\"https://calianatural.com/collections/hair-care\">here.</a></p>",
           "text_alignment": "center",
-          "text_color": "#000000",
+          "text_color": "#1b1b1b",
           "text_container_color": "",
-          "button_text_color": "#1b1b1b",
+          "button_text_color": "#ffffff",
           "button_border_color": "#dedede",
           "text_max_width": 36
         }
