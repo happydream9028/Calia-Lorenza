@@ -100,7 +100,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "background_color": "#719362",
+              "background_color": "#c30e2e",
               "text_color": "#ffffff",
               "text": "Canadian Made Natural Hair Care That Works! | We Ship Worldwide!",
               "link": "shopify://collections/all-products"
