@@ -462,7 +462,6 @@
         "block_order": [
           "1602302926ac40fa14-0"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "unconstrained",
           "timer": 7
@@ -1071,6 +1070,7 @@
       },
       "0bfac928-64a9-4339-8a13-8e677d4193d1": {
         "type": "page-about-image-with-text--dynamic-2",
+        "disabled": true,
         "settings": {
           "section_style": "full-height",
           "enable_animation": false,
@@ -1203,7 +1203,6 @@
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0",
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
