@@ -892,7 +892,7 @@
         "type": "cart--template",
         "settings": {
           "cart_ajax_enable": true,
-          "minimum_spend": 240,
+          "minimum_spend": 50,
           "free_gift": ""
         }
       },
