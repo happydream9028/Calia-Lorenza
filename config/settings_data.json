@@ -1149,6 +1149,7 @@
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0",
           "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1184,13 +1185,14 @@
           "slide_49Pff3",
           "slide_UxLpjd"
         ],
+        "disabled": true,
         "name": "Slideshow split",
         "settings": {
           "timer": 7,
           "overline": "GIFT WITH PURCHASE OVER $50",
           "title": "Free Lavender Oil",
           "subheading": "The Oil Everyone Needs This Summer",
-          "link": "",
+          "link": "shopify://collections/best-sellers",
           "link_text": "Shop now",
           "overlay_opacity": 20,
           "overlay_color": "#000000",
@@ -1202,6 +1204,7 @@
       }
     },
     "content_for_index": [
+      "slideshow_split_dynamic_tWAL8C",
       "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
@@ -1209,8 +1212,7 @@
       "1646232246f2548999",
       "1602302926ac40fa14",
       "1602100844222d406f",
-      "668e1059-87ee-4711-8e0a-30b5c353bf64",
-      "slideshow_split_dynamic_tWAL8C"
+      "668e1059-87ee-4711-8e0a-30b5c353bf64"
     ],
     "blocks": {
       "1119079220096577164": {
