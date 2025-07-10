@@ -1174,6 +1174,7 @@
           },
           "slide_UxLpjd": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/20190629-1W9A3489.jpg",
               "video_url": ""
