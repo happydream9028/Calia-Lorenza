@@ -426,14 +426,14 @@
         "settings": {
           "section_style": "contrast",
           "text_position": "top_center",
-          "collection": "hair-care",
+          "collection": "essential-oils",
           "columns": 3,
           "aspect_ratio": "natural",
-          "overline": "CALIA IS CANADIAN MADE ORGANIC HAIR CARE THAT WORKS",
-          "title": "Our Best Selling Hair Care",
-          "subheading": "Our all natural shampoos and conditioners are enhanced with the power of essential oils, delivering unique qualities that enrich and protect your hair naturally.",
+          "overline": "OUR GIFT TO YOU THIS SUMMER",
+          "title": "Why Lavender Oil?",
+          "subheading": "Lavender is anti-bacterial, heals burns quickly, helps promote great sleep, and aids in quality relaxation. It's also a key ingredient in our best selling shampoo formula, strengthening the hair and scalp and promoting healthy growth. It's an essential.",
           "link_text": "",
-          "text_max_width": 35
+          "text_max_width": 50
         }
       },
       "1602302926ac40fa14": {
@@ -1171,20 +1171,11 @@
               "image": "shopify://shop_images/20190629-1W9A3489.jpg",
               "video_url": ""
             }
-          },
-          "slide_UxLpjd": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/20190629-1W9A3489.jpg",
-              "video_url": ""
-            }
           }
         },
         "block_order": [
           "slide_R8nmzx",
-          "slide_49Pff3",
-          "slide_UxLpjd"
+          "slide_49Pff3"
         ],
         "name": "Slideshow split",
         "settings": {
@@ -1201,12 +1192,28 @@
           "horizontal_text_position": "center",
           "vertical_text_position": "middle"
         }
+      },
+      "featured_collection_dynamic_zhXCWC": {
+        "type": "featured-collection--dynamic",
+        "settings": {
+          "section_style": "contrast",
+          "text_position": "top_center",
+          "collection": "hair-care",
+          "columns": 3,
+          "aspect_ratio": "natural",
+          "overline": "CALIA IS CANADIAN MADE ORGANIC HAIR CARE THAT WORKS",
+          "title": "Our Best Selling Hair Care",
+          "subheading": "Our all natural shampoos and conditioners are enhanced with the power of essential oils, delivering unique qualities that enrich and protect your hair naturally.",
+          "link_text": "",
+          "text_max_width": 35
+        }
       }
     },
     "content_for_index": [
       "slideshow_split_dynamic_tWAL8C",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
+      "featured_collection_dynamic_zhXCWC",
       "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "16462322602b16515f",
       "1646232246f2548999",
