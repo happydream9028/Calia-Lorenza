@@ -1185,7 +1185,6 @@
           "slide_49Pff3",
           "slide_UxLpjd"
         ],
-        "disabled": true,
         "name": "Slideshow split",
         "settings": {
           "timer": 7,
@@ -1205,9 +1204,9 @@
     },
     "content_for_index": [
       "slideshow_split_dynamic_tWAL8C",
-      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
+      "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "16462322602b16515f",
       "1646232246f2548999",
       "1602302926ac40fa14",
