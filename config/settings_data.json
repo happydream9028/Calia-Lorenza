@@ -893,8 +893,8 @@
         "type": "cart--template",
         "settings": {
           "cart_ajax_enable": true,
-          "minimum_spend": 50,
-          "free_gift": "free-gift-lavender"
+          "minimum_spend": 0,
+          "free_gift": ""
         }
       },
       "page-about-image-with-text--dynamic": {
