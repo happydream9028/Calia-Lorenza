@@ -462,6 +462,7 @@
         "block_order": [
           "1602302926ac40fa14-0"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "unconstrained",
           "timer": 7
@@ -1058,7 +1059,7 @@
           "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify://shop_images/1W9A9664.jpg",
+              "image": "shopify://shop_images/20190629-1W9A3557.jpg",
               "mobile_image": "shopify://shop_images/calia-natural-about-us-mobile.png",
               "video_url": "",
               "overline": "CANADIAN MADE HAIR CARE",
@@ -1195,6 +1196,7 @@
       },
       "featured_collection_dynamic_zhXCWC": {
         "type": "featured-collection--dynamic",
+        "disabled": true,
         "settings": {
           "section_style": "contrast",
           "text_position": "top_center",
