@@ -896,7 +896,7 @@
           "402b78e0-392b-45ea-be66-9d1308f543a7": {
             "type": "slide",
             "settings": {
-              "image": "shopify://shop_images/calia-natural-about-us.png",
+              "image": "shopify://shop_images/1W9A9651.jpg",
               "mobile_image": "shopify://shop_images/calia-natural-about-us-mobile.png",
               "video_url": "",
               "overline": "About Us",
@@ -906,8 +906,8 @@
               "link_text": "Shop now",
               "overlay_opacity": 20,
               "overlay_color": "#ffffff",
-              "text_color": "#1b1b1b",
-              "text_max_width": 50,
+              "text_color": "#ffffff",
+              "text_max_width": 31,
               "horizontal_text_position": "left",
               "vertical_text_position": "middle"
             }
