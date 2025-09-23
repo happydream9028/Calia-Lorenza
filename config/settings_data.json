@@ -387,38 +387,6 @@
         "type": "page-contact--template",
         "settings": {}
       },
-      "1602302639a7b60f3e": {
-        "type": "slideshow--dynamic",
-        "blocks": {
-          "1602302639a7b60f3e-0": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/1W9A3985.jpg",
-              "mobile_image": "shopify://shop_images/1W9A3986.jpg",
-              "video_url": "",
-              "overline": "WELCOME TO CALIA!",
-              "title": "Unwind with our new Anxiety Oil Blend!",
-              "subheading": "Our soothing new pure essential oil blend made with Chamomile, Frankincense and Ylang Ylang.",
-              "link": "shopify://products/anxiety",
-              "link_text": "Shop Here",
-              "overlay_opacity": 20,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "text_max_width": 50,
-              "horizontal_text_position": "center",
-              "vertical_text_position": "top"
-            }
-          }
-        },
-        "block_order": [
-          "1602302639a7b60f3e-0"
-        ],
-        "settings": {
-          "aspect_ratio": "3_2",
-          "timer": 7
-        }
-      },
       "1602302827aaa0807e": {
         "type": "featured-collection--dynamic",
         "settings": {
@@ -992,34 +960,15 @@
       "814c684f-1f42-49cf-bfc5-609f2691d73d": {
         "type": "slideshow--dynamic",
         "blocks": {
-          "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify://shop_images/20190629-1W9A3557.jpg",
-              "mobile_image": "shopify://shop_images/calia-natural-about-us-mobile.png",
-              "video_url": "",
-              "overline": "CANADIAN MADE HAIR CARE",
-              "title": "For Beautiful Hair",
-              "subheading": "Find the perfect match for your unique hair type. We ship worldwide from Vancouver, Canada.",
-              "link": "shopify://collections/hair-care",
-              "link_text": "SHOP HAIR CARE NOW",
-              "overlay_opacity": 20,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "text_max_width": 32,
-              "horizontal_text_position": "left",
-              "vertical_text_position": "bottom"
-            }
-          },
           "slide_anUYpC": {
             "type": "slide",
-            "disabled": true,
             "settings": {
+              "image": "shopify://shop_images/20190629-1W9A3489.jpg",
               "video_url": "",
-              "overline": "",
-              "title": "",
+              "overline": "PURE ESSENTIAL OILS",
+              "title": "Nature's Natural Botanicals",
               "subheading": "",
-              "link": "",
+              "link": "shopify://collections/best-selling-hair-care-products",
               "link_text": "Shop now",
               "overlay_opacity": 20,
               "overlay_color": "#000000",
@@ -1031,7 +980,6 @@
           }
         },
         "block_order": [
-          "814c684f-1f42-49cf-bfc5-609f2691d73d-1666810595edbeb6f4-0",
           "slide_anUYpC"
         ],
         "settings": {
@@ -1072,7 +1020,6 @@
     },
     "content_for_index": [
       "slideshow_split_dynamic_tWAL8C",
-      "1602302639a7b60f3e",
       "1602302827aaa0807e",
       "814c684f-1f42-49cf-bfc5-609f2691d73d",
       "1602100844222d406f"
