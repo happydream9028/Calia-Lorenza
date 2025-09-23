@@ -107,11 +107,10 @@
           },
           "51c6b612-4c82-4885-b651-5b184c8665ff": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "Free standard shipping within Canada on orders over $95!",
+              "text": "NO TARIFFS OR BROKERAGE FEES FOR USA ORDERS",
               "link": "shopify://collections"
             }
           }
