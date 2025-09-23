@@ -872,7 +872,7 @@
         "settings": {
           "section_style": "contrast",
           "enable_animation": true,
-          "image": "shopify://shop_images/20180307-1W9A1365_1.jpg",
+          "image": "shopify://shop_images/loyalty-banner-image-2-mobile.jpg",
           "video_url": "",
           "image_width": "one-half",
           "image_position": "right",
@@ -897,7 +897,7 @@
             "type": "slide",
             "settings": {
               "image": "shopify://shop_images/1W9A9651.jpg",
-              "mobile_image": "shopify://shop_images/calia-natural-about-us-mobile.png",
+              "mobile_image": "shopify://shop_images/20190629-1W9A3465.jpg",
               "video_url": "",
               "overline": "About Us",
               "title": "Welcome",
