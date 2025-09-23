@@ -964,10 +964,11 @@
             "type": "slide",
             "settings": {
               "image": "shopify://shop_images/20190629-1W9A3489.jpg",
+              "mobile_image": "shopify://shop_images/20190629-1W9A3469.jpg",
               "video_url": "",
               "overline": "ESSENTIAL OIL BASED HAIR CARE",
-              "title": "Try Calia for beautiful hair.",
-              "subheading": "",
+              "title": "For Naturally Beautiful Hair.",
+              "subheading": "We ship wordlwide.",
               "link": "shopify://collections/best-selling-hair-care-products",
               "link_text": "Shop now",
               "overlay_opacity": 20,
