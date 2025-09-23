@@ -1180,8 +1180,8 @@
           "overlay_opacity": 20,
           "overlay_color": "#000000",
           "text_color": "#ffffff",
-          "text_max_width": 48,
-          "horizontal_text_position": "center",
+          "text_max_width": 40,
+          "horizontal_text_position": "left",
           "vertical_text_position": "middle"
         }
       },
