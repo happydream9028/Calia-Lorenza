@@ -1161,6 +1161,7 @@
             "type": "slide",
             "settings": {
               "image": "shopify://shop_images/1W9A9664.jpg",
+              "mobile_image": "shopify://shop_images/1W9A9483.jpg",
               "video_url": ""
             }
           }
