@@ -422,7 +422,7 @@
       "1602302827aaa0807e": {
         "type": "featured-collection--dynamic",
         "settings": {
-          "section_style": "default",
+          "section_style": "contrast",
           "text_position": "top_center",
           "collection": "best-selling-hair-care-products",
           "columns": 4,
