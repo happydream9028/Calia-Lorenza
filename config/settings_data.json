@@ -92,7 +92,7 @@
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "Free USA + Canadian Shipping on orders over $100 | No Tariffs or duties to the USA",
+              "text": "FREE USA & CANADA SHIPPING ON ORDERS OVER $100",
               "link": "shopify://collections/all"
             }
           },
@@ -101,7 +101,7 @@
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
-              "text": "Natural hair care that works wonders! | We ship worldwide!",
+              "text": "SHIPPING WORLDWIDE",
               "link": "shopify://collections/all-products"
             }
           },
@@ -123,7 +123,7 @@
         ],
         "settings": {
           "announcement_bar_enabled": true,
-          "announcement_bar_timing": 6
+          "announcement_bar_timing": 3
         }
       },
       "header": {
