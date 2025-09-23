@@ -434,38 +434,6 @@
           "text_max_width": 50
         }
       },
-      "1602302926ac40fa14": {
-        "type": "slideshow--dynamic",
-        "blocks": {
-          "1602302926ac40fa14-0": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify://shop_images/calia-home-moisturizing-lineup.jpg",
-              "mobile_image": "shopify://shop_images/calia-home-moisturizing-lineup-mobile.jpg",
-              "video_url": "",
-              "overline": "CANADIAN MADE HAIR CARE THAT WORKS",
-              "title": "Our Moisturizing Formula",
-              "subheading": "A naturally fragrance free formula for amazing results.",
-              "link": "shopify://collections/hair-care",
-              "link_text": "Shop HAIR CARE HERE",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "text_max_width": 37,
-              "horizontal_text_position": "left",
-              "vertical_text_position": "middle"
-            }
-          }
-        },
-        "block_order": [
-          "1602302926ac40fa14-0"
-        ],
-        "disabled": true,
-        "settings": {
-          "aspect_ratio": "unconstrained",
-          "timer": 7
-        }
-      },
       "password--template": {
         "type": "password--template",
         "settings": {
@@ -1000,36 +968,6 @@
           "text_max_width": 50
         }
       },
-      "1646232246f2548999": {
-        "type": "slideshow--dynamic",
-        "settings": {
-          "aspect_ratio": "full_height",
-          "timer": 7
-        }
-      },
-      "16462322602b16515f": {
-        "type": "page-about-image-with-text--dynamic-2",
-        "settings": {
-          "section_style": "default",
-          "enable_animation": true,
-          "image": "shopify://shop_images/1W9A9651_2048x_fc13dd4b-8ef1-40aa-8604-24fec8d60830.jpg",
-          "video_url": "",
-          "image_width": "two-third",
-          "image_position": "left",
-          "overline": "SYNTHETIC FREE SELF CARE",
-          "title": "Only the purest natural ingredients make their way into our bottles.",
-          "subheading": "<p>Learn more about why we don't use silicones, <em>ever. </em></p>",
-          "link": "shopify://blogs/news/why-we-dont-use-silicones",
-          "link_text": "READ MORE",
-          "text_below": "",
-          "text_alignment": "left",
-          "text_color": "#000000",
-          "text_container_color": "",
-          "button_text_color": "#ffffff",
-          "button_border_color": "#dedede",
-          "text_max_width": 36
-        }
-      },
       "page-quiz--template": {
         "type": "page-quiz--template",
         "settings": {
@@ -1101,59 +1039,6 @@
           "timer": 7
         }
       },
-      "668e1059-87ee-4711-8e0a-30b5c353bf64": {
-        "type": "slideshow--dynamic",
-        "blocks": {
-          "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/BF_Banner_1.jpg",
-              "video_url": "",
-              "overline": "Save 10% off our ENTIRE store!",
-              "title": "SAVE 10% WITH OUR FLASH SALE!",
-              "subheading": "Save 10% SITE-WIDE until Midnight PST on Sunday, May 25th!",
-              "link": "shopify://collections/hair-care",
-              "link_text": "Shop now",
-              "overlay_opacity": 40,
-              "overlay_color": "#ffffff",
-              "text_color": "#bd0007",
-              "text_max_width": 50,
-              "horizontal_text_position": "center",
-              "vertical_text_position": "middle"
-            }
-          },
-          "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1": {
-            "type": "slide",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/BF_Banner.jpg",
-              "mobile_image": "shopify://shop_images/BF_Banner.jpg",
-              "video_url": "",
-              "overline": "",
-              "title": "BLACK FRIDAY SAVINGS!",
-              "subheading": "Save 15% off our ENTIRE store!",
-              "link": "shopify://collections/all",
-              "link_text": "Shop now",
-              "overlay_opacity": 10,
-              "overlay_color": "#000000",
-              "text_color": "#bd0007",
-              "text_max_width": 50,
-              "horizontal_text_position": "center",
-              "vertical_text_position": "middle"
-            }
-          }
-        },
-        "block_order": [
-          "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-0",
-          "668e1059-87ee-4711-8e0a-30b5c353bf64-16692980138906ce98-1"
-        ],
-        "disabled": true,
-        "settings": {
-          "aspect_ratio": "full_height",
-          "timer": 7
-        }
-      },
       "slideshow_split_dynamic_tWAL8C": {
         "type": "slideshow-split--dynamic",
         "blocks": {
@@ -1161,7 +1046,6 @@
             "type": "slide",
             "settings": {
               "image": "shopify://shop_images/1W9A9664.jpg",
-              "mobile_image": "shopify://shop_images/1W9A9483.jpg",
               "video_url": ""
             }
           }
@@ -1184,22 +1068,6 @@
           "horizontal_text_position": "left",
           "vertical_text_position": "middle"
         }
-      },
-      "featured_collection_dynamic_zhXCWC": {
-        "type": "featured-collection--dynamic",
-        "disabled": true,
-        "settings": {
-          "section_style": "contrast",
-          "text_position": "top_center",
-          "collection": "hair-care",
-          "columns": 3,
-          "aspect_ratio": "natural",
-          "overline": "CALIA IS CANADIAN MADE ORGANIC HAIR CARE THAT WORKS",
-          "title": "Our Best Selling Hair Care",
-          "subheading": "Our all natural shampoos and conditioners are enhanced with the power of essential oils, delivering unique qualities that enrich and protect your hair naturally.",
-          "link_text": "",
-          "text_max_width": 35
-        }
       }
     },
     "content_for_index": [
@@ -1207,12 +1075,7 @@
       "1602302639a7b60f3e",
       "1602302827aaa0807e",
       "814c684f-1f42-49cf-bfc5-609f2691d73d",
-      "featured_collection_dynamic_zhXCWC",
-      "16462322602b16515f",
-      "1646232246f2548999",
-      "1602302926ac40fa14",
-      "1602100844222d406f",
-      "668e1059-87ee-4711-8e0a-30b5c353bf64"
+      "1602100844222d406f"
     ],
     "blocks": {
       "1119079220096577164": {
