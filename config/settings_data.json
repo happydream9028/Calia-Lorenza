@@ -1164,27 +1164,19 @@
               "image": "shopify://shop_images/1W9A9660.jpg",
               "video_url": ""
             }
-          },
-          "slide_49Pff3": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify://shop_images/20190629-1W9A3489.jpg",
-              "video_url": ""
-            }
           }
         },
         "block_order": [
-          "slide_R8nmzx",
-          "slide_49Pff3"
+          "slide_R8nmzx"
         ],
         "name": "Slideshow split",
         "settings": {
           "timer": 7,
-          "overline": "NATURAL AND ORGANIC HAIR CARE THAT WORKS",
-          "title": "Super Natural Hair Care",
-          "subheading": "Orders over $100 ship for free in the USA + Canada.",
+          "overline": "DISCOVER CALIA NATURAL HAIR CARE",
+          "title": "Natural Hair Care That Works Wonders",
+          "subheading": "Orders over $100 ship free in the USA + Canada.",
           "link": "shopify://collections/best-sellers",
-          "link_text": "Shop now",
+          "link_text": "Shop HAIR CARE NOW",
           "overlay_opacity": 20,
           "overlay_color": "#000000",
           "text_color": "#ffffff",
