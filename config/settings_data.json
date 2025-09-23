@@ -1176,7 +1176,7 @@
           "subheading": "Orders over $100 ship free in the USA + Canada.",
           "link": "shopify://collections/best-sellers",
           "link_text": "Shop HAIR CARE NOW",
-          "overlay_opacity": 20,
+          "overlay_opacity": 10,
           "overlay_color": "#000000",
           "text_color": "#ffffff",
           "text_max_width": 40,
