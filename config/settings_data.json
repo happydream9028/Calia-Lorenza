@@ -1025,18 +1025,18 @@
           "slide_7knmqM": {
             "type": "slide",
             "settings": {
-              "image": "shopify://shop_images/20190629-1W9A3557.jpg",
+              "image": "shopify://shop_images/BF_Banner_1.jpg",
               "video_url": "",
               "overline": "Fall Wellness Sale!",
               "title": "10% off our ENTIRE store!",
               "subheading": "Save on hair care, skin care, accessories and essential oils.",
-              "link": "",
+              "link": "shopify://collections/all-products",
               "link_text": "Shop now",
               "overlay_opacity": 30,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
               "text_max_width": 48,
-              "horizontal_text_position": "left",
+              "horizontal_text_position": "center",
               "vertical_text_position": "middle"
             }
           }
