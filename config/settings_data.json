@@ -87,6 +87,15 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "background_color": "#719362",
+              "text_color": "#ffffff",
+              "text": "SAVE 10% ON OUR ENTORE STORE UNTIL SUNDAY OCTOBER 20TH AT MIDNIGHT!",
+              "link": "shopify://collections/all-products"
+            }
+          },
           "51c6b612-4c82-4885-b651-5b184c8665ff": {
             "type": "announcement",
             "settings": {
@@ -104,21 +113,12 @@
               "text": "FREE USA & CANADA SHIPPING ON ORDERS OVER $100",
               "link": "shopify://collections/all"
             }
-          },
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "background_color": "#719362",
-              "text_color": "#ffffff",
-              "text": "SAVE 10% ON OUR ENTORE STORE UNTIL SUNDAY OCTOBER 20TH AT MIDNIGHT",
-              "link": "shopify://collections/all-products"
-            }
           }
         },
         "block_order": [
+          "announcement-bar-0",
           "51c6b612-4c82-4885-b651-5b184c8665ff",
-          "0e2df3a0-5821-4f22-9a73-0a9b38a539f2",
-          "announcement-bar-0"
+          "0e2df3a0-5821-4f22-9a73-0a9b38a539f2"
         ],
         "settings": {
           "announcement_bar_enabled": true,
