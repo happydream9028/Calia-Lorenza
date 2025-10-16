@@ -1022,34 +1022,17 @@
       "slideshow_dynamic_GzqxYq": {
         "type": "slideshow--dynamic",
         "blocks": {
-          "slide_NfmqJQ": {
-            "type": "slide",
-            "settings": {
-              "video_url": "",
-              "overline": "",
-              "title": "This is your slideshow",
-              "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
-              "link": "",
-              "link_text": "Shop now",
-              "overlay_opacity": 20,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "text_max_width": 48,
-              "horizontal_text_position": "left",
-              "vertical_text_position": "middle"
-            }
-          },
           "slide_7knmqM": {
             "type": "slide",
             "settings": {
-              "image": "shopify://shop_images/1W9A9483.jpg",
+              "image": "shopify://shop_images/20190629-1W9A3557.jpg",
               "video_url": "",
               "overline": "Fall Wellness Sale!",
               "title": "10% off our ENTIRE store!",
               "subheading": "Save on hair care, skin care, accessories and essential oils.",
               "link": "",
               "link_text": "Shop now",
-              "overlay_opacity": 20,
+              "overlay_opacity": 30,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
               "text_max_width": 48,
@@ -1059,7 +1042,6 @@
           }
         },
         "block_order": [
-          "slide_NfmqJQ",
           "slide_7knmqM"
         ],
         "name": "Slideshow",
