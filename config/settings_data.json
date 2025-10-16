@@ -1002,6 +1002,7 @@
         "block_order": [
           "slide_R8nmzx"
         ],
+        "disabled": true,
         "name": "Slideshow split",
         "settings": {
           "timer": 7,
@@ -1017,9 +1018,59 @@
           "horizontal_text_position": "left",
           "vertical_text_position": "middle"
         }
+      },
+      "slideshow_dynamic_GzqxYq": {
+        "type": "slideshow--dynamic",
+        "blocks": {
+          "slide_NfmqJQ": {
+            "type": "slide",
+            "settings": {
+              "video_url": "",
+              "overline": "",
+              "title": "This is your slideshow",
+              "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+              "link": "",
+              "link_text": "Shop now",
+              "overlay_opacity": 20,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "text_max_width": 48,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          },
+          "slide_7knmqM": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify://shop_images/1W9A9483.jpg",
+              "video_url": "",
+              "overline": "Fall Wellness Sale!",
+              "title": "10% off our ENTIRE store!",
+              "subheading": "Save on hair care, skin care, accessories and essential oils.",
+              "link": "",
+              "link_text": "Shop now",
+              "overlay_opacity": 20,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "text_max_width": 48,
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          }
+        },
+        "block_order": [
+          "slide_NfmqJQ",
+          "slide_7knmqM"
+        ],
+        "name": "Slideshow",
+        "settings": {
+          "aspect_ratio": "full_height",
+          "timer": 7
+        }
       }
     },
     "content_for_index": [
+      "slideshow_dynamic_GzqxYq",
       "slideshow_split_dynamic_tWAL8C",
       "1602302827aaa0807e",
       "814c684f-1f42-49cf-bfc5-609f2691d73d",
