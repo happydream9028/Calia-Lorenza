@@ -89,6 +89,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -1002,7 +1003,6 @@
         "block_order": [
           "slide_R8nmzx"
         ],
-        "disabled": true,
         "name": "Slideshow split",
         "settings": {
           "timer": 7,
@@ -1024,6 +1024,7 @@
         "blocks": {
           "slide_7knmqM": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BF_Banner.jpg",
               "video_url": "",
