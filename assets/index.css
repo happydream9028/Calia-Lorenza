@@ -13329,7 +13329,7 @@ div[data-media-type='external_video'] iframe {
 @media (max-width: 38em) {
 
 .product-item__image-wrapper .product-item__quick-shop-button {
-      display: none
+      display: block;
   }
     }
 
