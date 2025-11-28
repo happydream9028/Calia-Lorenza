@@ -13330,6 +13330,7 @@ div[data-media-type='external_video'] iframe {
 
 .product-item__image-wrapper .product-item__quick-shop-button {
       display: block;
+      opacity: 1 !important;
   }
     }
 
