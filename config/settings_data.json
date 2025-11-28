@@ -1003,6 +1003,7 @@
         "block_order": [
           "slide_R8nmzx"
         ],
+        "disabled": true,
         "name": "Slideshow split",
         "settings": {
           "timer": 7,
@@ -1045,6 +1046,7 @@
         "block_order": [
           "slide_7knmqM"
         ],
+        "disabled": true,
         "name": "Slideshow",
         "settings": {
           "aspect_ratio": "full_height",
@@ -1056,7 +1058,6 @@
         "blocks": {
           "slide_i94QFa": {
             "type": "slide",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Black_Friday_Web_Images_2.png",
               "mobile_image": "shopify://shop_images/Black_Friday_Web_Images_mobile.png",
