@@ -9,10 +9,10 @@
  */
 {
   "current": {
-    "color_accent": "#c30e2e",
+    "color_accent": "#719362",
     "color_text": "#1b1b1b",
     "color_bg": "#ffffff",
-    "color_button": "#c30e2e",
+    "color_button": "#719362",
     "color_border": "#dedede",
     "color_input_text": "#8b8b8b",
     "color_icon": "#b1b1b1",
@@ -100,7 +100,7 @@
           "51c6b612-4c82-4885-b651-5b184c8665ff": {
             "type": "announcement",
             "settings": {
-              "background_color": "#c30e2e",
+              "background_color": "#719362",
               "text_color": "#ffffff",
               "text": "SAVE 15% OFF OUR ENTIRE STORE! | NO TARIFFS OR BROKERAGE FEES FOR USA ORDERS",
               "link": "shopify://collections"
@@ -109,7 +109,7 @@
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
             "settings": {
-              "background_color": "#c30e2e",
+              "background_color": "#719362",
               "text_color": "#ffffff",
               "text": "FREE USA & CANADA SHIPPING ON ORDERS OVER $100 | SAVE 15% FOR BLACK FRIDAY!",
               "link": "shopify://collections/all"
