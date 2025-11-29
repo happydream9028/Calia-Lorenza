@@ -985,6 +985,7 @@
         "block_order": [
           "slide_anUYpC"
         ],
+        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
