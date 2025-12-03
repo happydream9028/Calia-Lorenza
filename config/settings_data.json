@@ -99,6 +99,7 @@
           },
           "51c6b612-4c82-4885-b651-5b184c8665ff": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -390,7 +391,6 @@
       },
       "1602302827aaa0807e": {
         "type": "featured-collection--dynamic",
-        "disabled": true,
         "settings": {
           "section_style": "contrast",
           "text_position": "top_center",
@@ -985,7 +985,6 @@
         "block_order": [
           "slide_anUYpC"
         ],
-        "disabled": true,
         "settings": {
           "aspect_ratio": "full_height",
           "timer": 7
@@ -1005,7 +1004,6 @@
         "block_order": [
           "slide_R8nmzx"
         ],
-        "disabled": true,
         "name": "Slideshow split",
         "settings": {
           "timer": 7,
@@ -1048,7 +1046,6 @@
         "block_order": [
           "slide_7knmqM"
         ],
-        "disabled": true,
         "name": "Slideshow",
         "settings": {
           "aspect_ratio": "full_height",
@@ -1101,6 +1098,7 @@
           "slide_i94QFa",
           "slide_CDbj9B"
         ],
+        "disabled": true,
         "name": "Slideshow",
         "settings": {
           "aspect_ratio": "full_height",
@@ -1109,6 +1107,7 @@
       },
       "featured_collection_dynamic_mCgJMy": {
         "type": "featured-collection--dynamic",
+        "disabled": true,
         "settings": {
           "section_style": "contrast",
           "text_position": "top_center",
