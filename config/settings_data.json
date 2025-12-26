@@ -391,6 +391,7 @@
       },
       "1602302827aaa0807e": {
         "type": "featured-collection--dynamic",
+        "disabled": true,
         "settings": {
           "section_style": "contrast",
           "text_position": "top_center",
@@ -1107,7 +1108,6 @@
       },
       "featured_collection_dynamic_mCgJMy": {
         "type": "featured-collection--dynamic",
-        "disabled": true,
         "settings": {
           "section_style": "contrast",
           "text_position": "top_center",
