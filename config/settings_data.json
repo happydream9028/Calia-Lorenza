@@ -1107,7 +1107,6 @@
       },
       "featured_collection_dynamic_mCgJMy": {
         "type": "featured-collection--dynamic",
-        "disabled": true,
         "settings": {
           "section_style": "contrast",
           "text_position": "top_center",
@@ -1115,8 +1114,8 @@
           "columns": 4,
           "aspect_ratio": "square",
           "overline": "HAIR CARE TRUSTED BY THOUSANDS",
-          "title": "Save 15% on Our Entire Store!",
-          "subheading": "We have helped thousands to achieve their hair goals with our natural, organic formulas. Calia is a proudly Canadian purveyor of all natural hair care made more with pure essential oils. Save 15% off the entire store until Monday, December 1st at Midnight!",
+          "title": "Save 10% on Our Entire Store!",
+          "subheading": "We have helped thousands to achieve their hair goals with our natural, organic formulas. Calia is a proudly Canadian purveyor of all natural hair care made more with pure essential oils. Save 10% off the entire store until Saturday, December 27th at Midnight!",
           "link_text": "OUR BEST SELLERS",
           "text_max_width": 50
         }
