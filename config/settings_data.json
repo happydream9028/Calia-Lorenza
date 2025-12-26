@@ -1004,6 +1004,7 @@
         "block_order": [
           "slide_R8nmzx"
         ],
+        "disabled": true,
         "name": "Slideshow split",
         "settings": {
           "timer": 7,
@@ -1098,7 +1099,6 @@
           "slide_i94QFa",
           "slide_CDbj9B"
         ],
-        "disabled": true,
         "name": "Slideshow",
         "settings": {
           "aspect_ratio": "full_height",
