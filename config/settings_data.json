@@ -89,6 +89,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -108,7 +109,6 @@
           },
           "0e2df3a0-5821-4f22-9a73-0a9b38a539f2": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "background_color": "#719362",
               "text_color": "#ffffff",
@@ -391,7 +391,6 @@
       },
       "1602302827aaa0807e": {
         "type": "featured-collection--dynamic",
-        "disabled": true,
         "settings": {
           "section_style": "contrast",
           "text_position": "top_center",
@@ -1005,7 +1004,6 @@
         "block_order": [
           "slide_R8nmzx"
         ],
-        "disabled": true,
         "name": "Slideshow split",
         "settings": {
           "timer": 7,
@@ -1048,6 +1046,7 @@
         "block_order": [
           "slide_7knmqM"
         ],
+        "disabled": true,
         "name": "Slideshow",
         "settings": {
           "aspect_ratio": "full_height",
@@ -1059,6 +1058,7 @@
         "blocks": {
           "slide_i94QFa": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BF_Banner_1.jpg",
               "mobile_image": "shopify://shop_images/BF_Banner_1.jpg",
@@ -1108,6 +1108,7 @@
       },
       "featured_collection_dynamic_mCgJMy": {
         "type": "featured-collection--dynamic",
+        "disabled": true,
         "settings": {
           "section_style": "contrast",
           "text_position": "top_center",
