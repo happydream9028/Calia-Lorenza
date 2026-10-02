@@ -1,21 +1,4 @@
-{% render 'pages--quiz' with 
-      step0: section.settings.step0,
-      step1: section.settings.step1,
-      step2: section.settings.step2,
-      step3_1: section.settings.step3_1,
-      step3_2: section.settings.step3_2,
-      result: section.settings.result,
-      collection1: section.settings.collection1,
-      collection2: section.settings.collection2,
-      collection3: section.settings.collection3,
-      collection4: section.settings.collection4,
-      collection5: section.settings.collection5,
-      description1: section.settings.description1,
-      description2: section.settings.description2,
-      description3: section.settings.description3,
-      description4: section.settings.description4,
-      description5: section.settings.description5
-    %}
+{% render 'pages--quiz' with step0, step0: section.settings.step0, step1: section.settings.step1, step2: section.settings.step2, step3_1: section.settings.step3_1, step3_2: section.settings.step3_2, result: section.settings.result, collection1: section.settings.collection1, collection2: section.settings.collection2, collection3: section.settings.collection3, collection4: section.settings.collection4, collection5: section.settings.collection5, description1: section.settings.description1, description2: section.settings.description2, description3: section.settings.description3, description4: section.settings.description4, description5: section.settings.description5 %}
 
 {% schema %}
   {
@@ -114,4 +97,28 @@
       }
     ]
   }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'pages--quiz' with \n      step0: section.settings.step0,\n      step1:
+    section.settings.step1,\n      step2: section.settings.step2,\n      step3_1:
+    section.settings.step3_1,\n      step3_2: section.settings.step3_2,\n      result:
+    section.settings.result,\n      collection1: section.settings.collection1,\n      collection2:
+    section.settings.collection2,\n      collection3: section.settings.collection3,\n
+    \     collection4: section.settings.collection4,\n      collection5: section.settings.collection5,\n
+    \     description1: section.settings.description1,\n      description2: section.settings.description2,\n
+    \     description3: section.settings.description3,\n      description4: section.settings.description4,\n
+    \     description5: section.settings.description5\n    %}"
+  to: "{% render 'pages--quiz' with step0, step0: section.settings.step0, step1: section.settings.step1,
+    step2: section.settings.step2, step3_1: section.settings.step3_1, step3_2: section.settings.step3_2,
+    result: section.settings.result, collection1: section.settings.collection1, collection2:
+    section.settings.collection2, collection3: section.settings.collection3, collection4:
+    section.settings.collection4, collection5: section.settings.collection5, description1:
+    section.settings.description1, description2: section.settings.description2, description3:
+    section.settings.description3, description4: section.settings.description4, description5:
+    section.settings.description5 %}"
+  position: 0..673
+{%- endcomment -%}

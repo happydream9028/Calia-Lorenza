@@ -101,10 +101,7 @@
 
 
     <div class="footer__bottom mb5">
-      {%- render 'cross-border' with
-        show_locale: locale_selector,
-        show_currency: currency_selector
-      -%}
+      {%- render 'cross-border' with show_locale, show_locale: locale_selector, show_currency: currency_selector -%}
 
       {%- assign social_icons_in_use = false -%}
 
@@ -144,4 +141,18 @@
       <p>&copy; {{ 'layout.footer.copyright' | t }} {{ 'now' | date: "%Y" }}</p>
     </div>
   </div>
-</footer>
+</footer>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%- render 'cross-border' with
+            show_locale: locale_selector,
+            show_currency: currency_selector
+          -%}
+  to: "{%- render 'cross-border' with show_locale, show_locale: locale_selector, show_currency:
+    currency_selector -%}"
+  position: 3905..4015
+{%- endcomment -%}

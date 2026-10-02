@@ -1,4 +1,4 @@
-{% capture "form_classes" -%}
+{% capture form_classes -%}
   product-form product-form-{{ section.id }}
   {%- unless section.settings.show_variant_labels %} product-form--hide-variant-labels {% endunless %}
   {%- if show_dynamic_checkout and product.has_only_default_variant %} product-form--payment-button-no-variants {%- endif -%}
@@ -138,4 +138,13 @@
 
   {% comment %} Surface pick-up {% endcomment %}
   <div data-store-availability-container data-base-url="{{ shop.url }}{{ routes.root_url }}"></div>
-{% endform %}
+{% endform %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% capture "form_classes" -%}'
+  to: "{% capture form_classes -%}"
+  position: 0..27
+{%- endcomment -%}

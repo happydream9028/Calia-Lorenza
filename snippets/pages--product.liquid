@@ -106,23 +106,9 @@
       </div>
 
       {% if product.tags contains 'variant-bundle' %}
-        {% render 'product-bundle-form' with
-          product: product,
-          show_vendor: show_vendor,
-          current_variant: current_variant,
-          show_dynamic_checkout: enable_payment_button,
-          show_swatches: show_swatches,
-          show_quantity_input: show_quantity_input,
-        %}
+        {% render 'product-bundle-form' with product, product: product, show_vendor: show_vendor, current_variant: current_variant, show_dynamic_checkout: enable_payment_button, show_swatches: show_swatches, show_quantity_input: show_quantity_input %}
       {% else %}
-        {% render 'product-form' with
-          product: product,
-          show_vendor: show_vendor,
-          current_variant: current_variant,
-          show_dynamic_checkout: enable_payment_button,
-          show_swatches: show_swatches,
-          show_quantity_input: show_quantity_input,
-        %}
+        {% render 'product-form' with product, product: product, show_vendor: show_vendor, current_variant: current_variant, show_dynamic_checkout: enable_payment_button, show_swatches: show_swatches, show_quantity_input: show_quantity_input %}
       {% endif %}
 
       {%- comment -%}
@@ -156,8 +142,8 @@
   </div>
 
   {%- assign images = product.media | where: 'media_type', 'image' -%}
-  {% render 'lightbox' with images: images %}
-  {% render 'reviews-drawer' with product: product %}
+  {% render 'lightbox' with images, images: images %}
+  {% render 'reviews-drawer' with product, product: product %}
 </section>
 
 {% unless product == empty %}
@@ -167,4 +153,42 @@
   <script type="application/json" id="ModelJson-{{ section.id }}">
     {{ product.media | where: 'media_type', 'model' | json }}
   </script>
-{% endunless %}
+{% endunless %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'product-bundle-form' with
+              product: product,
+              show_vendor: show_vendor,
+              current_variant: current_variant,
+              show_dynamic_checkout: enable_payment_button,
+              show_swatches: show_swatches,
+              show_quantity_input: show_quantity_input,
+            %}
+  to: "{% render 'product-bundle-form' with product, product: product, show_vendor:
+    show_vendor, current_variant: current_variant, show_dynamic_checkout: enable_payment_button,
+    show_swatches: show_swatches, show_quantity_input: show_quantity_input %}"
+  position: 3989..4232
+- from: |-
+    {% render 'product-form' with
+              product: product,
+              show_vendor: show_vendor,
+              current_variant: current_variant,
+              show_dynamic_checkout: enable_payment_button,
+              show_swatches: show_swatches,
+              show_quantity_input: show_quantity_input,
+            %}
+  to: "{% render 'product-form' with product, product: product, show_vendor: show_vendor,
+    current_variant: current_variant, show_dynamic_checkout: enable_payment_button,
+    show_swatches: show_swatches, show_quantity_input: show_quantity_input %}"
+  position: 4258..4494
+- from: "{% render 'lightbox' with images: images %}"
+  to: "{% render 'lightbox' with images, images: images %}"
+  position: 5646..5697
+- from: "{% render 'reviews-drawer' with product: product %}"
+  to: "{% render 'reviews-drawer' with product, product: product %}"
+  position: 5700..5760
+{%- endcomment -%}

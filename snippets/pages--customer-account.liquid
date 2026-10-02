@@ -40,10 +40,7 @@
     {% endif %}
 
     {% if paginate.pages > 1 %}
-      {% render 'pagination' with
-        type: 'general.pagination.orders',
-        paginate: paginate
-      %}
+      {% render 'pagination' with type, type: 'general.pagination.orders', paginate: paginate %}
     {% endif %}
 
   {% endpaginate %}
@@ -59,4 +56,18 @@
   <div style="max-width: 60em; margin: 30px auto;">
     <div data-lion-account=""></div>
   </div>
-</section>
+</section>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'pagination' with
+            type: 'general.pagination.orders',
+            paginate: paginate
+          %}
+  to: "{% render 'pagination' with type, type: 'general.pagination.orders', paginate:
+    paginate %}"
+  position: 1819..1909
+{%- endcomment -%}

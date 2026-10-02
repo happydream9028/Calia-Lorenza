@@ -19,7 +19,7 @@
 >
   {%- if media.media_type == 'image' -%}
     <a class="media__image" href="{{ link }}" data-open="{{ media.id }}">
-      {% render 'image' with image: media %}
+      {% render 'image' with image, image: media %}
     </a>
 
   {%- elsif media.media_type == 'video' -%}
@@ -37,4 +37,13 @@
     </a>
 
   {%- endif -%}
-</div>
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'image' with image: media %}"
+  to: "{% render 'image' with image, image: media %}"
+  position: 550..595
+{%- endcomment -%}

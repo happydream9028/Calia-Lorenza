@@ -44,11 +44,7 @@ class="section page">
               <p class="tc">{{ description1 }}</p>
               <div class="grid-display w-100 grid-display--one-quarter">
                 {% for product in collection1.products %}
-                  {% render 'product-item' with
-                          product: product,
-                          swatches_enabled: false,
-                          aspect_ratio: 'natural'
-                  %}
+                  {% render 'product-item' with product, product: product, swatches_enabled: false, aspect_ratio: 'natural' %}
                 {% endfor %}
               </div>
             </div>
@@ -56,11 +52,7 @@ class="section page">
               <p class="tc">{{ description2 }}</p>
               <div class="grid-display w-100 grid-display--one-quarter">
                 {% for product in collection2.products %}
-                  {% render 'product-item' with
-                          product: product,
-                          swatches_enabled: false,
-                          aspect_ratio: 'natural'
-                  %}
+                  {% render 'product-item' with product, product: product, swatches_enabled: false, aspect_ratio: 'natural' %}
                 {% endfor %}
               </div>
             </div>
@@ -68,11 +60,7 @@ class="section page">
               <p class="tc">{{ description3 }}</p>
               <div class="quiz-collection grid-display w-100 grid-display--one-quarter">
                 {% for product in collection3.products %}
-                  {% render 'product-item' with
-                          product: product,
-                          swatches_enabled: false,
-                          aspect_ratio: 'natural'
-                  %}
+                  {% render 'product-item' with product, product: product, swatches_enabled: false, aspect_ratio: 'natural' %}
                 {% endfor %}
               </div>
             </div>
@@ -80,11 +68,7 @@ class="section page">
               <p class="tc">{{ description4 }}</p>
               <div class="grid-display w-100 grid-display--one-quarter">
                 {% for product in collection4.products %}
-                  {% render 'product-item' with
-                          product: product,
-                          swatches_enabled: false,
-                          aspect_ratio: 'natural'
-                  %}
+                  {% render 'product-item' with product, product: product, swatches_enabled: false, aspect_ratio: 'natural' %}
                 {% endfor %}
               </div>
             </div>
@@ -92,11 +76,7 @@ class="section page">
               <p class="tc">{{ description5 }}</p>
               <div class="grid-display w-100 grid-display--one-quarter" data-product5>
                 {% for product in collection5.products %}
-                  {% render 'product-item' with
-                          product: product,
-                          swatches_enabled: false,
-                          aspect_ratio: 'natural'
-                  %}
+                  {% render 'product-item' with product, product: product, swatches_enabled: false, aspect_ratio: 'natural' %}
                 {% endfor %}
               </div>
             </div>
@@ -122,4 +102,55 @@ class="section page">
       </div>
     </div>
   </div>
-</section>
+</section>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'product-item' with
+                              product: product,
+                              swatches_enabled: false,
+                              aspect_ratio: 'natural'
+                      %}
+  to: "{% render 'product-item' with product, product: product, swatches_enabled:
+    false, aspect_ratio: 'natural' %}"
+  position: 2173..2281
+- from: |-
+    {% render 'product-item' with
+                              product: product,
+                              swatches_enabled: false,
+                              aspect_ratio: 'natural'
+                      %}
+  to: "{% render 'product-item' with product, product: product, swatches_enabled:
+    false, aspect_ratio: 'natural' %}"
+  position: 2607..2715
+- from: |-
+    {% render 'product-item' with
+                              product: product,
+                              swatches_enabled: false,
+                              aspect_ratio: 'natural'
+                      %}
+  to: "{% render 'product-item' with product, product: product, swatches_enabled:
+    false, aspect_ratio: 'natural' %}"
+  position: 3057..3165
+- from: |-
+    {% render 'product-item' with
+                              product: product,
+                              swatches_enabled: false,
+                              aspect_ratio: 'natural'
+                      %}
+  to: "{% render 'product-item' with product, product: product, swatches_enabled:
+    false, aspect_ratio: 'natural' %}"
+  position: 3491..3599
+- from: |-
+    {% render 'product-item' with
+                              product: product,
+                              swatches_enabled: false,
+                              aspect_ratio: 'natural'
+                      %}
+  to: "{% render 'product-item' with product, product: product, swatches_enabled:
+    false, aspect_ratio: 'natural' %}"
+  position: 3939..4047
+{%- endcomment -%}

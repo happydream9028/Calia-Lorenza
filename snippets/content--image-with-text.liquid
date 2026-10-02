@@ -36,7 +36,7 @@
           {% render 'video-pause' %}
         </div>
       {% elsif image != blank %}
-        {% render 'image' with image: image %}
+        {% render 'image' with image, image: image %}
       {% endif %}
     {% else %}
       {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -130,3 +130,13 @@
     {% endif %}
   </div>
 </section>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'image' with image: image %}"
+  to: "{% render 'image' with image, image: image %}"
+  position: 1454..1499
+{% endcomment %}

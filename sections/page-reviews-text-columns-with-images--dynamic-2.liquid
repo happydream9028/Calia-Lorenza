@@ -1,17 +1,4 @@
-{% render 'content--text-columns-with-images' with
-  id: section.id,
-  section_style: section.settings.section_style,
-  columns: section.settings.columns,
-  text_alignment: section.settings.text_alignment,
-  text_max_width: section.settings.text_max_width,
-  overline: section.settings.overline,
-  heading: section.settings.title,
-  subheading: section.settings.subheading,
-  link: section.settings.link,
-  link_text: section.settings.link_text,
-  blocks: section.blocks,
-  block_text_alignment: section.settings.block_text_alignment,
-%}
+{% render 'content--text-columns-with-images' with id, id: section.id, section_style: section.settings.section_style, columns: section.settings.columns, text_alignment: section.settings.text_alignment, text_max_width: section.settings.text_max_width, overline: section.settings.overline, heading: section.settings.title, subheading: section.settings.subheading, link: section.settings.link, link_text: section.settings.link_text, blocks: section.blocks, block_text_alignment: section.settings.block_text_alignment %}
 
 {% schema %}
   {
@@ -161,4 +148,33 @@
       }
     ]
   }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'content--text-columns-with-images' with
+      id: section.id,
+      section_style: section.settings.section_style,
+      columns: section.settings.columns,
+      text_alignment: section.settings.text_alignment,
+      text_max_width: section.settings.text_max_width,
+      overline: section.settings.overline,
+      heading: section.settings.title,
+      subheading: section.settings.subheading,
+      link: section.settings.link,
+      link_text: section.settings.link_text,
+      blocks: section.blocks,
+      block_text_alignment: section.settings.block_text_alignment,
+    %}
+  to: "{% render 'content--text-columns-with-images' with id, id: section.id, section_style:
+    section.settings.section_style, columns: section.settings.columns, text_alignment:
+    section.settings.text_alignment, text_max_width: section.settings.text_max_width,
+    overline: section.settings.overline, heading: section.settings.title, subheading:
+    section.settings.subheading, link: section.settings.link, link_text: section.settings.link_text,
+    blocks: section.blocks, block_text_alignment: section.settings.block_text_alignment
+    %}"
+  position: 0..516
+{%- endcomment -%}
